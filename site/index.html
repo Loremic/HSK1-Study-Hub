@@ -497,14 +497,30 @@ const FIN = [["a", "ā", "啊", "come la a di “casa”"], ["o", "ō", "哦", "
   ["ua", "huā", "花", "“u” + “a”"], ["uo", "wǒ", "我", "“u” + “o”"], ["uai", "kuài", "快", "“u” + “ai”"], ["ui", "shuǐ", "水", "si legge “uei”"],
   ["uan", "guān", "关", "“u” + “an”"], ["un", "chūn", "春", "si legge “uen”"], ["uang", "huáng", "黄", "“u” + “ang”"],
   ["üe", "xué", "学", "“ü” + “e”"], ["üan", "yuǎn", "远", "“ü” + “an”"], ["ün", "yún", "云", "“ü” + “n”"]];
-const REGOLE = [
-  "Dopo zh, ch, sh, r, z, c, s la “i” non è quella di “vino”: è un suono vocalico quasi chiuso (zhī, chī, shī, rì, zì, cì, sì).",
-  "Dopo j, q, x la “u” è in realtà una “ü”: xué si legge “xüé”, yuǎn “yüǎn”. Dopo n e l la ü si scrive con i puntini (nǚ, lǜ).",
-  "Senza consonante iniziale si scrive y o w: i → yī, u → wǔ, ü → yú. È solo ortografia, il suono resta lo stesso.",
-  "Sillabe abbreviate: liu = l + iou, shui = sh + uei, chun = ch + uen. Pronuncia le vocali complete.",
-  "ian si legge “ien” (tiān). La “n” finale è come in “bene”; “ng” finale (ang, eng, ong, ing) è nasale e più profonda.",
-  "Due terzi toni di seguito: il primo diventa un secondo tono. 你好 si scrive nǐ hǎo ma suona ní hǎo.",
-  "不 (bù) diventa bú davanti a un quarto tono: bú kèqi, bú yào. 一 cambia tono in modo simile (yí gè, yì bēi)."];
+// Tabella 1: come si scrive e come si legge. Ultima voce = [hanzi, pinyin] da ascoltare toccando la riga.
+const COMBI = [
+  ["i dopo zh, ch, sh, r", "zhi, chi, shi, ri", "vocale “bloccata”, non la i di “vino”", "吃 chī", ["吃", "chī"]],
+  ["i dopo z, c, s", "zi, ci, si", "vocale “bloccata”, più avanti in bocca", "四 sì", ["四", "sì"]],
+  ["u dopo j, q, x", "ju, qu, xu", "si legge ü: jü, qü, xü", "去 qù", ["去", "qù"]],
+  ["ü dopo n, l", "nü, lü", "ü con i puntini (nǚ, lǜ)", "女 nǚ", ["女", "nǚ"]],
+  ["senza consonante iniziale", "yi, wu, yu", "i, u, ü: è solo ortografia", "五 wǔ", ["五", "wǔ"]],
+  ["ie, üe", "xie, xue", "“e” aperta, come in “bene”", "谢 xiè", ["谢", "xiè"]],
+  ["iu", "liu", "si legge iou", "六 liù", ["六", "liù"]],
+  ["ui", "shui", "si legge uei", "水 shuǐ", ["水", "shuǐ"]],
+  ["un", "chun", "si legge uen", "春 chūn", ["春", "chūn"]],
+  ["ian", "tian", "si legge ien", "天 tiān", ["天", "tiān"]],
+  ["ong", "zhong", "si legge ung", "中 zhōng", ["中", "zhōng"]]];
+// Tabella 2: regole di pronuncia
+const REGPRON = [
+  ["Due terzi toni di seguito", "il primo diventa un secondo tono", "你好 nǐ hǎo suona ní hǎo", ["你好", "nǐ hǎo"]],
+  ["不 (bù)", "diventa bú davanti a un quarto tono", "不客气 bú kèqi", ["不客气", "bú kèqi"]],
+  ["一 (yī)", "yí davanti a un quarto tono; yì davanti a primo, secondo e terzo", "一个 yí gè, 一杯 yì bēi", ["一个", "yí gè"]],
+  ["Tono neutro", "sillaba breve e leggera; l’altezza dipende dalla sillaba prima", "妈妈 māma", ["妈妈", "māma"]],
+  ["Consonanti con e senza soffio", "b d g j z zh: poco soffio; p t k q c ch: soffio d’aria (prova con la mano davanti alla bocca)", "爸 bà / 怕 pà", ["怕", "pà"]],
+  ["zh, ch, sh, r", "la punta della lingua si arrotola all’indietro", "吃 chī", ["吃", "chī"]],
+  ["-n e -ng finali", "-n: lingua al palato, come in “bene”; -ng: suono nasale in gola", "山 shān / 上 shàng", ["上", "shàng"]],
+  ["-r finale (erhua)", "la r si fonde con la sillaba precedente", "哪儿 nǎr", ["哪儿", "nǎr"]],
+  ["Dove va il segno di tono", "sulla a o sulla e; in ou sulla o; altrimenti sull’ultima vocale", "好 hǎo, 手 shǒu, 六 liù", ["好", "hǎo"]]];
 const DR = {
   toni: ["Riconosci il tono", [[["妈", "mā"], ["麻", "má"], ["马", "mǎ"], ["骂", "mà"]], [["诗", "shī"], ["十", "shí"], ["使", "shǐ"], ["是", "shì"]],
     [["八", "bā"], ["拔", "bá"], ["把", "bǎ"], ["爸", "bà"]], [["搭", "dā"], ["达", "dá"], ["打", "dǎ"], ["大", "dà"]]]],
@@ -559,8 +575,19 @@ function buildPron() {
   pv.lastChild.id = "drill";
   pv.append(el("h3", "", "Consonanti iniziali"), soundRows(INIZ));
   pv.append(el("h3", "", "Vocali e finali"), soundRows(FIN));
-  pv.append(el("h3", "", "Regole e combinazioni da ricordare"));
-  const ul = el("ul", "rules"); REGOLE.forEach(r => ul.append(el("li", "", r))); pv.append(ul);
+  const tableOf = (heads, rows) => {
+    const t = el("table", "tbl"), hd = el("tr"); heads.forEach(h => hd.append(el("th", "", h))); t.append(hd);
+    rows.forEach(r => {
+      const tr = el("tr"); r.slice(0, heads.length).forEach(x => tr.append(el("td", "", x)));
+      tr.firstChild.style.fontWeight = "600";
+      const a = r[heads.length]; if (a) { tr.style.cursor = "pointer"; tr.title = "Tocca per ascoltare"; tr.addEventListener("click", () => playSound(a[1], a[0])); }
+      t.append(tr);
+    });
+    const w = el("div", "wrap"); w.append(t); return w;
+  };
+  pv.append(el("h3", "", "Combinazioni: come si scrive e come si legge"), el("p", "hint", "Tocca una riga per ascoltare l’esempio."),
+    tableOf(["Combinazione", "Si scrive", "Si legge", "Esempio"], COMBI));
+  pv.append(el("h3", "", "Regole di pronuncia"), tableOf(["Regola", "Come funziona", "Esempio"], REGPRON));
   if (!("speechSynthesis" in window)) pv.prepend(el("p", "msg", "Questo browser non ha la voce in cinese: puoi leggere le spiegazioni, ma non ascoltare i suoni."));
 }
 
