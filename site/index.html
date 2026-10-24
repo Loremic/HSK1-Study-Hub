@@ -87,6 +87,10 @@ code{background:var(--carta);padding:1px 5px;border-radius:4px}
 .tbl th,.tbl td{padding:8px 6px;border-bottom:1px solid var(--linea);text-align:left}
 .tbl tr.ph td{background:var(--rosa);font-weight:700;color:var(--rosso)}
 .tbl .bar{width:90px;display:inline-block;vertical-align:middle;margin:0 0 0 8px}
+.tbl td.pc{width:46px;padding-right:0}
+.play{width:34px;height:34px;border-radius:50%;border:0;background:var(--rosso);color:var(--bianco);cursor:pointer;font-size:.8rem;padding:0 0 0 2px;display:inline-flex;align-items:center;justify-content:center}
+.play:hover{opacity:.85}
+.tbl tr:hover td{background:var(--carta)}
 @media (max-width:520px){.srow{grid-template-columns:1fr}}
 .hint{color:var(--grigio);font-size:.9rem;margin:6px 0 14px}
 .setup{display:grid;gap:12px;margin:16px 0}
@@ -576,16 +580,18 @@ function buildPron() {
   pv.append(el("h3", "", "Consonanti iniziali"), soundRows(INIZ));
   pv.append(el("h3", "", "Vocali e finali"), soundRows(FIN));
   const tableOf = (heads, rows) => {
-    const t = el("table", "tbl"), hd = el("tr"); heads.forEach(h => hd.append(el("th", "", h))); t.append(hd);
+    const t = el("table", "tbl"), hd = el("tr"); hd.append(el("th", "", "")); heads.forEach(h => hd.append(el("th", "", h))); t.append(hd);
     rows.forEach(r => {
-      const tr = el("tr"); r.slice(0, heads.length).forEach(x => tr.append(el("td", "", x)));
-      tr.firstChild.style.fontWeight = "600";
-      const a = r[heads.length]; if (a) { tr.style.cursor = "pointer"; tr.title = "Tocca per ascoltare"; tr.addEventListener("click", () => playSound(a[1], a[0])); }
+      const tr = el("tr"), a = r[heads.length], c0 = el("td", "pc");
+      if (a) { const b = el("button", "play", "▶"); b.setAttribute("aria-label", "Ascolta " + a[0]); b.title = "Ascolta"; c0.append(b); }
+      tr.append(c0);
+      r.slice(0, heads.length).forEach((x, k) => { const td = el("td", "", x); if (k === 0) td.style.fontWeight = "600"; tr.append(td); });
+      if (a) { tr.style.cursor = "pointer"; tr.addEventListener("click", () => playSound(a[1], a[0])); }
       t.append(tr);
     });
     const w = el("div", "wrap"); w.append(t); return w;
   };
-  pv.append(el("h3", "", "Combinazioni: come si scrive e come si legge"), el("p", "hint", "Tocca una riga per ascoltare l’esempio."),
+  pv.append(el("h3", "", "Combinazioni: come si scrive e come si legge"), el("p", "hint", "Tocca il pulsante ▶ (o la riga) per ascoltare l’esempio."),
     tableOf(["Combinazione", "Si scrive", "Si legge", "Esempio"], COMBI));
   pv.append(el("h3", "", "Regole di pronuncia"), tableOf(["Regola", "Come funziona", "Esempio"], REGPRON));
   if (!("speechSynthesis" in window)) pv.prepend(el("p", "msg", "Questo browser non ha la voce in cinese: puoi leggere le spiegazioni, ma non ascoltare i suoni."));
