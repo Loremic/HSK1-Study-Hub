@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio HSK 1</title>
+<style>
+:root{
+  --rosa:#fef1f2; --rosso:#d6202b; --inchiostro:#222; --grigio:#6b6b6b;
+  --carta:#faf7f2; --linea:#e8e2d8; --bianco:#fff;
+  --hanzi:"Noto Sans CJK SC","Noto Sans SC","PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;color:var(--inchiostro);background:var(--bianco);line-height:1.45}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--rosso);outline-offset:2px}
+
+header{background:var(--rosa);border-bottom:3px solid var(--rosso);padding:18px 24px;display:flex;flex-wrap:wrap;gap:14px 28px;align-items:center;justify-content:space-between}
+header h1{font-size:1.45rem;line-height:1.2}
+header p{font-size:.85rem;color:var(--grigio)}
+#q{width:min(360px,100%);padding:10px 14px;border:1px solid var(--linea);border-radius:8px;background:var(--bianco);font-size:1rem}
+
+.layout{display:grid;grid-template-columns:270px 1fr;gap:0;max-width:1300px;margin:0 auto}
+nav{padding:20px 14px 40px 24px;border-right:1px solid var(--linea);position:sticky;top:0;align-self:start;max-height:100vh;overflow-y:auto}
+nav h3{font-size:.95rem;color:var(--rosso);margin:18px 0 6px}
+nav h3:first-child{margin-top:0}
+nav button{display:flex;justify-content:space-between;gap:8px;width:100%;text-align:left;background:none;border:0;border-radius:6px;padding:6px 8px;cursor:pointer;font-size:.92rem}
+nav button:hover{background:var(--carta)}
+nav button[aria-current="true"]{background:var(--rosa);color:var(--rosso);font-weight:600}
+nav .n{color:var(--grigio);font-weight:400}
+
+main{padding:22px 24px 60px;min-width:0}
+.top{display:flex;flex-wrap:wrap;gap:6px 20px;align-items:baseline;justify-content:space-between;margin-bottom:14px}
+.top h2{font-size:1.35rem}
+.top span{color:var(--grigio);font-size:.9rem}
+.tools{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-bottom:20px}
+.seg{display:inline-flex;border:1px solid var(--rosso);border-radius:8px;overflow:hidden}
+.seg button{background:var(--bianco);border:0;padding:7px 16px;cursor:pointer;color:var(--rosso)}
+.seg button[aria-pressed="true"]{background:var(--rosso);color:var(--bianco)}
+.tools label{display:inline-flex;gap:6px;align-items:center;font-size:.9rem;cursor:pointer}
+.btn{background:var(--bianco);border:1px solid var(--linea);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:.9rem}
+.btn:hover{border-color:var(--rosso);color:var(--rosso)}
+#unitSelect{display:none;padding:8px 10px;border:1px solid var(--linea);border-radius:8px;background:var(--bianco);max-width:100%}
+
+/* schede che si girano */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.card{perspective:900px;height:236px;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+.inner{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
+.card.flipped .inner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--carta);border:1px solid var(--linea);border-radius:10px;padding:14px;overflow:auto}
+.back{transform:rotateY(180deg)}
+.no{font-size:.75rem;color:var(--grigio)}
+.front{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center}
+.front .no{position:absolute;left:12px;top:10px}
+.hz{font-family:var(--hanzi);font-size:3.4rem;line-height:1.1}
+.py{color:var(--rosso);font-size:1.15rem}
+.mean{font-weight:700;margin:2px 0 8px}
+.ex{font-family:var(--hanzi);font-size:.95rem}
+.expy{color:var(--rosso);font-size:.8rem}
+.en{font-style:italic;font-size:.82rem;color:#444}
+
+/* elenco */
+.list{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:5rem 1fr;gap:4px 16px;padding:14px 4px;border-bottom:1px solid var(--linea)}
+.row .hz{font-size:2.3rem;text-align:center}
+.row .where{font-size:.75rem;color:var(--grigio)}
+.msg{background:var(--rosa);border-left:4px solid var(--rosso);padding:14px 16px;border-radius:6px;max-width:60ch}
+code{background:var(--carta);padding:1px 5px;border-radius:4px}
+
+@media (max-width:820px){
+  .layout{grid-template-columns:1fr}
+  nav{display:none}
+  #unitSelect{display:block;margin-bottom:12px;width:100%}
+  header,main{padding-left:16px;padding-right:16px}
+}
+@media (prefers-reduced-motion:reduce){.inner{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Studio HSK 1</h1>
+    <p>300 parole del nuovo syllabus, in ordine di studio</p>
+  </div>
+  <input id="q" type="search" placeholder="Cerca in hanzi, pinyin o italiano" aria-label="Cerca una parola" autocomplete="off">
+</header>
+
+<div class="layout">
+  <nav id="nav" aria-label="Unità di studio"></nav>
+  <main>
+    <select id="unitSelect" aria-label="Scegli un’unità"></select>
+    <div class="top"><h2 id="title">Tutte le parole</h2><span id="count"></span></div>
+    <div class="tools">
+      <div class="seg" role="group" aria-label="Modalità di visualizzazione">
+        <button id="vSchede" aria-pressed="true">Schede</button>
+        <button id="vElenco" aria-pressed="false">Elenco</button>
+      </div>
+      <label id="pyWrap"><input type="checkbox" id="pyFront" checked> Pinyin sul fronte</label>
+      <button class="btn" id="flipAll">Gira tutte</button>
+    </div>
+    <div id="grid" class="cards"></div>
+  </main>
+</div>
+
+<script>
+// Percorso del file dati, relativo a questa pagina (site/index.html → data/flashcards.json).
+// Se hai messo il JSON altrove, cambia solo questa riga.
+const DATA_URL = "../data/flashcards.json";
+
+const $ = s => document.querySelector(s);
+const norm = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const pad = n => String(n).padStart(3, "0");
+function el(tag, cls, txt) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (txt !== undefined && txt !== null) e.textContent = txt;
+  return e;
+}
+
+let cards = [], unit = "all", view = "schede", showPinyin = true, query = "";
+const flipped = new Set();
+
+fetch(DATA_URL)
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { cards = d.sort((a, b) => a.order - b.order); buildNav(); render(); })
+  .catch(() => {
+    const m = el("div", "msg");
+    m.append("Non riesco a caricare ", el("b", "", DATA_URL), ". Apri il sito da un server locale: dalla cartella principale del repository lancia ",
+      el("code", "", "python -m http.server"), " e vai su ", el("code", "", "http://localhost:8000/site/"), ".");
+    $("#grid").replaceChildren(m);
+  });
+
+function buildNav() {
+  const phases = [];
+  cards.forEach(c => {
+    let p = phases.find(x => x.name === c.phase);
+    if (!p) { p = { name: c.phase, units: [] }; phases.push(p); }
+    let u = p.units.find(x => x.name === c.unit);
+    if (!u) { u = { name: c.unit, n: 0 }; p.units.push(u); }
+    u.n++;
+  });
+  const nav = $("#nav"), sel = $("#unitSelect");
+  nav.replaceChildren(); sel.replaceChildren();
+
+  const mk = (label, n, val) => {
+    const b = el("button"); b.dataset.unit = val;
+    b.append(el("span", "", label), el("span", "n", n));
+    return b;
+  };
+  nav.append(mk("Tutte le parole", cards.length, "all"));
+  sel.append(new Option("Tutte le parole (" + cards.length + ")", "all"));
+  phases.forEach(p => {
+    nav.append(el("h3", "", p.name));
+    const g = document.createElement("optgroup"); g.label = p.name;
+    p.units.forEach(u => {
+      nav.append(mk(u.name, u.n, u.name));
+      g.append(new Option(u.name + " (" + u.n + ")", u.name));
+    });
+    sel.append(g);
+  });
+  nav.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    setUnit(b.dataset.unit);
+  });
+  sel.addEventListener("change", () => setUnit(sel.value));
+}
+
+function setUnit(u) {
+  unit = u; query = ""; $("#q").value = "";
+  render(); window.scrollTo({ top: 0 });
+}
+
+function visible() {
+  const q = norm(query.trim());
+  if (q) return cards.filter(c => [c.hanzi, c.pinyin, c.meaning_it].some(f => norm(f).includes(q)));
+  return cards.filter(c => unit === "all" || c.unit === unit);
+}
+
+function cardEl(c) {
+  const b = el("button", "card" + (flipped.has(c.id) ? " flipped" : ""));
+  b.setAttribute("aria-label", "Gira la scheda di " + c.hanzi);
+  const inner = el("div", "inner");
+  const f = el("div", "face front");
+  f.append(el("span", "no", "#" + pad(c.order)), el("div", "hz", c.hanzi));
+  if (showPinyin) f.append(el("div", "py", c.pinyin));
+  const k = el("div", "face back");
+  k.append(el("div", "py", c.pinyin), el("div", "mean", c.meaning_it));
+  if (c.example) k.append(el("div", "ex", c.example.zh), el("div", "expy", c.example.pinyin), el("div", "en", c.example.en));
+  inner.append(f, k); b.append(inner);
+  b.addEventListener("click", () => {
+    if (flipped.has(c.id)) flipped.delete(c.id); else flipped.add(c.id);
+    b.classList.toggle("flipped");
+  });
+  return b;
+}
+
+function rowEl(c, withUnit) {
+  const r = el("article", "row");
+  r.append(el("div", "hz", c.hanzi));
+  const d = el("div");
+  if (withUnit) d.append(el("div", "where", "#" + pad(c.order) + " in " + c.unit));
+  const l = el("div"); l.append(el("span", "py", c.pinyin + "  "), el("b", "", c.meaning_it));
+  d.append(l);
+  if (c.example) d.append(el("div", "ex", c.example.zh), el("div", "expy", c.example.pinyin), el("div", "en", c.example.en));
+  r.append(d);
+  return r;
+}
+
+function render() {
+  const list = visible();
+  $("#title").textContent = query ? "Risultati per “" + query.trim() + "”" : (unit === "all" ? "Tutte le parole" : unit);
+  $("#count").textContent = list.length + (list.length === 1 ? " parola" : " parole");
+  $("#unitSelect").value = unit;
+  document.querySelectorAll("#nav button").forEach(b => b.setAttribute("aria-current", String(!query && b.dataset.unit === unit)));
+  const g = $("#grid");
+  g.className = view === "schede" ? "cards" : "list";
+  g.replaceChildren();
+  if (!list.length) { g.append(el("div", "msg", "Nessuna parola trovata. Prova con hanzi, pinyin senza toni o una parola italiana.")); }
+  const withUnit = unit === "all" || !!query;
+  list.forEach(c => g.append(view === "schede" ? cardEl(c) : rowEl(c, withUnit)));
+  $("#pyWrap").style.display = $("#flipAll").style.display = view === "schede" ? "" : "none";
+  $("#vSchede").setAttribute("aria-pressed", String(view === "schede"));
+  $("#vElenco").setAttribute("aria-pressed", String(view === "elenco"));
+  $("#flipAll").textContent = list.length && list.every(c => flipped.has(c.id)) ? "Rimetti sul fronte" : "Gira tutte";
+}
+
+$("#q").addEventListener("input", e => { query = e.target.value; render(); });
+$("#vSchede").addEventListener("click", () => { view = "schede"; render(); });
+$("#vElenco").addEventListener("click", () => { view = "elenco"; render(); });
+$("#pyFront").addEventListener("change", e => { showPinyin = e.target.checked; render(); });
+$("#flipAll").addEventListener("click", () => {
+  const list = visible();
+  const all = list.every(c => flipped.has(c.id));
+  list.forEach(c => all ? flipped.delete(c.id) : flipped.add(c.id));
+  render();
+});
+</script>
+</body>
+</html>
