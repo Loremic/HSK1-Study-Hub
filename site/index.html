@@ -71,8 +71,23 @@ code{background:var(--carta);padding:1px 5px;border-radius:4px}
 .tabs{display:flex;gap:6px}
 .tabs button{background:var(--bianco);border:1px solid var(--rosso);color:var(--rosso);border-radius:8px;padding:8px 18px;cursor:pointer;font-weight:600}
 .tabs button[aria-pressed="true"]{background:var(--rosso);color:var(--bianco)}
-#quizView{max-width:720px;margin:0 auto;padding:24px 16px 70px}
-#quizView h2{margin-bottom:6px}
+#quizView,#pronView,#statView{max-width:760px;margin:0 auto;padding:24px 16px 70px}
+#quizView h2,#pronView h2,#statView h2{margin-bottom:6px}
+#pronView h3,#statView h3{font-size:1.05rem;color:var(--rosso);margin:26px 0 8px}
+.srow{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;align-items:center;padding:6px 0;border-bottom:1px solid var(--linea)}
+.snd{display:flex;gap:8px;align-items:center;background:var(--carta);border:1px solid var(--linea);border-radius:8px;padding:8px 10px;cursor:pointer;text-align:left}
+.snd:hover{border-color:var(--rosso)}
+.snd b{color:var(--rosso);min-width:2.4ch}
+.snd .h{font-family:var(--hanzi);font-size:1.35rem;margin-left:auto}
+.srow span.t{font-size:.92rem}
+.rules{padding-left:20px;display:grid;gap:8px;font-size:.95rem}
+.dr{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0}
+.wrap{overflow-x:auto}
+.tbl{width:100%;border-collapse:collapse;font-size:.92rem;min-width:520px}
+.tbl th,.tbl td{padding:8px 6px;border-bottom:1px solid var(--linea);text-align:left}
+.tbl tr.ph td{background:var(--rosa);font-weight:700;color:var(--rosso)}
+.tbl .bar{width:90px;display:inline-block;vertical-align:middle;margin:0 0 0 8px}
+@media (max-width:520px){.srow{grid-template-columns:1fr}}
 .hint{color:var(--grigio);font-size:.9rem;margin:6px 0 14px}
 .setup{display:grid;gap:12px;margin:16px 0}
 .setup label{display:grid;gap:4px;font-weight:600;font-size:.92rem}
@@ -114,7 +129,9 @@ code{background:var(--carta);padding:1px 5px;border-radius:4px}
   </div>
   <div class="tabs" role="group" aria-label="Sezione">
     <button id="tabStudia" aria-pressed="true">Studia</button>
+    <button id="tabPron" aria-pressed="false">Pronuncia</button>
     <button id="tabQuiz" aria-pressed="false">Quiz</button>
+    <button id="tabStat" aria-pressed="false">Statistiche</button>
   </div>
   <input id="q" type="search" placeholder="Cerca in hanzi, pinyin o italiano" aria-label="Cerca una parola" autocomplete="off">
 </header>
@@ -136,6 +153,8 @@ code{background:var(--carta);padding:1px 5px;border-radius:4px}
   </main>
 </div>
 <section id="quizView" hidden aria-live="polite"></section>
+<section id="pronView" hidden></section>
+<section id="statView" hidden></section>
 
 <script>
 // Percorso del file dati, relativo a questa pagina (site/index.html → data/flashcards.json).
@@ -429,15 +448,148 @@ document.addEventListener("keydown", e => {
   const b = qv.querySelectorAll(".opts button")[+e.key - 1]; if (b) b.click();
 });
 
-function showTab(t) {
-  const quiz = t === "quiz";
-  document.querySelector(".layout").style.display = quiz ? "none" : "";
-  qv.hidden = !quiz; $("#q").style.visibility = quiz ? "hidden" : "visible";
-  $("#tabStudia").setAttribute("aria-pressed", String(!quiz)); $("#tabQuiz").setAttribute("aria-pressed", String(quiz));
-  if (quiz && !S) { cards.length ? quizMenu() : qv.replaceChildren(el("p", "msg", "I dati non sono ancora caricati.")); }
+/* ================= PRONUNCIA ================= */
+const pv = $("#pronView"), tv = $("#statView");
+// [etichetta, pinyin di esempio, hanzi (si ascolta cliccando), suggerimento]
+const TONI = [["1° tono", "mā", "妈", "alto e piatto, come una nota tenuta"], ["2° tono", "má", "麻", "sale, come quando chiedi “eh?”"],
+  ["3° tono", "mǎ", "马", "scende e poi risale leggermente"], ["4° tono", "mà", "骂", "cade deciso, come un ordine: “vai!”"],
+  ["Tono neutro", "ma", "吗", "breve e leggero, senza accento"]];
+const INIZ = [["b", "bō", "波", "come la p di “pane”, ma più morbida (senza soffio d’aria)"], ["p", "pō", "坡", "come b, ma con un soffio d’aria"],
+  ["m", "mō", "摸", "come la m di “mano”"], ["f", "fó", "佛", "come la f di “fiume”"],
+  ["d", "dé", "的", "come la t di “tana”, senza soffio"], ["t", "tè", "特", "come d, ma con un soffio d’aria"],
+  ["n", "nē", "呢", "come la n di “nome”"], ["l", "lè", "了", "come la l di “luna”"],
+  ["g", "gē", "哥", "come la c di “cane”, senza soffio"], ["k", "kē", "科", "come g, ma con un soffio d’aria"],
+  ["h", "hē", "喝", "un’h raschiata in gola, un po’ come la ch tedesca"], ["j", "jī", "鸡", "simile a “gi” di “gita”, con la lingua piatta"],
+  ["q", "qī", "七", "come j, ma con un soffio d’aria (“ci” aspirata)"], ["x", "xī", "西", "simile a “sci” di “scia”, sorridendo"],
+  ["zh", "zhī", "知", "una “g” dolce con la punta della lingua arrotolata indietro"], ["ch", "chī", "吃", "come zh, ma con soffio d’aria"],
+  ["sh", "shī", "诗", "come “sc” di “scena”, lingua arrotolata"], ["r", "rì", "日", "tra una r e la j francese, lingua arrotolata"],
+  ["z", "zì", "字", "come “ts” di “zio”, senza soffio"], ["c", "cì", "次", "come z, ma con un soffio d’aria"], ["s", "sì", "四", "come la s di “sole”"]];
+const FIN = [["a", "ā", "啊", "come la a di “casa”"], ["o", "ō", "哦", "o chiusa, labbra arrotondate"], ["e", "hē", "喝", "suono centrale e rilassato, senza arrotondare le labbra"],
+  ["i", "yī", "一", "come la i di “vino”"], ["u", "wū", "五", "come la u di “luna”"], ["ü", "yú", "鱼", "dì “i” con le labbra a “u” (come la u francese)"],
+  ["ai", "ài", "爱", "come “ai” di “mai”"], ["ei", "běi", "北", "come “ei” di “lei”"], ["ao", "hǎo", "好", "come “ao” di “ciao”"], ["ou", "shǒu", "手", "“o” + “u” legate"],
+  ["an", "shān", "山", "come “an” di “anno”"], ["en", "rén", "人", "come “en” di “bene”"], ["ang", "shàng", "上", "come an, con la n finale nasale (“ng”)"],
+  ["eng", "lěng", "冷", "come en, con la n finale nasale (“ng”)"], ["ong", "zhōng", "中", "come “ung”, nasale"],
+  ["ia", "jiā", "家", "“i” + “a”"], ["ie", "xiè", "谢", "come “ie” di “miele”"], ["iao", "xiǎo", "小", "“i” + “ao”"], ["iu", "liù", "六", "si legge “iou”"],
+  ["ian", "tiān", "天", "si legge “ien”"], ["in", "xīn", "新", "come “in” di “fine”"], ["iang", "liǎng", "两", "“i” + “ang”"], ["ing", "xīng", "星", "come in, con la n finale nasale"],
+  ["ua", "huā", "花", "“u” + “a”"], ["uo", "wǒ", "我", "“u” + “o”"], ["uai", "kuài", "快", "“u” + “ai”"], ["ui", "shuǐ", "水", "si legge “uei”"],
+  ["uan", "guān", "关", "“u” + “an”"], ["un", "chūn", "春", "si legge “uen”"], ["uang", "huáng", "黄", "“u” + “ang”"],
+  ["üe", "xué", "学", "“ü” + “e”"], ["üan", "yuǎn", "远", "“ü” + “an”"], ["ün", "yún", "云", "“ü” + “n”"]];
+const REGOLE = [
+  "Dopo zh, ch, sh, r, z, c, s la “i” non è quella di “vino”: è un suono vocalico quasi chiuso (zhī, chī, shī, rì, zì, cì, sì).",
+  "Dopo j, q, x la “u” è in realtà una “ü”: xué si legge “xüé”, yuǎn “yüǎn”. Dopo n e l la ü si scrive con i puntini (nǚ, lǜ).",
+  "Senza consonante iniziale si scrive y o w: i → yī, u → wǔ, ü → yú. È solo ortografia, il suono resta lo stesso.",
+  "Sillabe abbreviate: liu = l + iou, shui = sh + uei, chun = ch + uen. Pronuncia le vocali complete.",
+  "ian si legge “ien” (tiān). La “n” finale è come in “bene”; “ng” finale (ang, eng, ong, ing) è nasale e più profonda.",
+  "Due terzi toni di seguito: il primo diventa un secondo tono. 你好 si scrive nǐ hǎo ma suona ní hǎo.",
+  "不 (bù) diventa bú davanti a un quarto tono: bú kèqi, bú yào. 一 cambia tono in modo simile (yí gè, yì bēi)."];
+const DR = {
+  toni: ["Riconosci il tono", [[["妈", "mā"], ["麻", "má"], ["马", "mǎ"], ["骂", "mà"]], [["诗", "shī"], ["十", "shí"], ["使", "shǐ"], ["是", "shì"]],
+    [["八", "bā"], ["拔", "bá"], ["把", "bǎ"], ["爸", "bà"]], [["搭", "dā"], ["达", "dá"], ["打", "dǎ"], ["大", "dà"]]]],
+  ini: ["Riconosci la consonante", [[["八", "bā"], ["趴", "pā"], ["妈", "mā"], ["发", "fā"]], [["大", "dà"], ["踏", "tà"], ["那", "nà"], ["辣", "là"]],
+    [["鸡", "jī"], ["七", "qī"], ["西", "xī"]], [["知", "zhī"], ["吃", "chī"], ["诗", "shī"]], [["字", "zì"], ["次", "cì"], ["四", "sì"]], [["哥", "gē"], ["科", "kē"], ["喝", "hē"]]]]
+};
+
+function soundRows(list) {
+  const w = el("div");
+  list.forEach(([a, p, h, hint]) => {
+    const r = el("div", "srow"), b = el("button", "snd");
+    b.append(el("b", "", a), el("span", "", p), el("span", "h", h)); b.setAttribute("aria-label", "Ascolta " + a + " " + p);
+    b.addEventListener("click", () => speak(h)); r.append(b, el("span", "t", hint)); w.append(r);
+  });
+  return w;
 }
-$("#tabStudia").addEventListener("click", () => showTab("studia"));
-$("#tabQuiz").addEventListener("click", () => showTab("quiz"));
+
+function drill(key) {
+  const box = $("#drill"), sets = DR[key][1]; let i = 0, score = 0; const N = 10;
+  const ask = () => {
+    box.replaceChildren();
+    if (i >= N) { const b = el("button", "btn big", "Riprova"); b.addEventListener("click", () => drill(key));
+      box.append(el("div", "qbox"), el("div", "acts")); box.firstChild.append(el("div", "qbig txt", `${score} su ${N}`));
+      box.lastChild.append(b); return; }
+    const set = sets[Math.floor(Math.random() * sets.length)], t = set[Math.floor(Math.random() * set.length)];
+    const q = el("div", "qbox"), ra = el("button", "btn", "Riascolta"); ra.addEventListener("click", () => speak(t[0]));
+    q.append(el("div", "hint", `Domanda ${i + 1} di ${N}`), el("div", "qbig", "🔊"), el("div", "ask", DR[key][0] + ": cosa hai sentito?"), ra);
+    const g = el("div", "opts");
+    shuffle([...set]).forEach(o => {
+      const b = el("button", "", o[1]);
+      b.addEventListener("click", () => {
+        g.querySelectorAll("button").forEach(x => { x.disabled = true; if (x.textContent === t[1]) x.classList.add("ok"); });
+        const good = o[1] === t[1]; if (good) score++; else b.classList.add("no");
+        const nx = el("button", "btn big", "Avanti"); nx.addEventListener("click", () => { i++; ask(); });
+        q.append(el("div", "acts")); q.lastChild.append(nx); nx.focus();
+      });
+      g.append(b);
+    });
+    q.append(g); box.append(q); speak(t[0]);
+  };
+  ask();
+}
+
+function buildPron() {
+  pv.replaceChildren(el("h2", "", "Impara a pronunciare"));
+  pv.append(el("p", "hint", "Clicca su un suono per ascoltarlo. Le descrizioni in italiano sono solo approssimazioni: l’orecchio conta più delle spiegazioni, quindi ascolta e ripeti ad alta voce."));
+  pv.append(el("h3", "", "I quattro toni (più il neutro)"), soundRows(TONI));
+  pv.append(el("h3", "", "Allena l’orecchio"), el("div", "dr"), el("div"));
+  Object.keys(DR).forEach(k => { const b = el("button", "btn", DR[k][0]); b.addEventListener("click", () => drill(k)); pv.querySelector(".dr").append(b); });
+  pv.lastChild.id = "drill";
+  pv.append(el("h3", "", "Consonanti iniziali"), soundRows(INIZ));
+  pv.append(el("h3", "", "Vocali e finali"), soundRows(FIN));
+  pv.append(el("h3", "", "Regole e combinazioni da ricordare"));
+  const ul = el("ul", "rules"); REGOLE.forEach(r => ul.append(el("li", "", r))); pv.append(ul);
+  if (!("speechSynthesis" in window)) pv.prepend(el("p", "msg", "Questo browser non ha la voce in cinese: puoi leggere le spiegazioni, ma non ascoltare i suoni."));
+}
+
+/* ================= STATISTICHE ================= */
+function agg(cs) {
+  const now = Date.now(), a = { n: cs.length, seen: 0, known: 0, due: 0, tries: 0, miss: 0 };
+  cs.forEach(c => { const p = prog[c.id]; if (!p) return; a.seen++; if (p.box >= 4) a.known++; if (p.due <= now) a.due++; a.tries += p.n; a.miss += p.miss; });
+  return a;
+}
+function statsView() {
+  tv.replaceChildren(el("h2", "", "Statistiche di studio"));
+  const tot = agg(cards);
+  tv.append(el("p", "hint", tot.seen ? `Hai visto ${tot.seen} parole su ${tot.n}; ${tot.known} sono consolidate e ${tot.due} aspettano un ripasso. I dati sono salvati in questo browser.` : "Fai un quiz e qui compariranno i progressi, area per area."));
+  const rowOf = (label, a, cls) => {
+    const tr = el("tr", cls), pct = a.n ? Math.round(100 * a.known / a.n) : 0, bar = el("div", "bar"), f = el("i");
+    f.style.width = pct + "%"; bar.append(f);
+    const k = el("td", "", `${a.known}/${a.n}`); k.append(bar);
+    tr.append(el("td", "", label), el("td", "", a.seen + "/" + a.n), k, el("td", "", a.due), el("td", "", a.tries ? Math.round(100 * (a.tries - a.miss) / a.tries) + "%" : "–"));
+    return tr;
+  };
+  const t = el("table", "tbl"), hd = el("tr");
+  ["Area", "Viste", "Consolidate", "Da ripassare", "Precisione"].forEach(x => hd.append(el("th", "", x)));
+  t.append(hd);
+  [...new Set(cards.map(c => c.phase))].forEach(ph => {
+    const pc = cards.filter(c => c.phase === ph); t.append(rowOf(ph, agg(pc), "ph"));
+    [...new Set(pc.map(c => c.unit))].forEach(u => t.append(rowOf(u, agg(pc.filter(c => c.unit === u)))));
+  });
+  t.append(rowOf("Totale", tot, "ph"));
+  const w = el("div", "wrap"); w.append(t); tv.append(w);
+  tv.append(el("p", "hint", "Consolidate = parole indovinate più volte di fila, che tornano solo dopo 8 giorni o più. Precisione = risposte giuste al primo tentativo."));
+  const hard = cards.filter(c => prog[c.id] && prog[c.id].miss > 0).sort((a, b) => prog[b.id].miss - prog[a.id].miss).slice(0, 10);
+  tv.append(el("h3", "", "Le parole più difficili"));
+  if (hard.length) {
+    const ul = el("ul", "errs"); hard.forEach(c => ul.append(el("li", "", `${c.hanzi}  ${c.pinyin}: ${c.meaning_it} (${prog[c.id].miss} errori)`))); tv.append(ul);
+    const b = el("button", "btn big", "Ripassa le più difficili"); b.addEventListener("click", () => { showTab("quiz"); startQuiz("mix", "all", 0, hard); }); tv.append(b);
+  } else tv.append(el("p", "hint", "Nessun errore registrato finora."));
+  const rs = el("button", "btn", "Azzera tutti i progressi"); rs.style.marginTop = "28px"; rs.style.display = "block";
+  rs.addEventListener("click", () => { if (confirm("Vuoi cancellare tutti i progressi salvati in questo browser?")) { prog = {}; saveProg(); statsView(); } });
+  tv.append(rs);
+}
+
+const TABS = { studia: "tabStudia", pron: "tabPron", quiz: "tabQuiz", stat: "tabStat" };
+function showTab(t) {
+  document.querySelector(".layout").style.display = t === "studia" ? "" : "none";
+  qv.hidden = t !== "quiz"; pv.hidden = t !== "pron"; tv.hidden = t !== "stat";
+  $("#q").style.visibility = t === "studia" ? "visible" : "hidden";
+  Object.entries(TABS).forEach(([k, id]) => $("#" + id).setAttribute("aria-pressed", String(k === t)));
+  const wait = () => el("p", "msg", "I dati non sono ancora caricati.");
+  if (t === "pron" && !pv.childElementCount) buildPron();
+  if (t === "quiz" && !S) { cards.length ? quizMenu() : qv.replaceChildren(wait()); }
+  if (t === "stat") { cards.length ? statsView() : tv.replaceChildren(wait()); }
+  window.scrollTo({ top: 0 });
+}
+Object.entries(TABS).forEach(([k, id]) => $("#" + id).addEventListener("click", () => showTab(k)));
 </script>
 </body>
 </html>
