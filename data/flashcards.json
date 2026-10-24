@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 184,
+    "order": 1,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "meaning_it": "dieci • 10",
+    "example": {
+      "zh": "我有十本书。",
+      "pinyin": "Wǒ yǒu shí běn shū.",
+      "en": "I have ten books."
+    }
+  },
+  {
+    "id": 254,
+    "order": 2,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "meaning_it": "uno • 1 • un",
+    "example": {
+      "zh": "我有一个弟弟。",
+      "pinyin": "Wǒ yǒu yí gè dìdi.",
+      "en": "I have a younger brother."
+    }
+  },
+  {
+    "id": 49,
+    "order": 3,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "二",
+    "pinyin": "èr",
+    "meaning_it": "due • 2",
+    "example": {
+      "zh": "我家有二十本书。",
+      "pinyin": "Wǒ jiā yǒu èrshí běn shū.",
+      "en": "My family has twenty books."
+    }
+  },
+  {
+    "id": 173,
+    "order": 4,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "三",
+    "pinyin": "sān",
+    "meaning_it": "tre • 3",
+    "example": {
+      "zh": "我有三个好朋友。",
+      "pinyin": "Wǒ yǒu sān gè hǎo péngyou.",
+      "en": "I have three good friends."
+    }
+  },
+  {
+    "id": 198,
+    "order": 5,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "四",
+    "pinyin": "sì",
+    "meaning_it": "quattro • 4",
+    "example": {
+      "zh": "我家有四口人。",
+      "pinyin": "Wǒ jiā yǒu sì kǒu rén.",
+      "en": "There are four people in my family."
+    }
+  },
+  {
+    "id": 223,
+    "order": 6,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "meaning_it": "cinque • 5",
+    "example": {
+      "zh": "我每天工作五个小时。",
+      "pinyin": "Wǒ měitiān gōngzuò wǔ gè xiǎoshí.",
+      "en": "I work five hours every day."
+    }
+  },
+  {
+    "id": 113,
+    "order": 7,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "六",
+    "pinyin": "liù",
+    "meaning_it": "sei • 6",
+    "example": {
+      "zh": "我六点起床。",
+      "pinyin": "Wǒ liù diǎn qǐchuáng.",
+      "en": "I get up at six o'clock."
+    }
+  },
+  {
+    "id": 160,
+    "order": 8,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "七",
+    "pinyin": "qī",
+    "meaning_it": "sette • 7",
+    "example": {
+      "zh": "一个星期有七天。",
+      "pinyin": "Yí gè xīngqī yǒu qī tiān.",
+      "en": "There are seven days in a week."
+    }
+  },
+  {
+    "id": 2,
+    "order": 9,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "八",
+    "pinyin": "bā",
+    "meaning_it": "otto • 8",
+    "example": {
+      "zh": "今天是八月八号。",
+      "pinyin": "Jīntiān shì bā yuè bā hào.",
+      "en": "Today is August 8th."
+    }
+  },
+  {
+    "id": 95,
+    "order": 10,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "meaning_it": "nove • 9",
+    "example": {
+      "zh": "他们家有九口人。",
+      "pinyin": "Tāmen jiā yǒu jiǔ kǒu rén.",
+      "en": "There are nine people in their family."
+    }
+  },
+  {
+    "id": 112,
+    "order": 11,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "零",
+    "pinyin": "líng",
+    "meaning_it": "zero • 0 • 〇",
+    "example": {
+      "zh": "他今年十岁零三个月。",
+      "pinyin": "Tā jīnnián shí suì líng sān gè yuè.",
+      "en": "He is ten years and three months old this year."
+    }
+  },
+  {
+    "id": 111,
+    "order": 12,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "两",
+    "pinyin": "liǎng",
+    "meaning_it": "due (con classificatore)",
+    "example": {
+      "zh": "我有两个姐姐。",
+      "pinyin": "Wǒ yǒu liǎng gè jiějie.",
+      "en": "I have two older sisters."
+    }
+  },
+  {
+    "id": 6,
+    "order": 13,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "百",
+    "pinyin": "bǎi",
+    "meaning_it": "cento",
+    "example": {
+      "zh": "这本书一百块钱。",
+      "pinyin": "Zhè běn shū yì bǎi kuài qián.",
+      "en": "This book costs one hundred yuan."
+    }
+  },
+  {
+    "id": 162,
+    "order": 14,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "千",
+    "pinyin": "qiān",
+    "meaning_it": "mille",
+    "example": {
+      "zh": "这部手机三千块钱。",
+      "pinyin": "Zhè bù shǒujī sān qiān kuài qián.",
+      "en": "This phone costs three thousand yuan."
+    }
+  },
+  {
+    "id": 31,
+    "order": 15,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "01 Numeri",
+    "hanzi": "第",
+    "pinyin": "dì",
+    "meaning_it": "prefisso dei numeri ordinali",
+    "example": {
+      "zh": "他是我的第一个朋友。",
+      "pinyin": "Tā shì wǒ de dì yī gè péngyou.",
+      "en": "He is my first friend."
+    }
+  },
+  {
+    "id": 147,
+    "order": 16,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaning_it": "Ciao",
+    "example": {
+      "zh": "你好，很高兴认识你。",
+      "pinyin": "Nǐ hǎo, hěn gāoxìng rènshi nǐ.",
+      "en": "Hello, nice to meet you."
+    }
+  },
+  {
+    "id": 241,
+    "order": 17,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "meaning_it": "grazie",
+    "example": {
+      "zh": "谢谢你的帮助。",
+      "pinyin": "Xièxie nǐ de bāngzhù.",
+      "en": "Thank you for your help."
+    }
+  },
+  {
+    "id": 14,
+    "order": 18,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "meaning_it": "prego; di niente",
+    "example": {
+      "zh": "不客气，这是我应该做的。",
+      "pinyin": "Bú kèqi, zhè shì wǒ yīnggāi zuò de.",
+      "en": "You're welcome, it's what I should do."
+    }
+  },
+  {
+    "id": 45,
+    "order": 19,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "meaning_it": "mi dispiace • scusa",
+    "example": {
+      "zh": "对不起，我来晚了。",
+      "pinyin": "Duìbuqǐ, wǒ lái wǎn le.",
+      "en": "Sorry, I'm late."
+    }
+  },
+  {
+    "id": 120,
+    "order": 20,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "meaning_it": "non ha importanza",
+    "example": {
+      "zh": "没关系，不用担心。",
+      "pinyin": "Méi guānxi, búyòng dānxīn.",
+      "en": "It's okay, don't worry."
+    }
+  },
+  {
+    "id": 121,
+    "order": 21,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "没事",
+    "pinyin": "méishì",
+    "meaning_it": "non fa niente; tutto bene",
+    "example": {
+      "zh": "你没事吧？",
+      "pinyin": "Nǐ méishì ba?",
+      "en": "Are you alright?"
+    }
+  },
+  {
+    "id": 272,
+    "order": 22,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "meaning_it": "arrivederci",
+    "example": {
+      "zh": "再见，明天见！",
+      "pinyin": "Zàijiàn, míngtiān jiàn!",
+      "en": "Goodbye, see you tomorrow!"
+    }
+  },
+  {
+    "id": 165,
+    "order": 23,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "meaning_it": "per favore; invitare",
+    "example": {
+      "zh": "请坐！",
+      "pinyin": "Qǐng zuò!",
+      "en": "Please have a seat!"
+    }
+  },
+  {
+    "id": 166,
+    "order": 24,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "请问",
+    "pinyin": "qǐngwèn",
+    "meaning_it": "Scusi",
+    "example": {
+      "zh": "请问，去火车站怎么走？",
+      "pinyin": "Qǐngwèn, qù huǒchēzhàn zěnme zǒu?",
+      "en": "Excuse me, how do I get to the train station?"
+    }
+  },
+  {
+    "id": 218,
+    "order": 25,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "02 Saluti e cortesia",
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "meaning_it": "pronto? (al telefono)",
+    "example": {
+      "zh": "喂，请问是李先生吗？",
+      "pinyin": "Wèi, qǐngwèn shì Lǐ xiānsheng ma?",
+      "en": "Hello, is this Mr. Li?"
+    }
+  },
+  {
+    "id": 221,
+    "order": 26,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "meaning_it": "io",
+    "example": {
+      "zh": "我是学生。",
+      "pinyin": "Wǒ shì xuéshēng.",
+      "en": "I am a student."
+    }
+  },
+  {
+    "id": 146,
+    "order": 27,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "meaning_it": "tu",
+    "example": {
+      "zh": "你好，你是新来的吗？",
+      "pinyin": "Nǐ hǎo, nǐ shì xīn lái de ma?",
+      "en": "Hello, are you new here?"
+    }
+  },
+  {
+    "id": 150,
+    "order": 28,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "您",
+    "pinyin": "nín",
+    "meaning_it": "Lei",
+    "example": {
+      "zh": "请问您贵姓？",
+      "pinyin": "Qǐngwèn nín guì xìng?",
+      "en": "May I ask your surname?"
+    }
+  },
+  {
+    "id": 200,
+    "order": 29,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "他",
+    "pinyin": "tā",
+    "meaning_it": "lui",
+    "example": {
+      "zh": "他是我的同学。",
+      "pinyin": "Tā shì wǒ de tóngxué.",
+      "en": "He is my classmate."
+    }
+  },
+  {
+    "id": 202,
+    "order": 30,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "她",
+    "pinyin": "tā",
+    "meaning_it": "lei",
+    "example": {
+      "zh": "她是我的姐姐。",
+      "pinyin": "Tā shì wǒ de jiějie.",
+      "en": "She is my older sister."
+    }
+  },
+  {
+    "id": 201,
+    "order": 31,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "它",
+    "pinyin": "tā",
+    "meaning_it": "esso/essa (animale o oggetto)",
+    "example": {
+      "zh": "我的猫很可爱，它喜欢睡觉。",
+      "pinyin": "Wǒ de māo hěn kě'ài, tā xǐhuan shuìjiào.",
+      "en": "My cat is very cute; it likes to sleep."
+    }
+  },
+  {
+    "id": 222,
+    "order": 32,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "meaning_it": "noi",
+    "example": {
+      "zh": "我们是好朋友。",
+      "pinyin": "Wǒmen shì hǎo péngyou.",
+      "en": "We are good friends."
+    }
+  },
+  {
+    "id": 148,
+    "order": 33,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "你们",
+    "pinyin": "nǐmen",
+    "meaning_it": "voi",
+    "example": {
+      "zh": "你们想吃什么？",
+      "pinyin": "Nǐmen xiǎng chī shénme?",
+      "en": "What do you all want to eat?"
+    }
+  },
+  {
+    "id": 203,
+    "order": 34,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "他们",
+    "pinyin": "tāmen",
+    "meaning_it": "loro • li, loro",
+    "example": {
+      "zh": "他们都是学生。",
+      "pinyin": "Tāmen dōu shì xuéshēng.",
+      "en": "They are all students."
+    }
+  },
+  {
+    "id": 205,
+    "order": 35,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "她们",
+    "pinyin": "tāmen",
+    "meaning_it": "loro • le, loro (per le donne)",
+    "example": {
+      "zh": "她们是我的同学。",
+      "pinyin": "Tāmen shì wǒ de tóngxué.",
+      "en": "They (female) are my classmates."
+    }
+  },
+  {
+    "id": 204,
+    "order": 36,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "它们",
+    "pinyin": "tāmen",
+    "meaning_it": "essi (per oggetti inanimati)",
+    "example": {
+      "zh": "这些花很漂亮，它们是红色的。",
+      "pinyin": "Zhèxiē huā hěn piàoliang, tāmen shì hóngsè de.",
+      "en": "These flowers are beautiful; they are red."
+    }
+  },
+  {
+    "id": 26,
+    "order": 37,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "大家",
+    "pinyin": "dàjiā",
+    "meaning_it": "tutti; tutti quanti",
+    "example": {
+      "zh": "大家好，我是新同学。",
+      "pinyin": "Dàjiā hǎo, wǒ shì xīn tóngxué.",
+      "en": "Hello everyone, I'm a new classmate."
+    }
+  },
+  {
+    "id": 124,
+    "order": 38,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "03 Pronomi personali",
+    "hanzi": "们",
+    "pinyin": "men",
+    "meaning_it": "suffisso plurale per persone",
+    "example": {
+      "zh": "同学们好！",
+      "pinyin": "Tóngxuémen hǎo!",
+      "en": "Hello, classmates!"
+    }
+  },
+  {
+    "id": 91,
+    "order": 39,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "meaning_it": "chiamarsi",
+    "example": {
+      "zh": "我叫李明。",
+      "pinyin": "Wǒ jiào Lǐ Míng.",
+      "en": "My name is Li Ming."
+    }
+  },
+  {
+    "id": 130,
+    "order": 40,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "meaning_it": "nome",
+    "example": {
+      "zh": "请问你叫什么名字？",
+      "pinyin": "Qǐngwèn nǐ jiào shénme míngzi?",
+      "en": "May I ask what your name is?"
+    }
+  },
+  {
+    "id": 188,
+    "order": 41,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "是",
+    "pinyin": "shì",
+    "meaning_it": "essere • sì",
+    "example": {
+      "zh": "我是中国人。",
+      "pinyin": "Wǒ shì Zhōngguó rén.",
+      "en": "I am Chinese."
+    }
+  },
+  {
+    "id": 170,
+    "order": 42,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "人",
+    "pinyin": "rén",
+    "meaning_it": "persona • gente",
+    "example": {
+      "zh": "那个人是我的老师。",
+      "pinyin": "Nàge rén shì wǒ de lǎoshī.",
+      "en": "That person is my teacher."
+    }
+  },
+  {
+    "id": 66,
+    "order": 43,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "国",
+    "pinyin": "guó",
+    "meaning_it": "paese • nazione • stato • nazionale",
+    "example": {
+      "zh": "中国是一个大国。",
+      "pinyin": "Zhōngguó shì yí gè dà guó.",
+      "en": "China is a big country."
+    }
+  },
+  {
+    "id": 289,
+    "order": 44,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "meaning_it": "Cina",
+    "example": {
+      "zh": "中国有很多好吃的东西。",
+      "pinyin": "Zhōngguó yǒu hěn duō hǎochī de dōngxi.",
+      "en": "China has a lot of delicious food."
+    }
+  },
+  {
+    "id": 290,
+    "order": 45,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "meaning_it": "lingua cinese scritta",
+    "example": {
+      "zh": "你的中文说得很好。",
+      "pinyin": "Nǐ de Zhōngwén shuō de hěn hǎo.",
+      "en": "Your Chinese is very good."
+    }
+  },
+  {
+    "id": 69,
+    "order": 46,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "meaning_it": "lingua cinese",
+    "example": {
+      "zh": "我在学汉语。",
+      "pinyin": "Wǒ zài xué Hànyǔ.",
+      "en": "I am learning Chinese."
+    }
+  },
+  {
+    "id": 70,
+    "order": 47,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "汉字",
+    "pinyin": "Hànzì",
+    "meaning_it": "carattere cinese",
+    "example": {
+      "zh": "汉字很有意思。",
+      "pinyin": "Hànzì hěn yǒu yìsi.",
+      "en": "Chinese characters are very interesting."
+    }
+  },
+  {
+    "id": 296,
+    "order": 48,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "04 Presentarsi",
+    "hanzi": "字",
+    "pinyin": "zì",
+    "meaning_it": "parola • carattere • simbolo",
+    "example": {
+      "zh": "这个字怎么写？",
+      "pinyin": "Zhège zì zěnme xiě?",
+      "en": "How do you write this character?"
+    }
+  },
+  {
+    "id": 13,
+    "order": 49,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "不",
+    "pinyin": "bù",
+    "meaning_it": "non",
+    "example": {
+      "zh": "我不喝咖啡。",
+      "pinyin": "Wǒ bù hē kāfēi.",
+      "en": "I don't drink coffee."
+    }
+  },
+  {
+    "id": 30,
+    "order": 50,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "的",
+    "pinyin": "de",
+    "meaning_it": "particella possessiva e attributiva",
+    "example": {
+      "zh": "这是我的书。",
+      "pinyin": "Zhè shì wǒ de shū.",
+      "en": "This is my book."
+    }
+  },
+  {
+    "id": 115,
+    "order": 51,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "meaning_it": "particella interrogativa",
+    "example": {
+      "zh": "你是学生吗？",
+      "pinyin": "Nǐ shì xuéshēng ma?",
+      "en": "Are you a student?"
+    }
+  },
+  {
+    "id": 144,
+    "order": 52,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "meaning_it": "particella interrogativa: e tu?",
+    "example": {
+      "zh": "你呢？你喜欢什么？",
+      "pinyin": "Nǐ ne? Nǐ xǐhuan shénme?",
+      "en": "And you? What do you like?"
+    }
+  },
+  {
+    "id": 4,
+    "order": 53,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "吧",
+    "pinyin": "ba",
+    "meaning_it": "particella per suggerimenti e inviti",
+    "example": {
+      "zh": "我们走吧。",
+      "pinyin": "Wǒmen zǒu ba.",
+      "en": "Let's go."
+    }
+  },
+  {
+    "id": 79,
+    "order": 54,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "meaning_it": "molto",
+    "example": {
+      "zh": "她很漂亮。",
+      "pinyin": "Tā hěn piàoliang.",
+      "en": "She is very beautiful."
+    }
+  },
+  {
+    "id": 263,
+    "order": 55,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "meaning_it": "avere • essere • esserci",
+    "example": {
+      "zh": "我有一只猫。",
+      "pinyin": "Wǒ yǒu yì zhī māo.",
+      "en": "I have a cat."
+    }
+  },
+  {
+    "id": 122,
+    "order": 56,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "meaning_it": "non avere • non esistere • a meno",
+    "example": {
+      "zh": "我没有手机。",
+      "pinyin": "Wǒ méiyǒu shǒujī.",
+      "en": "I don't have a phone."
+    }
+  },
+  {
+    "id": 271,
+    "order": 57,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "在",
+    "pinyin": "zài",
+    "meaning_it": "essere a",
+    "example": {
+      "zh": "他在家里。",
+      "pinyin": "Tā zài jiā lǐ.",
+      "en": "He is at home."
+    }
+  },
+  {
+    "id": 41,
+    "order": 58,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "meaning_it": "tutti; entrambi",
+    "example": {
+      "zh": "我们都是中国人。",
+      "pinyin": "Wǒmen dōu shì Zhōngguó rén.",
+      "en": "We are all Chinese."
+    }
+  },
+  {
+    "id": 253,
+    "order": 59,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "也",
+    "pinyin": "yě",
+    "meaning_it": "anche",
+    "example": {
+      "zh": "我也喜欢吃中国菜。",
+      "pinyin": "Wǒ yě xǐhuan chī Zhōngguó cài.",
+      "en": "I also like eating Chinese food."
+    }
+  },
+  {
+    "id": 206,
+    "order": 60,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "太",
+    "pinyin": "tài",
+    "meaning_it": "troppo • eccessivamente",
+    "example": {
+      "zh": "这个太贵了。",
+      "pinyin": "Zhège tài guì le.",
+      "en": "This is too expensive."
+    }
+  },
+  {
+    "id": 53,
+    "order": 61,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "非常",
+    "pinyin": "fēicháng",
+    "meaning_it": "molto • straordinariamente",
+    "example": {
+      "zh": "今天天气非常好。",
+      "pinyin": "Jīntiān tiānqì fēicháng hǎo.",
+      "en": "The weather today is very good."
+    }
+  },
+  {
+    "id": 285,
+    "order": 62,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "05 Particelle e parole-chiave",
+    "hanzi": "真",
+    "pinyin": "zhēn",
+    "meaning_it": "davvero; veramente",
+    "example": {
+      "zh": "今天真热！",
+      "pinyin": "Jīntiān zhēn rè!",
+      "en": "It's really hot today!"
+    }
+  },
+  {
+    "id": 114,
+    "order": 63,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "meaning_it": "mamma",
+    "example": {
+      "zh": "妈妈在做饭。",
+      "pinyin": "Māma zài zuòfàn.",
+      "en": "Mom is cooking."
+    }
+  },
+  {
+    "id": 3,
+    "order": 64,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "meaning_it": "papà",
+    "example": {
+      "zh": "爸爸在家里看电视。",
+      "pinyin": "Bàba zài jiālǐ kàn diànshì.",
+      "en": "Dad is watching TV at home."
+    }
+  },
+  {
+    "id": 59,
+    "order": 65,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "meaning_it": "fratello maggiore",
+    "example": {
+      "zh": "哥哥在北京工作。",
+      "pinyin": "Gēge zài Běijīng gōngzuò.",
+      "en": "My older brother works in Beijing."
+    }
+  },
+  {
+    "id": 92,
+    "order": 66,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "姐姐",
+    "pinyin": "jiějie",
+    "meaning_it": "sorella maggiore",
+    "example": {
+      "zh": "姐姐比我大三岁。",
+      "pinyin": "Jiějie bǐ wǒ dà sān suì.",
+      "en": "My older sister is three years older than me."
+    }
+  },
+  {
+    "id": 32,
+    "order": 67,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "弟弟",
+    "pinyin": "dìdi",
+    "meaning_it": "fratello minore",
+    "example": {
+      "zh": "我弟弟今年十岁。",
+      "pinyin": "Wǒ dìdi jīnnián shí suì.",
+      "en": "My younger brother is ten years old this year."
+    }
+  },
+  {
+    "id": 123,
+    "order": 68,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "妹妹",
+    "pinyin": "mèimei",
+    "meaning_it": "sorella minore",
+    "example": {
+      "zh": "妹妹在上小学。",
+      "pinyin": "Mèimei zài shàng xiǎoxué.",
+      "en": "My younger sister is in elementary school."
+    }
+  },
+  {
+    "id": 48,
+    "order": 69,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "meaning_it": "figlio",
+    "example": {
+      "zh": "他的儿子很聪明。",
+      "pinyin": "Tā de érzi hěn cōngming.",
+      "en": "His son is very smart."
+    }
+  },
+  {
+    "id": 153,
+    "order": 70,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "女儿",
+    "pinyin": "nǚ’ér",
+    "meaning_it": "figlia",
+    "example": {
+      "zh": "他的女儿今年五岁。",
+      "pinyin": "Tā de nǚ'ér jīnnián wǔ suì.",
+      "en": "His daughter is five years old this year."
+    }
+  },
+  {
+    "id": 86,
+    "order": 71,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "meaning_it": "casa • famiglia",
+    "example": {
+      "zh": "我家在北京。",
+      "pinyin": "Wǒ jiā zài Běijīng.",
+      "en": "My home is in Beijing."
+    }
+  },
+  {
+    "id": 87,
+    "order": 72,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "家人",
+    "pinyin": "jiārén",
+    "meaning_it": "famiglia",
+    "example": {
+      "zh": "我非常想我的家人。",
+      "pinyin": "Wǒ fēicháng xiǎng wǒ de jiārén.",
+      "en": "I miss my family very much."
+    }
+  },
+  {
+    "id": 68,
+    "order": 73,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "孩子",
+    "pinyin": "háizi",
+    "meaning_it": "bambino",
+    "example": {
+      "zh": "孩子们在外面玩。",
+      "pinyin": "Háizimen zài wàimiàn wán.",
+      "en": "The children are playing outside."
+    }
+  },
+  {
+    "id": 235,
+    "order": 74,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "小朋友",
+    "pinyin": "xiǎopéngyǒu",
+    "meaning_it": "bambino; piccolo amico",
+    "example": {
+      "zh": "小朋友们在唱歌。",
+      "pinyin": "Xiǎopéngyǒumen zài chànggē.",
+      "en": "The children are singing."
+    }
+  },
+  {
+    "id": 142,
+    "order": 75,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "男",
+    "pinyin": "nán",
+    "meaning_it": "maschio; maschile",
+    "example": {
+      "zh": "那个男同学很高。",
+      "pinyin": "Nàge nán tóngxué hěn gāo.",
+      "en": "That male classmate is very tall."
+    }
+  },
+  {
+    "id": 152,
+    "order": 76,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "女",
+    "pinyin": "nǚ",
+    "meaning_it": "donna • femmina • figlia",
+    "example": {
+      "zh": "班里有十个女同学。",
+      "pinyin": "Bān lǐ yǒu shí gè nǚ tóngxué.",
+      "en": "There are ten female classmates in the class."
+    }
+  },
+  {
+    "id": 143,
+    "order": 77,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "男朋友",
+    "pinyin": "nánpéngyou",
+    "meaning_it": "fidanzato",
+    "example": {
+      "zh": "她的男朋友是美国人。",
+      "pinyin": "Tā de nánpéngyou shì Měiguó rén.",
+      "en": "Her boyfriend is American."
+    }
+  },
+  {
+    "id": 154,
+    "order": 78,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "女朋友",
+    "pinyin": "nǚpéngyou",
+    "meaning_it": "fidanzata",
+    "example": {
+      "zh": "他还没有女朋友。",
+      "pinyin": "Tā hái méiyǒu nǚpéngyou.",
+      "en": "He doesn't have a girlfriend yet."
+    }
+  },
+  {
+    "id": 156,
+    "order": 79,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "meaning_it": "amico",
+    "example": {
+      "zh": "他是我最好的朋友。",
+      "pinyin": "Tā shì wǒ zuì hǎo de péngyou.",
+      "en": "He is my best friend."
+    }
+  },
+  {
+    "id": 155,
+    "order": 80,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "女士",
+    "pinyin": "nǚshì",
+    "meaning_it": "signora",
+    "example": {
+      "zh": "这位女士是我们的老师。",
+      "pinyin": "Zhè wèi nǚshì shì wǒmen de lǎoshī.",
+      "en": "This lady is our teacher."
+    }
+  },
+  {
+    "id": 231,
+    "order": 81,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "先生",
+    "pinyin": "xiānsheng",
+    "meaning_it": "signore; marito",
+    "example": {
+      "zh": "李先生，您好！",
+      "pinyin": "Lǐ xiānsheng, nín hǎo!",
+      "en": "Hello, Mr. Li!"
+    }
+  },
+  {
+    "id": 199,
+    "order": 82,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "meaning_it": "anni (età)",
+    "example": {
+      "zh": "你今年多大岁数？",
+      "pinyin": "Nǐ jīnnián duō dà suìshu?",
+      "en": "How old are you this year?"
+    }
+  },
+  {
+    "id": 104,
+    "order": 83,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "06 Famiglia e persone",
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "meaning_it": "bocca; classificatore per membri della famiglia",
+    "example": {
+      "zh": "我们家有五口人。",
+      "pinyin": "Wǒmen jiā yǒu wǔ kǒu rén.",
+      "en": "There are five people in our family."
+    }
+  },
+  {
+    "id": 182,
+    "order": 84,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "meaning_it": "che? • qualcosa",
+    "example": {
+      "zh": "你在做什么？",
+      "pinyin": "Nǐ zài zuò shénme?",
+      "en": "What are you doing?"
+    }
+  },
+  {
+    "id": 181,
+    "order": 85,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "谁",
+    "pinyin": "shéi/shuí",
+    "meaning_it": "chi",
+    "example": {
+      "zh": "他是谁？",
+      "pinyin": "Tā shì shéi?",
+      "en": "Who is he?"
+    }
+  },
+  {
+    "id": 131,
+    "order": 86,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "meaning_it": "quale",
+    "example": {
+      "zh": "你是哪国人？",
+      "pinyin": "Nǐ shì nǎ guó rén?",
+      "en": "What country are you from?"
+    }
+  },
+  {
+    "id": 132,
+    "order": 87,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "哪个",
+    "pinyin": "nǎge",
+    "meaning_it": "quale tra questi?",
+    "example": {
+      "zh": "哪个是你的杯子？",
+      "pinyin": "Nǎge shì nǐ de bēizi?",
+      "en": "Which one is your cup?"
+    }
+  },
+  {
+    "id": 133,
+    "order": 88,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "哪里",
+    "pinyin": "nǎlǐ",
+    "meaning_it": "dove",
+    "example": {
+      "zh": "你住在哪里？",
+      "pinyin": "Nǐ zhù zài nǎlǐ?",
+      "en": "Where do you live?"
+    }
+  },
+  {
+    "id": 134,
+    "order": 89,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "meaning_it": "dove",
+    "example": {
+      "zh": "你要去哪儿？",
+      "pinyin": "Nǐ yào qù nǎr?",
+      "en": "Where are you going?"
+    }
+  },
+  {
+    "id": 135,
+    "order": 90,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "哪些",
+    "pinyin": "nǎxiē",
+    "meaning_it": "quali? • chi? • cosa?",
+    "example": {
+      "zh": "你喜欢哪些水果？",
+      "pinyin": "Nǐ xǐhuan nǎxiē shuǐguǒ?",
+      "en": "Which fruits do you like?"
+    }
+  },
+  {
+    "id": 85,
+    "order": 91,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "meaning_it": "quanti? (piccolo numero)",
+    "example": {
+      "zh": "你家有几口人？",
+      "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+      "en": "How many people are in your family?"
+    }
+  },
+  {
+    "id": 46,
+    "order": 92,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "多",
+    "pinyin": "duō",
+    "meaning_it": "molto",
+    "example": {
+      "zh": "你家有多少人？",
+      "pinyin": "Nǐ jiā yǒu duōshao rén?",
+      "en": "How many people are in your family?"
+    }
+  },
+  {
+    "id": 47,
+    "order": 93,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "meaning_it": "quanto? • quanti?",
+    "example": {
+      "zh": "这个多少钱？",
+      "pinyin": "Zhège duōshao qián?",
+      "en": "How much is this?"
+    }
+  },
+  {
+    "id": 276,
+    "order": 94,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "meaning_it": "come?",
+    "example": {
+      "zh": "这个字怎么读？",
+      "pinyin": "Zhège zì zěnme dú?",
+      "en": "How do you read this character?"
+    }
+  },
+  {
+    "id": 277,
+    "order": 95,
+    "phase": "Fase 1 · Fondamenta",
+    "unit": "07 Parole interrogative",
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "meaning_it": "come sta?",
+    "example": {
+      "zh": "这个电影怎么样？",
+      "pinyin": "Zhège diànyǐng zěnmeyàng?",
+      "en": "How is this movie?"
+    }
+  },
+  {
+    "id": 279,
+    "order": 96,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "meaning_it": "questo • quello",
+    "example": {
+      "zh": "这是什么？",
+      "pinyin": "Zhè shì shénme?",
+      "en": "What is this?"
+    }
+  },
+  {
+    "id": 136,
+    "order": 97,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "那",
+    "pinyin": "nà",
+    "meaning_it": "quello • allora, in quel caso",
+    "example": {
+      "zh": "那是我的老师。",
+      "pinyin": "Nà shì wǒ de lǎoshī.",
+      "en": "That is my teacher."
+    }
+  },
+  {
+    "id": 281,
+    "order": 98,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "这个",
+    "pinyin": "zhège",
+    "meaning_it": "questo",
+    "example": {
+      "zh": "这个东西多少钱？",
+      "pinyin": "Zhège dōngxi duōshao qián?",
+      "en": "How much is this thing?"
+    }
+  },
+  {
+    "id": 138,
+    "order": 99,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "那个",
+    "pinyin": "nàge",
+    "meaning_it": "quello",
+    "example": {
+      "zh": "那个人是谁？",
+      "pinyin": "Nàge rén shì shéi?",
+      "en": "Who is that person?"
+    }
+  },
+  {
+    "id": 284,
+    "order": 100,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "这些",
+    "pinyin": "zhèxiē",
+    "meaning_it": "questi",
+    "example": {
+      "zh": "这些书都是我的。",
+      "pinyin": "Zhèxiē shū dōu shì wǒ de.",
+      "en": "These books are all mine."
+    }
+  },
+  {
+    "id": 141,
+    "order": 101,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "那些",
+    "pinyin": "nàxiē",
+    "meaning_it": "quelli",
+    "example": {
+      "zh": "那些书是谁的？",
+      "pinyin": "Nàxiē shū shì shéi de?",
+      "en": "Whose are those books?"
+    }
+  },
+  {
+    "id": 282,
+    "order": 102,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "这里",
+    "pinyin": "zhèlǐ",
+    "meaning_it": "qui",
+    "example": {
+      "zh": "这里很漂亮。",
+      "pinyin": "Zhèlǐ hěn piàoliang.",
+      "en": "It's very beautiful here."
+    }
+  },
+  {
+    "id": 283,
+    "order": 103,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "这儿",
+    "pinyin": "zhèr",
+    "meaning_it": "qui",
+    "example": {
+      "zh": "你来这儿做什么？",
+      "pinyin": "Nǐ lái zhèr zuò shénme?",
+      "en": "What are you doing here?"
+    }
+  },
+  {
+    "id": 139,
+    "order": 104,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "那里",
+    "pinyin": "nàlǐ",
+    "meaning_it": "lì, in quel luogo",
+    "example": {
+      "zh": "我想去那里看看。",
+      "pinyin": "Wǒ xiǎng qù nàlǐ kànkan.",
+      "en": "I want to go there to take a look."
+    }
+  },
+  {
+    "id": 140,
+    "order": 105,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "那儿",
+    "pinyin": "nàr",
+    "meaning_it": "lì • là",
+    "example": {
+      "zh": "那儿有一个商店。",
+      "pinyin": "Nàr yǒu yí gè shāngdiàn.",
+      "en": "There's a shop over there."
+    }
+  },
+  {
+    "id": 280,
+    "order": 106,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "这边",
+    "pinyin": "zhèbiān",
+    "meaning_it": "da questa parte",
+    "example": {
+      "zh": "请到这边来。",
+      "pinyin": "Qǐng dào zhèbiān lái.",
+      "en": "Please come over here."
+    }
+  },
+  {
+    "id": 137,
+    "order": 107,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "08 Questo, quello, qui, là",
+    "hanzi": "那边",
+    "pinyin": "nàbiān",
+    "meaning_it": "da quella parte; laggiù",
+    "example": {
+      "zh": "你的朋友在那边。",
+      "pinyin": "Nǐ de péngyou zài nàbiān.",
+      "en": "Your friend is over there."
+    }
+  },
+  {
+    "id": 175,
+    "order": 108,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "09 Posizione",
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "meaning_it": "sopra; su; precedente",
+    "example": {
+      "zh": "猫在桌子上。",
+      "pinyin": "Māo zài zhuōzi shàng.",
+      "en": "The cat is on the table."
+    }
+  },
+  {
+    "id": 226,
+    "order": 109,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "09 Posizione",
+    "hanzi": "下",
+    "pinyin": "xià",
+    "meaning_it": "sotto • più tardi • successivo",
+    "example": {
+      "zh": "书在桌子下面。",
+      "pinyin": "Shū zài zhuōzi xiàmiàn.",
+      "en": "The book is under the table."
+    }
+  },
+  {
+    "id": 110,
+    "order": 110,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "09 Posizione",
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "meaning_it": "dentro",
+    "example": {
+      "zh": "书在书包里。",
+      "pinyin": "Shū zài shūbāo lǐ.",
+      "en": "The book is in the bag."
+    }
+  },
+  {
+    "id": 212,
+    "order": 111,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "09 Posizione",
+    "hanzi": "外",
+    "pinyin": "wài",
+    "meaning_it": "da fuori • straniero",
+    "example": {
+      "zh": "外面在下雨。",
+      "pinyin": "Wàimiàn zài xià yǔ.",
+      "en": "It's raining outside."
+    }
+  },
+  {
+    "id": 213,
+    "order": 112,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "09 Posizione",
+    "hanzi": "外边",
+    "pinyin": "wàibian",
+    "meaning_it": "fuori; all’esterno",
+    "example": {
+      "zh": "孩子们在外边玩。",
+      "pinyin": "Háizimen zài wàibian wán.",
+      "en": "The children are playing outside."
+    }
+  },
+  {
+    "id": 163,
+    "order": 113,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "09 Posizione",
+    "hanzi": "前",
+    "pinyin": "qián",
+    "meaning_it": "davanti; prima",
+    "example": {
+      "zh": "学校前面有一家书店。",
+      "pinyin": "Xuéxiào qiánmiàn yǒu yì jiā shūdiàn.",
+      "en": "There's a bookstore in front of the school."
+    }
+  },
+  {
+    "id": 80,
+    "order": 114,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "09 Posizione",
+    "hanzi": "后",
+    "pinyin": "hòu",
+    "meaning_it": "dopo; dietro",
+    "example": {
+      "zh": "学校在医院的后面。",
+      "pinyin": "Xuéxiào zài yīyuàn de hòumiàn.",
+      "en": "The school is behind the hospital."
+    }
+  },
+  {
+    "id": 11,
+    "order": 115,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "09 Posizione",
+    "hanzi": "边",
+    "pinyin": "biān",
+    "meaning_it": "lato; bordo",
+    "example": {
+      "zh": "学校在路的左边。",
+      "pinyin": "Xuéxiào zài lù de zuǒbiān.",
+      "en": "The school is on the left side of the road."
+    }
+  },
+  {
+    "id": 167,
+    "order": 116,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "去",
+    "pinyin": "qù",
+    "meaning_it": "andare",
+    "example": {
+      "zh": "我明天去学校。",
+      "pinyin": "Wǒ míngtiān qù xuéxiào.",
+      "en": "I'm going to school tomorrow."
+    }
+  },
+  {
+    "id": 106,
+    "order": 117,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "来",
+    "pinyin": "lái",
+    "meaning_it": "venire",
+    "example": {
+      "zh": "你来我家玩吧。",
+      "pinyin": "Nǐ lái wǒ jiā wán ba.",
+      "en": "Come to my house to play."
+    }
+  },
+  {
+    "id": 81,
+    "order": 118,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "回",
+    "pinyin": "huí",
+    "meaning_it": "ritornare",
+    "example": {
+      "zh": "我想回家。",
+      "pinyin": "Wǒ xiǎng huí jiā.",
+      "en": "I want to go home."
+    }
+  },
+  {
+    "id": 29,
+    "order": 119,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "到",
+    "pinyin": "dào",
+    "meaning_it": "arrivare; fino a",
+    "example": {
+      "zh": "我到学校了。",
+      "pinyin": "Wǒ dào xuéxiào le.",
+      "en": "I've arrived at school."
+    }
+  },
+  {
+    "id": 21,
+    "order": 120,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "meaning_it": "mangiare",
+    "example": {
+      "zh": "你吃饭了吗？",
+      "pinyin": "Nǐ chīfàn le ma?",
+      "en": "Have you eaten?"
+    }
+  },
+  {
+    "id": 77,
+    "order": 121,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "meaning_it": "bere",
+    "example": {
+      "zh": "我每天喝很多水。",
+      "pinyin": "Wǒ měitiān hē hěn duō shuǐ.",
+      "en": "I drink a lot of water every day."
+    }
+  },
+  {
+    "id": 99,
+    "order": 122,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "meaning_it": "guardare; leggere",
+    "example": {
+      "zh": "我在看书。",
+      "pinyin": "Wǒ zài kàn shū.",
+      "en": "I'm reading a book."
+    }
+  },
+  {
+    "id": 209,
+    "order": 123,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "meaning_it": "ascoltare",
+    "example": {
+      "zh": "我喜欢听音乐。",
+      "pinyin": "Wǒ xǐhuan tīng yīnyuè.",
+      "en": "I like listening to music."
+    }
+  },
+  {
+    "id": 196,
+    "order": 124,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "meaning_it": "parlare; dire",
+    "example": {
+      "zh": "请你再说一次。",
+      "pinyin": "Qǐng nǐ zài shuō yí cì.",
+      "en": "Please say it again."
+    }
+  },
+  {
+    "id": 225,
+    "order": 125,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "meaning_it": "piacere",
+    "example": {
+      "zh": "我喜欢看电影。",
+      "pinyin": "Wǒ xǐhuan kàn diànyǐng.",
+      "en": "I like watching movies."
+    }
+  },
+  {
+    "id": 1,
+    "order": 126,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "meaning_it": "amare • provare affetto",
+    "example": {
+      "zh": "我爱我的家人。",
+      "pinyin": "Wǒ ài wǒ de jiārén.",
+      "en": "I love my family."
+    }
+  },
+  {
+    "id": 233,
+    "order": 127,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "meaning_it": "volere • pensare • desiderare",
+    "example": {
+      "zh": "我想去中国学汉语。",
+      "pinyin": "Wǒ xiǎng qù Zhōngguó xué Hànyǔ.",
+      "en": "I want to go to China to learn Chinese."
+    }
+  },
+  {
+    "id": 252,
+    "order": 128,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "要",
+    "pinyin": "yào",
+    "meaning_it": "volere; dovere; stare per",
+    "example": {
+      "zh": "我要一杯咖啡。",
+      "pinyin": "Wǒ yào yì bēi kāfēi.",
+      "en": "I want a cup of coffee."
+    }
+  },
+  {
+    "id": 82,
+    "order": 129,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "会",
+    "pinyin": "huì",
+    "meaning_it": "sapere fare; potere",
+    "example": {
+      "zh": "你会说中文吗？",
+      "pinyin": "Nǐ huì shuō Zhōngwén ma?",
+      "en": "Can you speak Chinese?"
+    }
+  },
+  {
+    "id": 102,
+    "order": 130,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "可以",
+    "pinyin": "kěyǐ",
+    "meaning_it": "potere • essere capace di",
+    "example": {
+      "zh": "我可以坐这儿吗？",
+      "pinyin": "Wǒ kěyǐ zuò zhèr ma?",
+      "en": "May I sit here?"
+    }
+  },
+  {
+    "id": 145,
+    "order": 131,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "能",
+    "pinyin": "néng",
+    "meaning_it": "potere • avere la capacità di",
+    "example": {
+      "zh": "你能帮我吗？",
+      "pinyin": "Nǐ néng bāng wǒ ma?",
+      "en": "Can you help me?"
+    }
+  },
+  {
+    "id": 299,
+    "order": 132,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "meaning_it": "fare",
+    "example": {
+      "zh": "你在做什么工作？",
+      "pinyin": "Nǐ zài zuò shénme gōngzuò?",
+      "en": "What work do you do?"
+    }
+  },
+  {
+    "id": 171,
+    "order": 133,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "meaning_it": "conoscere una persona",
+    "example": {
+      "zh": "我认识他。",
+      "pinyin": "Wǒ rènshi tā.",
+      "en": "I know him."
+    }
+  },
+  {
+    "id": 288,
+    "order": 134,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "10 Verbi essenziali",
+    "hanzi": "知道",
+    "pinyin": "zhīdào",
+    "meaning_it": "sapere; essere a conoscenza",
+    "example": {
+      "zh": "我不知道他的名字。",
+      "pinyin": "Wǒ bù zhīdào tā de míngzi.",
+      "en": "I don't know his name."
+    }
+  },
+  {
+    "id": 232,
+    "order": 135,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "meaning_it": "adesso",
+    "example": {
+      "zh": "现在几点了？",
+      "pinyin": "Xiànzài jǐ diǎn le?",
+      "en": "What time is it now?"
+    }
+  },
+  {
+    "id": 94,
+    "order": 136,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "meaning_it": "oggi",
+    "example": {
+      "zh": "今天星期几？",
+      "pinyin": "Jīntiān xīngqī jǐ?",
+      "en": "What day is it today?"
+    }
+  },
+  {
+    "id": 129,
+    "order": 137,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "meaning_it": "domani",
+    "example": {
+      "zh": "明天你有时间吗？",
+      "pinyin": "Míngtiān nǐ yǒu shíjiān ma?",
+      "en": "Do you have time tomorrow?"
+    }
+  },
+  {
+    "id": 297,
+    "order": 138,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "meaning_it": "ieri",
+    "example": {
+      "zh": "昨天我去了商店。",
+      "pinyin": "Zuótiān wǒ qù le shāngdiàn.",
+      "en": "I went to the store yesterday."
+    }
+  },
+  {
+    "id": 93,
+    "order": 139,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "今年",
+    "pinyin": "jīnnián",
+    "meaning_it": "quest'anno",
+    "example": {
+      "zh": "今年我二十岁。",
+      "pinyin": "Jīnnián wǒ èrshí suì.",
+      "en": "I'm twenty years old this year."
+    }
+  },
+  {
+    "id": 128,
+    "order": 140,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "明年",
+    "pinyin": "míngnián",
+    "meaning_it": "l'anno prossimo",
+    "example": {
+      "zh": "明年我想去中国。",
+      "pinyin": "Míngnián wǒ xiǎng qù Zhōngguó.",
+      "en": "I want to go to China next year."
+    }
+  },
+  {
+    "id": 168,
+    "order": 141,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "去年",
+    "pinyin": "qùnián",
+    "meaning_it": "anno scorso",
+    "example": {
+      "zh": "去年我去了上海。",
+      "pinyin": "Qùnián wǒ qù le Shànghǎi.",
+      "en": "Last year I went to Shanghai."
+    }
+  },
+  {
+    "id": 269,
+    "order": 142,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "meaning_it": "luna • mese",
+    "example": {
+      "zh": "这个月我很忙。",
+      "pinyin": "Zhège yuè wǒ hěn máng.",
+      "en": "I'm very busy this month."
+    }
+  },
+  {
+    "id": 172,
+    "order": 143,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "日",
+    "pinyin": "rì",
+    "meaning_it": "sole • giorno",
+    "example": {
+      "zh": "今天是十月一日。",
+      "pinyin": "Jīntiān shì shí yuè yī rì.",
+      "en": "Today is October 1st."
+    }
+  },
+  {
+    "id": 76,
+    "order": 144,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "号",
+    "pinyin": "hào",
+    "meaning_it": "numero • giorno del mese",
+    "example": {
+      "zh": "今天几月几号？",
+      "pinyin": "Jīntiān jǐ yuè jǐ hào?",
+      "en": "What's the date today?"
+    }
+  },
+  {
+    "id": 149,
+    "order": 145,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "年",
+    "pinyin": "nián",
+    "meaning_it": "anno",
+    "example": {
+      "zh": "一年有十二个月。",
+      "pinyin": "Yì nián yǒu shí'èr gè yuè.",
+      "en": "There are twelve months in a year."
+    }
+  },
+  {
+    "id": 207,
+    "order": 146,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "meaning_it": "giorno • cielo • il cielo",
+    "example": {
+      "zh": "今天天气很好。",
+      "pinyin": "Jīntiān tiānqì hěn hǎo.",
+      "en": "The weather is great today."
+    }
+  },
+  {
+    "id": 243,
+    "order": 147,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "meaning_it": "settimana",
+    "example": {
+      "zh": "这个星期你忙吗？",
+      "pinyin": "Zhège xīngqī nǐ máng ma?",
+      "en": "Are you busy this week?"
+    }
+  },
+  {
+    "id": 244,
+    "order": 148,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "星期日",
+    "pinyin": "xīngqīrì",
+    "meaning_it": "domenica",
+    "example": {
+      "zh": "星期日我不上班。",
+      "pinyin": "Xīngqīrì wǒ bú shàngbān.",
+      "en": "I don't work on Sundays."
+    }
+  },
+  {
+    "id": 245,
+    "order": 149,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "星期天",
+    "pinyin": "xīngqītiān",
+    "meaning_it": "domenica",
+    "example": {
+      "zh": "星期天我们去公园吧。",
+      "pinyin": "Xīngqītiān wǒmen qù gōngyuán ba.",
+      "en": "Let's go to the park on Sunday."
+    }
+  },
+  {
+    "id": 33,
+    "order": 150,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "meaning_it": "ora (orario); punto",
+    "example": {
+      "zh": "现在是下午两点。",
+      "pinyin": "Xiànzài shì xiàwǔ liǎng diǎn.",
+      "en": "It's 2 PM now."
+    }
+  },
+  {
+    "id": 55,
+    "order": 151,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "meaning_it": "minuto; centesimo; dividere",
+    "example": {
+      "zh": "现在是三点十分。",
+      "pinyin": "Xiànzài shì sān diǎn shí fēn.",
+      "en": "It's 3:10 now."
+    }
+  },
+  {
+    "id": 56,
+    "order": 152,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "meaning_it": "minuto",
+    "example": {
+      "zh": "请等我五分钟。",
+      "pinyin": "Qǐng děng wǒ wǔ fēnzhōng.",
+      "en": "Please wait five minutes for me."
+    }
+  },
+  {
+    "id": 236,
+    "order": 153,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "小时",
+    "pinyin": "xiǎoshí",
+    "meaning_it": "ora",
+    "example": {
+      "zh": "我学了两个小时的中文。",
+      "pinyin": "Wǒ xué le liǎng gè xiǎoshí de Zhōngwén.",
+      "en": "I studied Chinese for two hours."
+    }
+  },
+  {
+    "id": 185,
+    "order": 154,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "时候",
+    "pinyin": "shíhou",
+    "meaning_it": "momento • periodo di tempo",
+    "example": {
+      "zh": "你什么时候来？",
+      "pinyin": "Nǐ shénme shíhou lái?",
+      "en": "When are you coming?"
+    }
+  },
+  {
+    "id": 186,
+    "order": 155,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "11 Tempo: date e orari",
+    "hanzi": "时间",
+    "pinyin": "shíjiān",
+    "meaning_it": "tempo • periodo",
+    "example": {
+      "zh": "我没有时间。",
+      "pinyin": "Wǒ méiyǒu shíjiān.",
+      "en": "I don't have time."
+    }
+  },
+  {
+    "id": 273,
+    "order": 156,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "早",
+    "pinyin": "zǎo",
+    "meaning_it": "presto • mattina • buongiorno!",
+    "example": {
+      "zh": "你今天来得很早。",
+      "pinyin": "Nǐ jīntiān lái de hěn zǎo.",
+      "en": "You came very early today."
+    }
+  },
+  {
+    "id": 275,
+    "order": 157,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "早上",
+    "pinyin": "zǎoshang",
+    "meaning_it": "mattina • di mattina presto",
+    "example": {
+      "zh": "早上好！",
+      "pinyin": "Zǎoshang hǎo!",
+      "en": "Good morning!"
+    }
+  },
+  {
+    "id": 178,
+    "order": 158,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "meaning_it": "mattina",
+    "example": {
+      "zh": "上午我有两节课。",
+      "pinyin": "Shàngwǔ wǒ yǒu liǎng jié kè.",
+      "en": "I have two classes in the morning."
+    }
+  },
+  {
+    "id": 291,
+    "order": 159,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "中午",
+    "pinyin": "zhōngwǔ",
+    "meaning_it": "mezzogiorno",
+    "example": {
+      "zh": "中午我们一起吃饭吧。",
+      "pinyin": "Zhōngwǔ wǒmen yìqǐ chīfàn ba.",
+      "en": "Let's eat lunch together."
+    }
+  },
+  {
+    "id": 230,
+    "order": 160,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "meaning_it": "pomeriggio",
+    "example": {
+      "zh": "下午我去商店买东西。",
+      "pinyin": "Xiàwǔ wǒ qù shāngdiàn mǎi dōngxi.",
+      "en": "I'm going shopping at the store this afternoon."
+    }
+  },
+  {
+    "id": 217,
+    "order": 161,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "晚上",
+    "pinyin": "wǎnshang",
+    "meaning_it": "di sera",
+    "example": {
+      "zh": "晚上我们一起吃饭。",
+      "pinyin": "Wǎnshang wǒmen yìqǐ chīfàn.",
+      "en": "Let's eat together in the evening."
+    }
+  },
+  {
+    "id": 215,
+    "order": 162,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "晚",
+    "pinyin": "wǎn",
+    "meaning_it": "sera • notte • tardi",
+    "example": {
+      "zh": "现在很晚了，我要睡觉了。",
+      "pinyin": "Xiànzài hěn wǎn le, wǒ yào shuìjiào le.",
+      "en": "It's very late now, I need to go to sleep."
+    }
+  },
+  {
+    "id": 5,
+    "order": 163,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "白天",
+    "pinyin": "báitiān",
+    "meaning_it": "diurno • durante il giorno • giorno",
+    "example": {
+      "zh": "白天我在公司工作。",
+      "pinyin": "Báitiān wǒ zài gōngsī gōngzuò.",
+      "en": "I work at the company during the day."
+    }
+  },
+  {
+    "id": 161,
+    "order": 164,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "起床",
+    "pinyin": "qǐchuáng",
+    "meaning_it": "alzarsi dal letto",
+    "example": {
+      "zh": "我每天早上七点起床。",
+      "pinyin": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng.",
+      "en": "I get up at seven every morning."
+    }
+  },
+  {
+    "id": 194,
+    "order": 165,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "睡",
+    "pinyin": "shuì",
+    "meaning_it": "dormire",
+    "example": {
+      "zh": "他在睡觉。",
+      "pinyin": "Tā zài shuìjiào.",
+      "en": "He is sleeping."
+    }
+  },
+  {
+    "id": 195,
+    "order": 166,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "12 Momenti della giornata",
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "meaning_it": "dormire",
+    "example": {
+      "zh": "我每天晚上十点睡觉。",
+      "pinyin": "Wǒ měitiān wǎnshang shí diǎn shuìjiào.",
+      "en": "I go to sleep at ten every night."
+    }
+  },
+  {
+    "id": 274,
+    "order": 167,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "早饭",
+    "pinyin": "zǎofàn",
+    "meaning_it": "colazione",
+    "example": {
+      "zh": "你吃早饭了吗？",
+      "pinyin": "Nǐ chī zǎofàn le ma?",
+      "en": "Have you eaten breakfast?"
+    }
+  },
+  {
+    "id": 224,
+    "order": 168,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "午饭",
+    "pinyin": "wǔfàn",
+    "meaning_it": "pranzo",
+    "example": {
+      "zh": "午饭我吃了米饭和菜。",
+      "pinyin": "Wǔfàn wǒ chī le mǐfàn hé cài.",
+      "en": "I had rice and dishes for lunch."
+    }
+  },
+  {
+    "id": 216,
+    "order": 169,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "晚饭",
+    "pinyin": "wǎnfàn",
+    "meaning_it": "cena",
+    "example": {
+      "zh": "晚饭你想吃什么？",
+      "pinyin": "Wǎnfàn nǐ xiǎng chī shénme?",
+      "en": "What do you want to eat for dinner?"
+    }
+  },
+  {
+    "id": 50,
+    "order": 170,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "饭",
+    "pinyin": "fàn",
+    "meaning_it": "cibo • cucina • riso cotto • pasto",
+    "example": {
+      "zh": "该吃饭了。",
+      "pinyin": "Gāi chīfàn le.",
+      "en": "It's time to eat."
+    }
+  },
+  {
+    "id": 300,
+    "order": 171,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "做饭",
+    "pinyin": "zuò fàn",
+    "meaning_it": "cucinare • preparare un piatto",
+    "example": {
+      "zh": "我每天都做饭。",
+      "pinyin": "Wǒ měitiān dōu zuòfàn.",
+      "en": "I cook every day."
+    }
+  },
+  {
+    "id": 125,
+    "order": 172,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "meaning_it": "riso cotto",
+    "example": {
+      "zh": "中国人喜欢吃米饭。",
+      "pinyin": "Zhōngguó rén xǐhuan chī mǐfàn.",
+      "en": "Chinese people like to eat rice."
+    }
+  },
+  {
+    "id": 126,
+    "order": 173,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "面包",
+    "pinyin": "miànbāo",
+    "meaning_it": "pane",
+    "example": {
+      "zh": "早上我吃了一个面包。",
+      "pinyin": "Zǎoshang wǒ chī le yí gè miànbāo.",
+      "en": "I ate a piece of bread in the morning."
+    }
+  },
+  {
+    "id": 127,
+    "order": 174,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "面条儿",
+    "pinyin": "miàntiáor",
+    "meaning_it": "spaghetti cinesi",
+    "example": {
+      "zh": "我中午吃面条儿。",
+      "pinyin": "Wǒ zhōngwǔ chī miàntiáor.",
+      "en": "I eat noodles for lunch."
+    }
+  },
+  {
+    "id": 8,
+    "order": 175,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "meaning_it": "panino ripieno al vapore",
+    "example": {
+      "zh": "早饭我吃了两个包子。",
+      "pinyin": "Zǎofàn wǒ chī le liǎng gè bāozi.",
+      "en": "I ate two steamed buns for breakfast."
+    }
+  },
+  {
+    "id": 90,
+    "order": 176,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "meaning_it": "raviolo",
+    "example": {
+      "zh": "过年的时候我们吃饺子。",
+      "pinyin": "Guònián de shíhou wǒmen chī jiǎozi.",
+      "en": "We eat dumplings during Chinese New Year."
+    }
+  },
+  {
+    "id": 84,
+    "order": 177,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "鸡蛋",
+    "pinyin": "jīdàn",
+    "meaning_it": "uova di gallina",
+    "example": {
+      "zh": "早饭我吃了一个鸡蛋。",
+      "pinyin": "Zǎofàn wǒ chī le yí gè jīdàn.",
+      "en": "I ate an egg for breakfast."
+    }
+  },
+  {
+    "id": 151,
+    "order": 178,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "牛奶",
+    "pinyin": "niúnǎi",
+    "meaning_it": "latte di mucca",
+    "example": {
+      "zh": "我每天早上喝牛奶。",
+      "pinyin": "Wǒ měitiān zǎoshang hē niúnǎi.",
+      "en": "I drink milk every morning."
+    }
+  },
+  {
+    "id": 17,
+    "order": 179,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "meaning_it": "tè",
+    "example": {
+      "zh": "你想喝茶吗？",
+      "pinyin": "Nǐ xiǎng hē chá ma?",
+      "en": "Would you like to drink tea?"
+    }
+  },
+  {
+    "id": 192,
+    "order": 180,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "meaning_it": "acqua",
+    "example": {
+      "zh": "请给我一杯水。",
+      "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
+      "en": "Please give me a glass of water."
+    }
+  },
+  {
+    "id": 193,
+    "order": 181,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "meaning_it": "frutta",
+    "example": {
+      "zh": "多吃水果对身体好。",
+      "pinyin": "Duō chī shuǐguǒ duì shēntǐ hǎo.",
+      "en": "Eating more fruit is good for health."
+    }
+  },
+  {
+    "id": 159,
+    "order": 182,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "meaning_it": "mela",
+    "example": {
+      "zh": "我喜欢吃苹果。",
+      "pinyin": "Wǒ xǐhuan chī píngguǒ.",
+      "en": "I like eating apples."
+    }
+  },
+  {
+    "id": 16,
+    "order": 183,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "meaning_it": "pasto • pietanza • verdure",
+    "example": {
+      "zh": "妈妈做的菜很好吃。",
+      "pinyin": "Māma zuò de cài hěn hǎochī.",
+      "en": "The dishes Mom makes are very delicious."
+    }
+  },
+  {
+    "id": 72,
+    "order": 184,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "好吃",
+    "pinyin": "hǎochī",
+    "meaning_it": "delizioso • saporito",
+    "example": {
+      "zh": "这个菜真好吃。",
+      "pinyin": "Zhège cài zhēn hǎochī.",
+      "en": "This dish is really delicious."
+    }
+  },
+  {
+    "id": 9,
+    "order": 185,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "13 Cibo e bevande",
+    "hanzi": "杯子",
+    "pinyin": "bēizi",
+    "meaning_it": "tazza • bicchiere",
+    "example": {
+      "zh": "请给我一个杯子。",
+      "pinyin": "Qǐng gěi wǒ yí gè bēizi.",
+      "en": "Please give me a cup."
+    }
+  },
+  {
+    "id": 60,
+    "order": 186,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "个",
+    "pinyin": "gè",
+    "meaning_it": "CL: persone e oggetti in genere",
+    "example": {
+      "zh": "我要一个苹果。",
+      "pinyin": "Wǒ yào yí gè píngguǒ.",
+      "en": "I want an apple."
+    }
+  },
+  {
+    "id": 10,
+    "order": 187,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "本",
+    "pinyin": "běn",
+    "meaning_it": "classificatore per libri",
+    "example": {
+      "zh": "我买了三本书。",
+      "pinyin": "Wǒ mǎi le sān běn shū.",
+      "en": "I bought three books."
+    }
+  },
+  {
+    "id": 89,
+    "order": 188,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "件",
+    "pinyin": "jiàn",
+    "meaning_it": "CL: abbigliamento, cose, event",
+    "example": {
+      "zh": "我买了一件新衣服。",
+      "pinyin": "Wǒ mǎi le yí jiàn xīn yīfu.",
+      "en": "I bought a new piece of clothing."
+    }
+  },
+  {
+    "id": 287,
+    "order": 189,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "只",
+    "pinyin": "zhī",
+    "meaning_it": "classificatore per alcuni animali e oggetti",
+    "example": {
+      "zh": "桌子上有一只杯子。",
+      "pinyin": "Zhuōzi shàng yǒu yì zhī bēizi.",
+      "en": "There is a cup on the table."
+    }
+  },
+  {
+    "id": 239,
+    "order": 190,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "些",
+    "pinyin": "xiē",
+    "meaning_it": "alcuni",
+    "example": {
+      "zh": "给我一些水。",
+      "pinyin": "Gěi wǒ yìxiē shuǐ.",
+      "en": "Give me some water."
+    }
+  },
+  {
+    "id": 262,
+    "order": 191,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "一些",
+    "pinyin": "yìxiē",
+    "meaning_it": "alcuni • pochi • un poco",
+    "example": {
+      "zh": "我买了一些水果。",
+      "pinyin": "Wǒ mǎi le yìxiē shuǐguǒ.",
+      "en": "I bought some fruit."
+    }
+  },
+  {
+    "id": 261,
+    "order": 192,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "一点儿",
+    "pinyin": "yìdiǎnr",
+    "meaning_it": "un po’",
+    "example": {
+      "zh": "我会说一点儿中文。",
+      "pinyin": "Wǒ huì shuō yìdiǎnr Zhōngwén.",
+      "en": "I can speak a little Chinese."
+    }
+  },
+  {
+    "id": 265,
+    "order": 193,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "meaning_it": "un po’; piuttosto",
+    "example": {
+      "zh": "今天有点儿冷。",
+      "pinyin": "Jīntiān yǒudiǎnr lěng.",
+      "en": "It's a bit cold today."
+    }
+  },
+  {
+    "id": 266,
+    "order": 194,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "有些",
+    "pinyin": "yǒuxiē",
+    "meaning_it": "alcuni",
+    "example": {
+      "zh": "有些事情很难说。",
+      "pinyin": "Yǒuxiē shìqing hěn nán shuō.",
+      "en": "Some things are hard to say."
+    }
+  },
+  {
+    "id": 264,
+    "order": 195,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "有的",
+    "pinyin": "yǒude",
+    "meaning_it": "alcuni di essi",
+    "example": {
+      "zh": "有的人喜欢茶，有的人喜欢咖啡。",
+      "pinyin": "Yǒude rén xǐhuan chá, yǒude rén xǐhuan kāfēi.",
+      "en": "Some people like tea, some people like coffee."
+    }
+  },
+  {
+    "id": 7,
+    "order": 196,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "半",
+    "pinyin": "bàn",
+    "meaning_it": "metà; mezzo",
+    "example": {
+      "zh": "现在三点半。",
+      "pinyin": "Xiànzài sān diǎn bàn.",
+      "en": "It's half past three now."
+    }
+  },
+  {
+    "id": 258,
+    "order": 197,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "14 Classificatori e quantità",
+    "hanzi": "一半",
+    "pinyin": "yíbàn",
+    "meaning_it": "metà",
+    "example": {
+      "zh": "我吃了一半的苹果。",
+      "pinyin": "Wǒ chī le yíbàn de píngguǒ.",
+      "en": "I ate half of the apple."
+    }
+  },
+  {
+    "id": 116,
+    "order": 198,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "meaning_it": "comprare",
+    "example": {
+      "zh": "我想买一件衣服。",
+      "pinyin": "Wǒ xiǎng mǎi yí jiàn yīfu.",
+      "en": "I want to buy a piece of clothing."
+    }
+  },
+  {
+    "id": 117,
+    "order": 199,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "meaning_it": "vendere",
+    "example": {
+      "zh": "他在卖水果。",
+      "pinyin": "Tā zài mài shuǐguǒ.",
+      "en": "He is selling fruit."
+    }
+  },
+  {
+    "id": 164,
+    "order": 200,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "meaning_it": "soldi",
+    "example": {
+      "zh": "你有钱吗？",
+      "pinyin": "Nǐ yǒu qián ma?",
+      "en": "Do you have money?"
+    }
+  },
+  {
+    "id": 268,
+    "order": 201,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "元",
+    "pinyin": "yuán",
+    "meaning_it": "unità monetaria cinese • primo",
+    "example": {
+      "zh": "这本书十五元。",
+      "pinyin": "Zhè běn shū shíwǔ yuán.",
+      "en": "This book is fifteen yuan."
+    }
+  },
+  {
+    "id": 105,
+    "order": 202,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "meaning_it": "pezzo • CL: per denaro o valuta",
+    "example": {
+      "zh": "这个苹果两块钱。",
+      "pinyin": "Zhège píngguǒ liǎng kuài qián.",
+      "en": "This apple costs two yuan."
+    }
+  },
+  {
+    "id": 65,
+    "order": 203,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "meaning_it": "costoso",
+    "example": {
+      "zh": "这件衣服太贵了。",
+      "pinyin": "Zhè jiàn yīfu tài guì le.",
+      "en": "This piece of clothing is too expensive."
+    }
+  },
+  {
+    "id": 157,
+    "order": 204,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "meaning_it": "economico",
+    "example": {
+      "zh": "这个很便宜，只要十块钱。",
+      "pinyin": "Zhège hěn piányi, zhǐ yào shí kuài qián.",
+      "en": "This is very cheap, only ten yuan."
+    }
+  },
+  {
+    "id": 34,
+    "order": 205,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "店",
+    "pinyin": "diàn",
+    "meaning_it": "negozio • magazzino • albergo",
+    "example": {
+      "zh": "这家店卖什么？",
+      "pinyin": "Zhè jiā diàn mài shénme?",
+      "en": "What does this shop sell?"
+    }
+  },
+  {
+    "id": 174,
+    "order": 206,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning_it": "negozio",
+    "example": {
+      "zh": "商店几点关门？",
+      "pinyin": "Shāngdiàn jǐ diǎn guānmén?",
+      "en": "What time does the shop close?"
+    }
+  },
+  {
+    "id": 19,
+    "order": 207,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "meaning_it": "supermercato",
+    "example": {
+      "zh": "我去超市买水果。",
+      "pinyin": "Wǒ qù chāoshì mǎi shuǐguǒ.",
+      "en": "I'm going to the supermarket to buy fruit."
+    }
+  },
+  {
+    "id": 191,
+    "order": 208,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "书店",
+    "pinyin": "shūdiàn",
+    "meaning_it": "libreria",
+    "example": {
+      "zh": "我去书店买了两本书。",
+      "pinyin": "Wǒ qù shūdiàn mǎi le liǎng běn shū.",
+      "en": "I went to the bookstore and bought two books."
+    }
+  },
+  {
+    "id": 40,
+    "order": 209,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "meaning_it": "cosa; oggetto",
+    "example": {
+      "zh": "我去商店买东西。",
+      "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
+      "en": "I'm going to the store to buy things."
+    }
+  },
+  {
+    "id": 255,
+    "order": 210,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "15 Acquisti e soldi",
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "meaning_it": "vestiti; abbigliamento",
+    "example": {
+      "zh": "这件衣服真好看。",
+      "pinyin": "Zhè jiàn yīfu zhēn hǎokàn.",
+      "en": "This piece of clothing is really good-looking."
+    }
+  },
+  {
+    "id": 71,
+    "order": 211,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "meaning_it": "bene • buono",
+    "example": {
+      "zh": "你好！你今天怎么样？",
+      "pinyin": "Nǐ hǎo! Nǐ jīntiān zěnmeyàng?",
+      "en": "Hello! How are you today?"
+    }
+  },
+  {
+    "id": 25,
+    "order": 212,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "大",
+    "pinyin": "dà",
+    "meaning_it": "grande",
+    "example": {
+      "zh": "这个房间很大。",
+      "pinyin": "Zhège fángjiān hěn dà.",
+      "en": "This room is very big."
+    }
+  },
+  {
+    "id": 234,
+    "order": 213,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "meaning_it": "piccolo",
+    "example": {
+      "zh": "这个房间很小。",
+      "pinyin": "Zhège fángjiān hěn xiǎo.",
+      "en": "This room is very small."
+    }
+  },
+  {
+    "id": 242,
+    "order": 214,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "meaning_it": "nuovo",
+    "example": {
+      "zh": "我买了一个新手机。",
+      "pinyin": "Wǒ mǎi le yí gè xīn shǒujī.",
+      "en": "I bought a new phone."
+    }
+  },
+  {
+    "id": 180,
+    "order": 215,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "meaning_it": "poco",
+    "example": {
+      "zh": "这个学校的学生很少。",
+      "pinyin": "Zhège xuéxiào de xuéshēng hěn shǎo.",
+      "en": "This school has very few students."
+    }
+  },
+  {
+    "id": 57,
+    "order": 216,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "meaning_it": "contento",
+    "example": {
+      "zh": "认识你我很高兴。",
+      "pinyin": "Rènshi nǐ wǒ hěn gāoxìng.",
+      "en": "I'm very happy to meet you."
+    }
+  },
+  {
+    "id": 118,
+    "order": 217,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "忙",
+    "pinyin": "máng",
+    "meaning_it": "occupato",
+    "example": {
+      "zh": "最近工作很忙。",
+      "pinyin": "Zuìjìn gōngzuò hěn máng.",
+      "en": "Work has been very busy recently."
+    }
+  },
+  {
+    "id": 158,
+    "order": 218,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "meaning_it": "bella",
+    "example": {
+      "zh": "你今天穿的衣服真漂亮。",
+      "pinyin": "Nǐ jīntiān chuān de yīfu zhēn piàoliang.",
+      "en": "The clothes you're wearing today are really beautiful."
+    }
+  },
+  {
+    "id": 73,
+    "order": 219,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "好看",
+    "pinyin": "hǎokàn",
+    "meaning_it": "bello da vedere",
+    "example": {
+      "zh": "那部电影很好看。",
+      "pinyin": "Nà bù diànyǐng hěn hǎokàn.",
+      "en": "That movie is really good."
+    }
+  },
+  {
+    "id": 74,
+    "order": 220,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "好听",
+    "pinyin": "hǎotīng",
+    "meaning_it": "piacevole da ascoltare",
+    "example": {
+      "zh": "她的声音很好听。",
+      "pinyin": "Tā de shēngyīn hěn hǎotīng.",
+      "en": "Her voice sounds very nice."
+    }
+  },
+  {
+    "id": 75,
+    "order": 221,
+    "phase": "Fase 2 · Vita quotidiana",
+    "unit": "16 Aggettivi comuni",
+    "hanzi": "好玩儿",
+    "pinyin": "hǎowánr",
+    "meaning_it": "divertente",
+    "example": {
+      "zh": "这个地方很好玩儿。",
+      "pinyin": "Zhège dìfang hěn hǎowánr.",
+      "en": "This place is really fun."
+    }
+  },
+  {
+    "id": 247,
+    "order": 222,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "学",
+    "pinyin": "xué",
+    "meaning_it": "imparare • studiare",
+    "example": {
+      "zh": "我在学中文。",
+      "pinyin": "Wǒ zài xué Zhōngwén.",
+      "en": "I am learning Chinese."
+    }
+  },
+  {
+    "id": 249,
+    "order": 223,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "meaning_it": "studiare",
+    "example": {
+      "zh": "他学习很努力。",
+      "pinyin": "Tā xuéxí hěn nǔlì.",
+      "en": "He studies very hard."
+    }
+  },
+  {
+    "id": 248,
+    "order": 224,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "学生",
+    "pinyin": "xuéshēng",
+    "meaning_it": "studente",
+    "example": {
+      "zh": "我们都是学生。",
+      "pinyin": "Wǒmen dōu shì xuéshēng.",
+      "en": "We are all students."
+    }
+  },
+  {
+    "id": 250,
+    "order": 225,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "meaning_it": "scuola",
+    "example": {
+      "zh": "我们的学校很大。",
+      "pinyin": "Wǒmen de xuéxiào hěn dà.",
+      "en": "Our school is very big."
+    }
+  },
+  {
+    "id": 107,
+    "order": 226,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "meaning_it": "insegnante • maestro",
+    "example": {
+      "zh": "老师在教室里。",
+      "pinyin": "Lǎoshī zài jiàoshì lǐ.",
+      "en": "The teacher is in the classroom."
+    }
+  },
+  {
+    "id": 211,
+    "order": 227,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "meaning_it": "compagno di classe",
+    "example": {
+      "zh": "我和同学一起去学校。",
+      "pinyin": "Wǒ hé tóngxué yìqǐ qù xuéxiào.",
+      "en": "I go to school together with my classmate."
+    }
+  },
+  {
+    "id": 103,
+    "order": 228,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "课",
+    "pinyin": "kè",
+    "meaning_it": "lezione • corso • materia",
+    "example": {
+      "zh": "今天有三节课。",
+      "pinyin": "Jīntiān yǒu sān jié kè.",
+      "en": "There are three classes today."
+    }
+  },
+  {
+    "id": 177,
+    "order": 229,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "上课",
+    "pinyin": "shàngkè",
+    "meaning_it": "andare a lezione",
+    "example": {
+      "zh": "我们八点半上课。",
+      "pinyin": "Wǒmen bā diǎn bàn shàngkè.",
+      "en": "We start class at 8:30."
+    }
+  },
+  {
+    "id": 229,
+    "order": 230,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "下课",
+    "pinyin": "xiàkè",
+    "meaning_it": "finire la lezione",
+    "example": {
+      "zh": "下课了，我们去吃饭吧。",
+      "pinyin": "Xiàkè le, wǒmen qù chīfàn ba.",
+      "en": "Class is over, let's go eat."
+    }
+  },
+  {
+    "id": 179,
+    "order": 231,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "上学",
+    "pinyin": "shàngxué",
+    "meaning_it": "andare a scuola",
+    "example": {
+      "zh": "孩子们每天走路上学。",
+      "pinyin": "Háizimen měitiān zǒulù shàngxué.",
+      "en": "The children walk to school every day."
+    }
+  },
+  {
+    "id": 190,
+    "order": 232,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "书",
+    "pinyin": "shū",
+    "meaning_it": "libro",
+    "example": {
+      "zh": "这本书很有意思。",
+      "pinyin": "Zhè běn shū hěn yǒu yìsi.",
+      "en": "This book is very interesting."
+    }
+  },
+  {
+    "id": 42,
+    "order": 233,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "读",
+    "pinyin": "dú",
+    "meaning_it": "leggere • studiare",
+    "example": {
+      "zh": "请读这个句子。",
+      "pinyin": "Qǐng dú zhège jùzi.",
+      "en": "Please read this sentence."
+    }
+  },
+  {
+    "id": 43,
+    "order": 234,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "读书",
+    "pinyin": "dúshū",
+    "meaning_it": "leggere un libro • studiare",
+    "example": {
+      "zh": "他很喜欢读书。",
+      "pinyin": "Tā hěn xǐhuan dúshū.",
+      "en": "He really likes reading."
+    }
+  },
+  {
+    "id": 240,
+    "order": 235,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "meaning_it": "scrivere",
+    "example": {
+      "zh": "请写你的名字。",
+      "pinyin": "Qǐng xiě nǐ de míngzi.",
+      "en": "Please write your name."
+    }
+  },
+  {
+    "id": 27,
+    "order": 236,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "大学",
+    "pinyin": "dàxué",
+    "meaning_it": "università",
+    "example": {
+      "zh": "她在大学学中文。",
+      "pinyin": "Tā zài dàxué xué Zhōngwén.",
+      "en": "She studies Chinese at university."
+    }
+  },
+  {
+    "id": 28,
+    "order": 237,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "大学生",
+    "pinyin": "dàxuéshēng",
+    "meaning_it": "studente universitario",
+    "example": {
+      "zh": "他是一个大学生。",
+      "pinyin": "Tā shì yí gè dàxuéshēng.",
+      "en": "He is a college student."
+    }
+  },
+  {
+    "id": 237,
+    "order": 238,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "小学",
+    "pinyin": "xiǎoxué",
+    "meaning_it": "scuola primaria",
+    "example": {
+      "zh": "我的孩子在上小学。",
+      "pinyin": "Wǒ de háizi zài shàng xiǎoxué.",
+      "en": "My child is in elementary school."
+    }
+  },
+  {
+    "id": 238,
+    "order": 239,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "小学生",
+    "pinyin": "xiǎoxuéshēng",
+    "meaning_it": "alunno di scuola primaria",
+    "example": {
+      "zh": "他是一个小学生。",
+      "pinyin": "Tā shì yí gè xiǎoxuéshēng.",
+      "en": "He is an elementary school student."
+    }
+  },
+  {
+    "id": 292,
+    "order": 240,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "中学",
+    "pinyin": "zhōngxué",
+    "meaning_it": "scuola media",
+    "example": {
+      "zh": "她在一所中学教书。",
+      "pinyin": "Tā zài yì suǒ zhōngxué jiāoshū.",
+      "en": "She teaches at a middle school."
+    }
+  },
+  {
+    "id": 293,
+    "order": 241,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "中学生",
+    "pinyin": "zhōngxuéshēng",
+    "meaning_it": "studente di scuola media o superiore",
+    "example": {
+      "zh": "他是一个中学生。",
+      "pinyin": "Tā shì yí gè zhōngxuéshēng.",
+      "en": "He is a middle school student."
+    }
+  },
+  {
+    "id": 220,
+    "order": 242,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "17 Scuola e studio",
+    "hanzi": "问题",
+    "pinyin": "wèntí",
+    "meaning_it": "domanda • problema • questione",
+    "example": {
+      "zh": "这个问题不难。",
+      "pinyin": "Zhège wèntí bù nán.",
+      "en": "This question is not difficult."
+    }
+  },
+  {
+    "id": 52,
+    "order": 243,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "房间",
+    "pinyin": "fángjiān",
+    "meaning_it": "stanza",
+    "example": {
+      "zh": "我的房间不大。",
+      "pinyin": "Wǒ de fángjiān bú dà.",
+      "en": "My room is not big."
+    }
+  },
+  {
+    "id": 260,
+    "order": 244,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "meaning_it": "sedia",
+    "example": {
+      "zh": "请坐在椅子上。",
+      "pinyin": "Qǐng zuò zài yǐzi shàng.",
+      "en": "Please sit on the chair."
+    }
+  },
+  {
+    "id": 295,
+    "order": 245,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning_it": "tavolo",
+    "example": {
+      "zh": "桌子上有一本书。",
+      "pinyin": "Zhuōzi shàng yǒu yì běn shū.",
+      "en": "There is a book on the table."
+    }
+  },
+  {
+    "id": 189,
+    "order": 246,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "手机",
+    "pinyin": "shǒujī",
+    "meaning_it": "telefono cellulare",
+    "example": {
+      "zh": "我的手机在哪儿？",
+      "pinyin": "Wǒ de shǒujī zài nǎr?",
+      "en": "Where is my phone?"
+    }
+  },
+  {
+    "id": 35,
+    "order": 247,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "电话",
+    "pinyin": "diànhuà",
+    "meaning_it": "telefono",
+    "example": {
+      "zh": "你的电话号码是多少？",
+      "pinyin": "Nǐ de diànhuà hàomǎ shì duōshao?",
+      "en": "What is your phone number?"
+    }
+  },
+  {
+    "id": 36,
+    "order": 248,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "meaning_it": "computer",
+    "example": {
+      "zh": "我用电脑写作业。",
+      "pinyin": "Wǒ yòng diànnǎo xiě zuòyè.",
+      "en": "I use a computer to do homework."
+    }
+  },
+  {
+    "id": 37,
+    "order": 249,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "meaning_it": "televisione",
+    "example": {
+      "zh": "晚上我喜欢看电视。",
+      "pinyin": "Wǎnshang wǒ xǐhuan kàn diànshì.",
+      "en": "I like watching TV in the evening."
+    }
+  },
+  {
+    "id": 38,
+    "order": 250,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "meaning_it": "film",
+    "example": {
+      "zh": "我们去看电影吧。",
+      "pinyin": "Wǒmen qù kàn diànyǐng ba.",
+      "en": "Let's go watch a movie."
+    }
+  },
+  {
+    "id": 58,
+    "order": 251,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "歌",
+    "pinyin": "gē",
+    "meaning_it": "canzone",
+    "example": {
+      "zh": "这首歌很好听。",
+      "pinyin": "Zhè shǒu gē hěn hǎotīng.",
+      "en": "This song sounds really nice."
+    }
+  },
+  {
+    "id": 64,
+    "order": 252,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "meaning_it": "cane",
+    "example": {
+      "zh": "我家有一只狗。",
+      "pinyin": "Wǒ jiā yǒu yì zhī gǒu.",
+      "en": "My family has a dog."
+    }
+  },
+  {
+    "id": 119,
+    "order": 253,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "18 Casa, oggetti e animali",
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "meaning_it": "gatto",
+    "example": {
+      "zh": "她家的猫很可爱。",
+      "pinyin": "Tā jiā de māo hěn kě'ài.",
+      "en": "Her cat is very cute."
+    }
+  },
+  {
+    "id": 208,
+    "order": 254,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "19 Meteo",
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "meaning_it": "tempo (clima)",
+    "example": {
+      "zh": "今天天气怎么样？",
+      "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+      "en": "How's the weather today?"
+    }
+  },
+  {
+    "id": 267,
+    "order": 255,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "19 Meteo",
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "meaning_it": "pioggia",
+    "example": {
+      "zh": "外面的雨很大。",
+      "pinyin": "Wàimiàn de yǔ hěn dà.",
+      "en": "The rain outside is heavy."
+    }
+  },
+  {
+    "id": 227,
+    "order": 256,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "19 Meteo",
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "meaning_it": "piovere",
+    "example": {
+      "zh": "明天可能会下雨。",
+      "pinyin": "Míngtiān kěnéng huì xià yǔ.",
+      "en": "It might rain tomorrow."
+    }
+  },
+  {
+    "id": 251,
+    "order": 257,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "19 Meteo",
+    "hanzi": "雪",
+    "pinyin": "xuě",
+    "meaning_it": "neve",
+    "example": {
+      "zh": "冬天北京常常下雪。",
+      "pinyin": "Dōngtiān Běijīng chángcháng xià xuě.",
+      "en": "It often snows in Beijing in winter."
+    }
+  },
+  {
+    "id": 109,
+    "order": 258,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "19 Meteo",
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "meaning_it": "freddo",
+    "example": {
+      "zh": "北京的冬天很冷。",
+      "pinyin": "Běijīng de dōngtiān hěn lěng.",
+      "en": "Winter in Beijing is very cold."
+    }
+  },
+  {
+    "id": 169,
+    "order": 259,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "19 Meteo",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "meaning_it": "caldo",
+    "example": {
+      "zh": "夏天很热。",
+      "pinyin": "Xiàtiān hěn rè.",
+      "en": "Summer is very hot."
+    }
+  },
+  {
+    "id": 20,
+    "order": 260,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "车",
+    "pinyin": "chē",
+    "meaning_it": "auto • veicolo",
+    "example": {
+      "zh": "他开车去上班。",
+      "pinyin": "Tā kāichē qù shàngbān.",
+      "en": "He drives to work."
+    }
+  },
+  {
+    "id": 22,
+    "order": 261,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "meaning_it": "taxi",
+    "example": {
+      "zh": "我们坐出租车去机场。",
+      "pinyin": "Wǒmen zuò chūzūchē qù jīchǎng.",
+      "en": "We take a taxi to the airport."
+    }
+  },
+  {
+    "id": 54,
+    "order": 262,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "meaning_it": "aereo",
+    "example": {
+      "zh": "我坐飞机去北京。",
+      "pinyin": "Wǒ zuò fēijī qù Běijīng.",
+      "en": "I fly to Beijing."
+    }
+  },
+  {
+    "id": 83,
+    "order": 263,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "火车",
+    "pinyin": "huǒchē",
+    "meaning_it": "treno",
+    "example": {
+      "zh": "坐火车去上海要五个小时。",
+      "pinyin": "Zuò huǒchē qù Shànghǎi yào wǔ gè xiǎoshí.",
+      "en": "It takes five hours to go to Shanghai by train."
+    }
+  },
+  {
+    "id": 98,
+    "order": 264,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "开车",
+    "pinyin": "kāichē",
+    "meaning_it": "guidare un'auto",
+    "example": {
+      "zh": "我不会开车。",
+      "pinyin": "Wǒ bú huì kāichē.",
+      "en": "I can't drive."
+    }
+  },
+  {
+    "id": 298,
+    "order": 265,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "meaning_it": "sedersi; prendere un mezzo",
+    "example": {
+      "zh": "我们坐车去学校。",
+      "pinyin": "Wǒmen zuò chē qù xuéxiào.",
+      "en": "We take a car to school."
+    }
+  },
+  {
+    "id": 294,
+    "order": 266,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "meaning_it": "vivere",
+    "example": {
+      "zh": "你住在哪儿？",
+      "pinyin": "Nǐ zhù zài nǎr?",
+      "en": "Where do you live?"
+    }
+  },
+  {
+    "id": 51,
+    "order": 267,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "meaning_it": "ristorante • albergo",
+    "example": {
+      "zh": "我们去那家饭店吃饭。",
+      "pinyin": "Wǒmen qù nà jiā fàndiàn chīfàn.",
+      "en": "Let's go eat at that restaurant."
+    }
+  },
+  {
+    "id": 39,
+    "order": 268,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "20 Luoghi e trasporti",
+    "hanzi": "电影院",
+    "pinyin": "diànyǐngyuàn",
+    "meaning_it": "cinema • sala cinematografica",
+    "example": {
+      "zh": "电影院在超市的旁边。",
+      "pinyin": "Diànyǐngyuàn zài chāoshì de pángbiān.",
+      "en": "The cinema is next to the supermarket."
+    }
+  },
+  {
+    "id": 88,
+    "order": 269,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "见",
+    "pinyin": "jiàn",
+    "meaning_it": "vedere; incontrare",
+    "example": {
+      "zh": "很高兴见到你。",
+      "pinyin": "Hěn gāoxìng jiàndào nǐ.",
+      "en": "Nice to meet you."
+    }
+  },
+  {
+    "id": 101,
+    "order": 270,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "meaning_it": "vedere; scorgere",
+    "example": {
+      "zh": "我看见他了。",
+      "pinyin": "Wǒ kànjiàn tā le.",
+      "en": "I saw him."
+    }
+  },
+  {
+    "id": 210,
+    "order": 271,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "听见",
+    "pinyin": "tīngjiàn",
+    "meaning_it": "sentire; udire",
+    "example": {
+      "zh": "你听见了吗？",
+      "pinyin": "Nǐ tīngjiàn le ma?",
+      "en": "Did you hear that?"
+    }
+  },
+  {
+    "id": 219,
+    "order": 272,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "meaning_it": "chiedere",
+    "example": {
+      "zh": "我问你一个问题。",
+      "pinyin": "Wǒ wèn nǐ yí gè wèntí.",
+      "en": "I'll ask you a question."
+    }
+  },
+  {
+    "id": 278,
+    "order": 273,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "找",
+    "pinyin": "zhǎo",
+    "meaning_it": "cercare • trovare • restituire",
+    "example": {
+      "zh": "我在找我的手机。",
+      "pinyin": "Wǒ zài zhǎo wǒ de shǒujī.",
+      "en": "I'm looking for my phone."
+    }
+  },
+  {
+    "id": 24,
+    "order": 274,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "meaning_it": "chiamare al telefono",
+    "example": {
+      "zh": "我给妈妈打电话了。",
+      "pinyin": "Wǒ gěi māma dǎ diànhuà le.",
+      "en": "I called Mom."
+    }
+  },
+  {
+    "id": 23,
+    "order": 275,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "穿",
+    "pinyin": "chuān",
+    "meaning_it": "vestirsi • indossare",
+    "example": {
+      "zh": "今天很冷，多穿点衣服。",
+      "pinyin": "Jīntiān hěn lěng, duō chuān diǎn yīfu.",
+      "en": "It's cold today, wear more clothes."
+    }
+  },
+  {
+    "id": 18,
+    "order": 276,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "唱",
+    "pinyin": "chàng",
+    "meaning_it": "cantare",
+    "example": {
+      "zh": "她很喜欢唱歌。",
+      "pinyin": "Tā hěn xǐhuan chànggē.",
+      "en": "She really likes to sing."
+    }
+  },
+  {
+    "id": 97,
+    "order": 277,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "meaning_it": "aprire • cominciare • condurre",
+    "example": {
+      "zh": "请开门。",
+      "pinyin": "Qǐng kāi mén.",
+      "en": "Please open the door."
+    }
+  },
+  {
+    "id": 214,
+    "order": 278,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "玩",
+    "pinyin": "wán",
+    "meaning_it": "giocare • divertirsi",
+    "example": {
+      "zh": "周末我和朋友出去玩。",
+      "pinyin": "Zhōumò wǒ hé péngyou chūqù wán.",
+      "en": "I go out to have fun with friends on weekends."
+    }
+  },
+  {
+    "id": 246,
+    "order": 279,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "meaning_it": "riposare",
+    "example": {
+      "zh": "你应该休息一下。",
+      "pinyin": "Nǐ yīnggāi xiūxi yíxià.",
+      "en": "You should take a rest."
+    }
+  },
+  {
+    "id": 96,
+    "order": 280,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "觉得",
+    "pinyin": "juéde",
+    "meaning_it": "pensare • sentire",
+    "example": {
+      "zh": "我觉得中文很有意思。",
+      "pinyin": "Wǒ juéde Zhōngwén hěn yǒu yìsi.",
+      "en": "I think Chinese is very interesting."
+    }
+  },
+  {
+    "id": 197,
+    "order": 281,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "21 Azioni di tutti i giorni",
+    "hanzi": "说话",
+    "pinyin": "shuōhuà",
+    "meaning_it": "parlare",
+    "example": {
+      "zh": "上课的时候不要说话。",
+      "pinyin": "Shàngkè de shíhou búyào shuōhuà.",
+      "en": "Don't talk during class."
+    }
+  },
+  {
+    "id": 63,
+    "order": 282,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "meaning_it": "lavoro",
+    "example": {
+      "zh": "你在哪儿工作？",
+      "pinyin": "Nǐ zài nǎr gōngzuò?",
+      "en": "Where do you work?"
+    }
+  },
+  {
+    "id": 62,
+    "order": 283,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "公司",
+    "pinyin": "gōngsī",
+    "meaning_it": "compagnia",
+    "example": {
+      "zh": "他在一家大公司工作。",
+      "pinyin": "Tā zài yì jiā dà gōngsī gōngzuò.",
+      "en": "He works at a big company."
+    }
+  },
+  {
+    "id": 176,
+    "order": 284,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "上班",
+    "pinyin": "shàngbān",
+    "meaning_it": "andare al lavoro",
+    "example": {
+      "zh": "爸爸每天八点上班。",
+      "pinyin": "Bàba měitiān bā diǎn shàngbān.",
+      "en": "Dad goes to work at eight every day."
+    }
+  },
+  {
+    "id": 228,
+    "order": 285,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "下班",
+    "pinyin": "xiàbān",
+    "meaning_it": "finire di lavorare",
+    "example": {
+      "zh": "你几点下班？",
+      "pinyin": "Nǐ jǐ diǎn xiàbān?",
+      "en": "What time do you get off work?"
+    }
+  },
+  {
+    "id": 256,
+    "order": 286,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "meaning_it": "dottore",
+    "example": {
+      "zh": "她是一个医生。",
+      "pinyin": "Tā shì yí gè yīshēng.",
+      "en": "She is a doctor."
+    }
+  },
+  {
+    "id": 257,
+    "order": 287,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "meaning_it": "ospedale",
+    "example": {
+      "zh": "医院离学校很近。",
+      "pinyin": "Yīyuàn lí xuéxiào hěn jìn.",
+      "en": "The hospital is very close to the school."
+    }
+  },
+  {
+    "id": 12,
+    "order": 288,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "病",
+    "pinyin": "bìng",
+    "meaning_it": "malattia; essere malato",
+    "example": {
+      "zh": "他生病了，不能来上课。",
+      "pinyin": "Tā shēngbìng le, bù néng lái shàngkè.",
+      "en": "He is sick and can't come to class."
+    }
+  },
+  {
+    "id": 183,
+    "order": 289,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "生病",
+    "pinyin": "shēngbìng",
+    "meaning_it": "ammalarsi",
+    "example": {
+      "zh": "他昨天生病了。",
+      "pinyin": "Tā zuótiān shēngbìng le.",
+      "en": "He got sick yesterday."
+    }
+  },
+  {
+    "id": 100,
+    "order": 290,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "22 Lavoro e salute",
+    "hanzi": "看病",
+    "pinyin": "kànbìng",
+    "meaning_it": "vedere un dottore",
+    "example": {
+      "zh": "他去医院看病了。",
+      "pinyin": "Tā qù yīyuàn kànbìng le.",
+      "en": "He went to the hospital to see a doctor."
+    }
+  },
+  {
+    "id": 108,
+    "order": 291,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "了",
+    "pinyin": "le",
+    "meaning_it": "particella di azione compiuta o cambiamento",
+    "example": {
+      "zh": "我吃了早饭了。",
+      "pinyin": "Wǒ chī le zǎofàn le.",
+      "en": "I've eaten breakfast."
+    }
+  },
+  {
+    "id": 286,
+    "order": 292,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "正在",
+    "pinyin": "zhèngzài",
+    "meaning_it": "stare facendo (azione in corso)",
+    "example": {
+      "zh": "我正在写作业。",
+      "pinyin": "Wǒ zhèngzài xiě zuòyè.",
+      "en": "I'm doing my homework right now."
+    }
+  },
+  {
+    "id": 67,
+    "order": 293,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "还",
+    "pinyin": "hái",
+    "meaning_it": "ancora; anche",
+    "example": {
+      "zh": "我还没有吃饭。",
+      "pinyin": "Wǒ hái méiyǒu chīfàn.",
+      "en": "I haven't eaten yet."
+    }
+  },
+  {
+    "id": 270,
+    "order": 294,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "再",
+    "pinyin": "zài",
+    "meaning_it": "di nuovo; ancora",
+    "example": {
+      "zh": "请再说一次。",
+      "pinyin": "Qǐng zài shuō yí cì.",
+      "en": "Please say it one more time."
+    }
+  },
+  {
+    "id": 15,
+    "order": 295,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "不要",
+    "pinyin": "búyào",
+    "meaning_it": "non fare; non volere",
+    "example": {
+      "zh": "请不要在这里吃东西。",
+      "pinyin": "Qǐng búyào zài zhèlǐ chī dōngxi.",
+      "en": "Please don't eat here."
+    }
+  },
+  {
+    "id": 78,
+    "order": 296,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "和",
+    "pinyin": "hé",
+    "meaning_it": "e",
+    "example": {
+      "zh": "我和朋友一起去。",
+      "pinyin": "Wǒ hé péngyou yìqǐ qù.",
+      "en": "I go together with my friend."
+    }
+  },
+  {
+    "id": 61,
+    "order": 297,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "meaning_it": "dare • permettere • per (qualcuno)",
+    "example": {
+      "zh": "妈妈给我买了一本书。",
+      "pinyin": "Māma gěi wǒ mǎi le yì běn shū.",
+      "en": "Mom bought me a book."
+    }
+  },
+  {
+    "id": 259,
+    "order": 298,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "一下",
+    "pinyin": "yíxià",
+    "meaning_it": "un momento; un po’ (dopo verbo)",
+    "example": {
+      "zh": "请你等一下。",
+      "pinyin": "Qǐng nǐ děng yíxià.",
+      "en": "Please wait a moment."
+    }
+  },
+  {
+    "id": 44,
+    "order": 299,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "对",
+    "pinyin": "duì",
+    "meaning_it": "corretto; verso",
+    "example": {
+      "zh": "你说得对。",
+      "pinyin": "Nǐ shuō de duì.",
+      "en": "You're right."
+    }
+  },
+  {
+    "id": 187,
+    "order": 300,
+    "phase": "Fase 3 · Ampliamento",
+    "unit": "23 Grammatica avanzata",
+    "hanzi": "事",
+    "pinyin": "shì",
+    "meaning_it": "cosa; faccenda",
+    "example": {
+      "zh": "你有什么事？",
+      "pinyin": "Nǐ yǒu shénme shì?",
+      "en": "What's the matter?"
+    }
+  }
+]
