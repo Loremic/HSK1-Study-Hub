@@ -1,6 +1,8 @@
 import pandas as pd,json
+from pathlib import Path
 
-df=pd.read_excel("HSK1_2026_vocaboli_ordine_di_studio.xlsx",sheet_name="Tutti in ordine di studio")
+bs=Path(__file__).ressolve().parent.parent
+df=pd.read_excel(bs/"data"/"HSK1_2026_vocaboli_ordine_di_studio.xlsx",sheet_name="Tutti in ordine di studio")
 
 cards=[{
     "id":int(r["N. HSK"]),
@@ -15,6 +17,6 @@ cards=[{
         "en":r["Traduzione esempio EN"]}
 } for _,r in df.iterrows()]
 
-with open("flashcards.json","w",encoding="utf-8") as f:
+with open(bs/"data"/"flashcards.json","w",encoding="utf-8") as f:
     json.dump(cards,f,ensure_ascii=False,indent=2)
     
