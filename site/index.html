@@ -315,10 +315,33 @@ function canon(s) {
 }
 const pinyinOk = (given, target) => target.split("/").some(t => canon(t) === canon(given));
 
+// Sceglie la migliore voce cinese installata (le voci "Natural", "Neural" o Google suonano molto meglio).
+let ZH = null;
+function pickVoice() {
+  if (!("speechSynthesis" in window)) return;
+  const q = v => (/natural|neural|online|google|xiaoxiao|yunxi|ting-?ting|mei-?jia/i.test(v.name) ? 2 : 0) + (/zh[-_]CN/i.test(v.lang) ? 1 : 0);
+  ZH = speechSynthesis.getVoices().filter(v => /^zh/i.test(v.lang)).sort((a, b) => q(b) - q(a))[0] || null;
+  const n = document.getElementById("voiceName");
+  if (n) n.textContent = ZH ? "Voce in uso: " + ZH.name + " (" + ZH.lang + ")" : "Nessuna voce cinese trovata: installa una voce cinese nelle impostazioni del sistema per sentire i suoni.";
+}
+if ("speechSynthesis" in window) { pickVoice(); speechSynthesis.addEventListener("voiceschanged", pickVoice); }
 function speak(t) {
   if (!("speechSynthesis" in window)) return;
   speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(t); u.lang = "zh-CN"; u.rate = 0.8; speechSynthesis.speak(u);
+  const u = new SpeechSynthesisUtterance(t); u.lang = "zh-CN"; u.rate = 0.8; if (ZH) u.voice = ZH;
+  speechSynthesis.speak(u);
+}
+// "mǎ" → "ma3", "nǚ" → "nv3", "ma" → "ma5"
+function numPinyin(p) {
+  const T = { "\u0304": 1, "\u0301": 2, "\u030c": 3, "\u0300": 4 }; let t = 5, o = "";
+  for (const ch of p.normalize("NFD").toLowerCase()) { if (T[ch]) t = T[ch]; else if (ch === "\u0308") o = o.slice(0, -1) + "v"; else if (/[a-z]/.test(ch)) o += ch; }
+  return o + t;
+}
+// Se esiste una registrazione vera in site/audio/ (es. audio/ma3.mp3) la usa; altrimenti la voce del browser.
+function playSound(py, h) {
+  let done = false; const fallback = () => { if (!done) { done = true; speak(h); } };
+  const a = new Audio("audio/" + numPinyin(py) + ".mp3");
+  a.addEventListener("error", fallback); a.play().catch(fallback);
 }
 
 // Quattro risposte: i distrattori sono scelti tra parole simili (stessa unità, o pinyin con la stessa base ma toni diversi).
@@ -494,7 +517,8 @@ function soundRows(list) {
   list.forEach(([a, p, h, hint]) => {
     const r = el("div", "srow"), b = el("button", "snd");
     b.append(el("b", "", a), el("span", "", p), el("span", "h", h)); b.setAttribute("aria-label", "Ascolta " + a + " " + p);
-    b.addEventListener("click", () => speak(h)); r.append(b, el("span", "t", hint)); w.append(r);
+    r.style.cursor = "pointer"; r.addEventListener("click", () => playSound(p, h));
+    r.append(b, el("span", "t", hint)); w.append(r);
   });
   return w;
 }
@@ -507,7 +531,7 @@ function drill(key) {
       box.append(el("div", "qbox"), el("div", "acts")); box.firstChild.append(el("div", "qbig txt", `${score} su ${N}`));
       box.lastChild.append(b); return; }
     const set = sets[Math.floor(Math.random() * sets.length)], t = set[Math.floor(Math.random() * set.length)];
-    const q = el("div", "qbox"), ra = el("button", "btn", "Riascolta"); ra.addEventListener("click", () => speak(t[0]));
+    const q = el("div", "qbox"), ra = el("button", "btn", "Riascolta"); ra.addEventListener("click", () => playSound(t[1], t[0]));
     q.append(el("div", "hint", `Domanda ${i + 1} di ${N}`), el("div", "qbig", "🔊"), el("div", "ask", DR[key][0] + ": cosa hai sentito?"), ra);
     const g = el("div", "opts");
     shuffle([...set]).forEach(o => {
@@ -520,7 +544,7 @@ function drill(key) {
       });
       g.append(b);
     });
-    q.append(g); box.append(q); speak(t[0]);
+    q.append(g); box.append(q); playSound(t[1], t[0]);
   };
   ask();
 }
@@ -528,6 +552,7 @@ function drill(key) {
 function buildPron() {
   pv.replaceChildren(el("h2", "", "Impara a pronunciare"));
   pv.append(el("p", "hint", "Clicca su un suono per ascoltarlo. Le descrizioni in italiano sono solo approssimazioni: l’orecchio conta più delle spiegazioni, quindi ascolta e ripeti ad alta voce."));
+  const vn = el("p", "hint"); vn.id = "voiceName"; pv.append(vn); pickVoice();
   pv.append(el("h3", "", "I quattro toni (più il neutro)"), soundRows(TONI));
   pv.append(el("h3", "", "Allena l’orecchio"), el("div", "dr"), el("div"));
   Object.keys(DR).forEach(k => { const b = el("button", "btn", DR[k][0]); b.addEventListener("click", () => drill(k)); pv.querySelector(".dr").append(b); });
