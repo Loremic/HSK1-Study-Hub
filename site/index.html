@@ -67,6 +67,36 @@ main{padding:22px 24px 60px;min-width:0}
 .msg{background:var(--rosa);border-left:4px solid var(--rosso);padding:14px 16px;border-radius:6px;max-width:60ch}
 code{background:var(--carta);padding:1px 5px;border-radius:4px}
 
+/* quiz */
+.tabs{display:flex;gap:6px}
+.tabs button{background:var(--bianco);border:1px solid var(--rosso);color:var(--rosso);border-radius:8px;padding:8px 18px;cursor:pointer;font-weight:600}
+.tabs button[aria-pressed="true"]{background:var(--rosso);color:var(--bianco)}
+#quizView{max-width:720px;margin:0 auto;padding:24px 16px 70px}
+#quizView h2{margin-bottom:6px}
+.hint{color:var(--grigio);font-size:.9rem;margin:6px 0 14px}
+.setup{display:grid;gap:12px;margin:16px 0}
+.setup label{display:grid;gap:4px;font-weight:600;font-size:.92rem}
+.setup select,.qin{padding:10px 12px;border:1px solid var(--linea);border-radius:8px;background:var(--bianco);font-size:1rem;width:100%}
+.big{background:var(--rosso);color:var(--bianco);border-color:var(--rosso);padding:12px 26px;font-size:1.05rem;font-weight:600}
+.big:hover{color:var(--bianco);opacity:.9}
+.bar{height:6px;background:var(--linea);border-radius:3px;overflow:hidden;margin-bottom:6px}
+.bar i{display:block;height:100%;background:var(--rosso)}
+.qbox{background:var(--carta);border:1px solid var(--linea);border-radius:12px;padding:22px 18px;margin:12px 0;text-align:center}
+.qbig{font-family:var(--hanzi);font-size:3.6rem;line-height:1.2;overflow-wrap:anywhere}
+.qbig.txt{font-family:inherit;font-size:1.5rem;font-weight:700}
+.qbig.sen{font-size:1.7rem}
+.ask{color:var(--grigio);margin-top:6px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.opts button{background:var(--bianco);border:1px solid var(--linea);border-radius:10px;padding:14px 10px;cursor:pointer;font-size:1.1rem;min-height:56px}
+.opts button.hz2{font-family:var(--hanzi);font-size:1.7rem}
+.opts button:hover:not(:disabled){border-color:var(--rosso)}
+.opts button.ok,.qin.ok{background:#e7f6ea;border-color:#2e8b47}
+.opts button.no,.qin.no{background:#fde8e8;border-color:var(--rosso)}
+.fb{border-left:4px solid var(--rosso);background:var(--rosa);border-radius:6px;padding:12px 14px;text-align:left;margin-top:14px}
+.fb.good{border-color:#2e8b47;background:#e7f6ea}
+.fb b{display:block;margin-bottom:6px}
+.acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;justify-content:center}
+.errs{text-align:left;margin:12px 0;padding-left:20px}
 @media (max-width:820px){
   .layout{grid-template-columns:1fr}
   nav{display:none}
@@ -81,6 +111,10 @@ code{background:var(--carta);padding:1px 5px;border-radius:4px}
   <div>
     <h1>Studio HSK 1</h1>
     <p>300 parole del nuovo syllabus, in ordine di studio</p>
+  </div>
+  <div class="tabs" role="group" aria-label="Sezione">
+    <button id="tabStudia" aria-pressed="true">Studia</button>
+    <button id="tabQuiz" aria-pressed="false">Quiz</button>
   </div>
   <input id="q" type="search" placeholder="Cerca in hanzi, pinyin o italiano" aria-label="Cerca una parola" autocomplete="off">
 </header>
@@ -101,6 +135,7 @@ code{background:var(--carta);padding:1px 5px;border-radius:4px}
     <div id="grid" class="cards"></div>
   </main>
 </div>
+<section id="quizView" hidden aria-live="polite"></section>
 
 <script>
 // Percorso del file dati, relativo a questa pagina (site/index.html → data/flashcards.json).
@@ -234,6 +269,175 @@ $("#flipAll").addEventListener("click", () => {
   list.forEach(c => all ? flipped.delete(c.id) : flipped.add(c.id));
   render();
 });
+
+/* ================= QUIZ ================= */
+// Progressi salvati nel browser (Leitner: ogni risposta giusta allunga l’intervallo di ripasso).
+const LS = "hsk1.progress", DAY = 864e5, GAP = [0, 1, 2, 4, 8, 16, 32];
+let prog = {}; try { prog = JSON.parse(localStorage.getItem(LS) || "{}"); } catch (e) {}
+const saveProg = () => { try { localStorage.setItem(LS, JSON.stringify(prog)); } catch (e) {} };
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const qv = $("#quizView");
+let S = null;
+
+const MODES = { mix: "Misto adattivo (consigliato)", h2m: "Hanzi → significato", m2h: "Significato → hanzi",
+  h2p: "Hanzi → pinyin e toni", aud: "Ascolta e scegli l’hanzi", typ: "Scrivi il pinyin", clz: "Completa la frase" };
+
+// Pinyin: accetta toni come segni (nǐ) o numeri (ni3); u: e v valgono ü.
+const TM = { a: "āáǎà", e: "ēéěè", i: "īíǐì", o: "ōóǒò", u: "ūúǔù", "ü": "ǖǘǚǜ" };
+function canon(s) {
+  s = s.normalize("NFC").toLowerCase().replace(/[\s'’\-]/g, "").replace(/u:|v/g, "ü");
+  return s.replace(/([a-zü]+?)([0-5])/g, (m, syl, t) => {
+    t = +t; if (t < 1 || t > 4) return syl;
+    let i = syl.indexOf("a"); if (i < 0) i = syl.indexOf("e");
+    if (i < 0 && syl.includes("ou")) i = syl.indexOf("o");
+    if (i < 0) for (let k = syl.length - 1; k >= 0; k--) if ("aeiouü".includes(syl[k])) { i = k; break; }
+    return i < 0 ? syl : syl.slice(0, i) + TM[syl[i]][t - 1] + syl.slice(i + 1);
+  }).normalize("NFC");
+}
+const pinyinOk = (given, target) => target.split("/").some(t => canon(t) === canon(given));
+
+function speak(t) {
+  if (!("speechSynthesis" in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(t); u.lang = "zh-CN"; u.rate = 0.8; speechSynthesis.speak(u);
+}
+
+// Quattro risposte: i distrattori sono scelti tra parole simili (stessa unità, o pinyin con la stessa base ma toni diversi).
+function choices(c, key) {
+  const t = c[key], b = norm(t);
+  const cand = shuffle(cards.filter(x => x.id !== c.id && x[key] !== t));
+  cand.sort((x, y) => (key === "pinyin" ? (norm(y[key]) === b) - (norm(x[key]) === b) : 0) || (y.unit === c.unit) - (x.unit === c.unit));
+  const out = [], seen = new Set([t]);
+  for (const x of cand) { if (!seen.has(x[key])) { seen.add(x[key]); out.push(x); } if (out.length === 3) break; }
+  return shuffle([c, ...out]).map(x => ({ label: x[key], ok: x.id === c.id }));
+}
+
+function makeQ(c, mode) {
+  const box = (prog[c.id] || {}).box || 0; let t = mode;
+  if (t === "mix") { const P = box < 2 ? ["h2m", "h2p", "aud"] : box < 4 ? ["m2h", "aud", "clz", "h2p"] : ["typ", "m2h", "clz", "aud"]; t = P[Math.floor(Math.random() * P.length)]; }
+  if (t === "aud" && !("speechSynthesis" in window)) t = "h2p";
+  if (t === "clz" && !(c.example && c.example.zh && c.example.zh.includes(c.hanzi))) t = "m2h";
+  const q = { c, t, hz: false };
+  if (t === "h2m") Object.assign(q, { big: c.hanzi, ask: "Che cosa significa?", opts: choices(c, "meaning_it") });
+  if (t === "m2h") Object.assign(q, { big: c.meaning_it, txt: true, ask: "Qual è l’hanzi?", hz: true, opts: choices(c, "hanzi") });
+  if (t === "h2p") Object.assign(q, { big: c.hanzi, ask: "Qual è il pinyin, con i toni giusti?", opts: choices(c, "pinyin") });
+  if (t === "aud") Object.assign(q, { big: "🔊", ask: "Ascolta e scegli l’hanzi corretto", hz: true, opts: choices(c, "hanzi"), audio: c.hanzi });
+  if (t === "typ") Object.assign(q, { big: c.hanzi, ask: "Scrivi il pinyin con i toni (puoi usare i numeri: ni3 hao3). Significato: " + c.meaning_it });
+  if (t === "clz") Object.assign(q, { big: c.example.zh.replace(c.hanzi, "＿＿"), sen: true, ask: "Completa la frase. " + c.example.en, hz: true, opts: choices(c, "hanzi") });
+  return q;
+}
+
+function stats() {
+  const now = Date.now(), v = Object.values(prog);
+  return { seen: v.length, known: v.filter(p => p.box >= 4).length, due: v.filter(p => p.due <= now).length };
+}
+
+function quizMenu() {
+  S = null; qv.replaceChildren();
+  const s = stats();
+  qv.innerHTML = `<h2>Quiz di ripasso</h2><p class="hint" id="qstat"></p>
+  <div class="setup"><label>Tipo di quiz<select id="qMode"></select></label>
+  <label>Cosa ripassare<select id="qScope"></select></label>
+  <label>Numero di domande<select id="qLen"></select></label></div>
+  <button class="btn big" id="qGo">Inizia il quiz</button>
+  <p class="hint">Il quiz misto parte dalle domande più facili (riconoscere) e passa a quelle più difficili (ricordare e scrivere) man mano che una parola si consolida. Gli errori tornano a fine sessione e nei prossimi giorni.</p>`;
+  $("#qstat").textContent = s.seen ? `Parole viste: ${s.seen}. Consolidate: ${s.known}. Da ripassare ora: ${s.due}.` : "Non hai ancora fatto nessun quiz.";
+  Object.entries(MODES).forEach(([k, v]) => $("#qMode").append(new Option(v, k)));
+  $("#qScope").append(new Option("Da ripassare e nuove parole (consigliato)", "smart"), new Option("Tutte le 300 parole", "all"));
+  [...new Set(cards.map(c => c.unit))].forEach(u => $("#qScope").append(new Option("Solo: " + u, u)));
+  [[10, "10 domande"], [20, "20 domande"], [40, "40 domande"], [0, "Tutte quelle disponibili"]].forEach(([v, l]) => $("#qLen").append(new Option(l, v)));
+  $("#qGo").addEventListener("click", () => startQuiz($("#qMode").value, $("#qScope").value, +$("#qLen").value));
+}
+
+function startQuiz(mode, scope, n, only) {
+  const now = Date.now(), rank = c => !prog[c.id] ? 1 : prog[c.id].due <= now ? 0 : 2;
+  let pool = only || (scope === "all" || scope === "smart" ? cards : cards.filter(c => c.unit === scope));
+  if (!only) {
+    pool = [...pool].sort((a, b) => rank(a) - rank(b) || (rank(a) === 1 ? a.order - b.order : prog[a.id].due - prog[b.id].due));
+    if (scope === "smart") { const f = pool.filter(c => rank(c) < 2); pool = f.length ? f : pool; }
+    if (n) pool = pool.slice(0, n);
+  }
+  if (!pool.length) { qv.replaceChildren(el("p", "msg", "Non ci sono parole da ripassare in questa selezione.")); return; }
+  S = { mode, scope, queue: shuffle([...pool]), i: 0, score: 0, total: pool.length, seen: new Set(), again: new Set(), wrong: [], done: false };
+  showQ();
+}
+
+function showQ() {
+  if (S.i >= S.queue.length) return showResult();
+  const q = S.cur = makeQ(S.queue[S.i], S.mode); S.done = false; qv.replaceChildren();
+  const bar = el("div", "bar"), fill = el("i"); fill.style.width = (100 * S.i / S.queue.length) + "%"; bar.append(fill);
+  qv.append(el("div", "hint", `Domanda ${S.i + 1} di ${S.queue.length}`), bar);
+  const box = el("div", "qbox");
+  box.append(el("div", "qbig" + (q.txt ? " txt" : "") + (q.sen ? " sen" : ""), q.big), el("div", "ask", q.ask));
+  if (q.audio) { const b = el("button", "btn", "Riascolta"); b.addEventListener("click", () => speak(q.audio)); box.append(el("div", "acts")); box.lastChild.append(b); }
+  if (q.opts) {
+    const g = el("div", "opts");
+    q.opts.forEach((o, k) => {
+      const b = el("button", q.hz ? "hz2" : "", o.label); b.dataset.k = k;
+      b.addEventListener("click", () => answer(o.ok, b)); g.append(b);
+    });
+    box.append(g);
+  } else {
+    const inp = el("input", "qin"); inp.id = "qin"; inp.setAttribute("autocomplete", "off"); inp.setAttribute("autocapitalize", "off"); inp.setAttribute("aria-label", "Il tuo pinyin");
+    const b = el("button", "btn big", "Controlla"); b.style.marginTop = "12px";
+    const go = () => { if (inp.value.trim()) answer(pinyinOk(inp.value, q.c.pinyin), inp); };
+    b.addEventListener("click", go); inp.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); go(); } });
+    box.append(inp, b); setTimeout(() => inp.focus(), 50);
+  }
+  qv.append(box);
+  if (q.audio) speak(q.audio);
+}
+
+function answer(ok, node) {
+  if (S.done) return; S.done = true;
+  const c = S.cur.c, q = S.cur;
+  if (!S.seen.has(c.id)) {
+    S.seen.add(c.id);
+    const p = prog[c.id] || { box: 0, due: 0, n: 0, miss: 0 };
+    p.n++; if (ok) { p.box = Math.min(p.box + 1, GAP.length - 1); } else { p.box = 0; p.miss++; S.wrong.push(c); }
+    p.due = Date.now() + GAP[p.box] * DAY; prog[c.id] = p; saveProg();
+    if (ok) S.score++;
+  }
+  if (!ok && !S.again.has(c.id)) { S.again.add(c.id); S.queue.push(c); }  // riproposta a fine sessione
+  if (q.opts) qv.querySelectorAll(".opts button").forEach((b, k) => { b.disabled = true; if (q.opts[k].ok) b.classList.add("ok"); else if (b === node) b.classList.add("no"); });
+  else { node.disabled = true; node.classList.add(ok ? "ok" : "no"); qv.querySelector(".btn.big").style.display = "none"; }
+  const fb = el("div", "fb" + (ok ? " good" : ""));
+  fb.append(el("b", "", ok ? "Corretto!" : "Non proprio. Ecco la risposta giusta:"));
+  fb.append(el("div", "", `${c.hanzi}  ${c.pinyin}: ${c.meaning_it}`));
+  if (c.example) { fb.append(el("div", "ex", c.example.zh), el("div", "expy", c.example.pinyin), el("div", "en", c.example.en)); }
+  const acts = el("div", "acts"), hear = el("button", "btn", "Ascolta"), nx = el("button", "btn big", "Avanti");
+  hear.addEventListener("click", () => speak(c.hanzi)); nx.addEventListener("click", () => { S.i++; showQ(); });
+  acts.append(hear, nx); qv.append(fb, acts); nx.focus();
+}
+
+function showResult() {
+  const pct = Math.round(100 * S.score / S.total); qv.replaceChildren();
+  qv.append(el("h2", "", "Quiz completato"), el("div", "qbox"));
+  qv.lastChild.append(el("div", "qbig txt", `${S.score} su ${S.total} al primo tentativo (${pct}%)`));
+  if (S.wrong.length) {
+    qv.append(el("p", "hint", "Da ripassare (torneranno nei prossimi quiz):"));
+    const ul = el("ul", "errs"); S.wrong.forEach(c => ul.append(el("li", "", `${c.hanzi}  ${c.pinyin}: ${c.meaning_it}`))); qv.append(ul);
+  } else qv.append(el("p", "hint", "Nessun errore: ottimo lavoro."));
+  const acts = el("div", "acts"), again = el("button", "btn big", "Ripassa gli errori"), menu = el("button", "btn", "Torna al menu");
+  const { mode, wrong } = S; again.addEventListener("click", () => startQuiz(mode, "all", 0, wrong)); menu.addEventListener("click", quizMenu);
+  if (wrong.length) acts.append(again); acts.append(menu); qv.append(acts);
+}
+
+// Tasti 1-4 per scegliere una risposta
+document.addEventListener("keydown", e => {
+  if (!S || qv.hidden || S.done || e.target.tagName === "INPUT") return;
+  const b = qv.querySelectorAll(".opts button")[+e.key - 1]; if (b) b.click();
+});
+
+function showTab(t) {
+  const quiz = t === "quiz";
+  document.querySelector(".layout").style.display = quiz ? "none" : "";
+  qv.hidden = !quiz; $("#q").style.visibility = quiz ? "hidden" : "visible";
+  $("#tabStudia").setAttribute("aria-pressed", String(!quiz)); $("#tabQuiz").setAttribute("aria-pressed", String(quiz));
+  if (quiz && !S) { cards.length ? quizMenu() : qv.replaceChildren(el("p", "msg", "I dati non sono ancora caricati.")); }
+}
+$("#tabStudia").addEventListener("click", () => showTab("studia"));
+$("#tabQuiz").addEventListener("click", () => showTab("quiz"));
 </script>
 </body>
 </html>
