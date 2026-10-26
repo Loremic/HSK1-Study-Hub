@@ -1,0 +1,3002 @@
+[
+ {
+  "id": 301,
+  "order": 1,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera A",
+  "hanzi": "啊",
+  "pinyin": "a",
+  "meaning_it": null,
+  "meaning_en": "(modal particle)",
+  "example": {
+   "zh": "是啊，我也喜欢吃饺子。",
+   "pinyin": "Shì a, wǒ yě xǐhuan chī jiǎozi.",
+   "en": "Yes, I also like eating dumplings."
+  }
+ },
+ {
+  "id": 302,
+  "order": 2,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera A",
+  "hanzi": "爱好",
+  "pinyin": "àihào",
+  "meaning_it": null,
+  "meaning_en": "hobby; to love (doing)",
+  "example": {
+   "zh": "我的爱好是看书。",
+   "pinyin": "Wǒ de àihào shì kàn shū.",
+   "en": "My hobby is reading."
+  }
+ },
+ {
+  "id": 303,
+  "order": 3,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "白色",
+  "pinyin": "báisè",
+  "meaning_it": null,
+  "meaning_en": "white (color)",
+  "example": {
+   "zh": "她喜欢白色的衣服。",
+   "pinyin": "Tā xǐhuan báisè de yīfu.",
+   "en": "She likes white clothes."
+  }
+ },
+ {
+  "id": 304,
+  "order": 4,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "班",
+  "pinyin": "bān",
+  "meaning_it": null,
+  "meaning_en": "class; team",
+  "example": {
+   "zh": "我们班有二十个学生。",
+   "pinyin": "Wǒmen bān yǒu èrshí ge xuésheng.",
+   "en": "Our class has twenty students."
+  }
+ },
+ {
+  "id": 305,
+  "order": 5,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "帮",
+  "pinyin": "bāng",
+  "meaning_it": null,
+  "meaning_en": "to help",
+  "example": {
+   "zh": "你能帮我一下吗？",
+   "pinyin": "Nǐ néng bāng wǒ yíxià ma?",
+   "en": "Can you help me for a moment?"
+  }
+ },
+ {
+  "id": 306,
+  "order": 6,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "帮忙",
+  "pinyin": "bāngmáng",
+  "meaning_it": null,
+  "meaning_en": "to help; to do a favor",
+  "example": {
+   "zh": "谢谢你的帮忙。",
+   "pinyin": "Xièxie nǐ de bāngmáng.",
+   "en": "Thank you for your help."
+  }
+ },
+ {
+  "id": 307,
+  "order": 7,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "包",
+  "pinyin": "bāo",
+  "meaning_it": null,
+  "meaning_en": "bag; to wrap; (mw. for bags/packets)",
+  "example": {
+   "zh": "我的包在桌子上。",
+   "pinyin": "Wǒ de bāo zài zhuōzi shàng.",
+   "en": "My bag is on the table."
+  }
+ },
+ {
+  "id": 308,
+  "order": 8,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "本子",
+  "pinyin": "běnzi",
+  "meaning_it": null,
+  "meaning_en": "notebook",
+  "example": {
+   "zh": "老师，我的本子在哪儿？",
+   "pinyin": "Lǎoshī, wǒ de běnzi zài nǎr?",
+   "en": "Teacher, where is my notebook?"
+  }
+ },
+ {
+  "id": 309,
+  "order": 9,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "比",
+  "pinyin": "bǐ",
+  "meaning_it": null,
+  "meaning_en": "to compare; than (comparison marker)",
+  "example": {
+   "zh": "我比他高。",
+   "pinyin": "Wǒ bǐ tā gāo.",
+   "en": "I am taller than him."
+  }
+ },
+ {
+  "id": 310,
+  "order": 10,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "笔",
+  "pinyin": "bǐ",
+  "meaning_it": null,
+  "meaning_en": "pen; (mw. for writing instruments)",
+  "example": {
+   "zh": "这是我新买的笔。",
+   "pinyin": "Zhè shì wǒ xīn mǎi de bǐ.",
+   "en": "This is the pen I just bought."
+  }
+ },
+ {
+  "id": 311,
+  "order": 11,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "别",
+  "pinyin": "bié",
+  "meaning_it": null,
+  "meaning_en": "don't (imperative)",
+  "example": {
+   "zh": "别走，再坐一会儿。",
+   "pinyin": "Bié zǒu, zài zuò yíhuìr.",
+   "en": "Don't leave, sit a little longer."
+  }
+ },
+ {
+  "id": 312,
+  "order": 12,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "不错",
+  "pinyin": "búcuò",
+  "meaning_it": null,
+  "meaning_en": "not bad; pretty good",
+  "example": {
+   "zh": "这个菜不错。",
+   "pinyin": "Zhège cài búcuò.",
+   "en": "This dish is pretty good."
+  }
+ },
+ {
+  "id": 313,
+  "order": 13,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera B",
+  "hanzi": "不好意思",
+  "pinyin": "bù hǎoyìsi",
+  "meaning_it": null,
+  "meaning_en": "sorry; embarrassed; excuse me",
+  "example": {
+   "zh": "不好意思，请再说一次。",
+   "pinyin": "Bù hǎoyìsi, qǐng zài shuō yí cì.",
+   "en": "Sorry, please say that again."
+  }
+ },
+ {
+  "id": 314,
+  "order": 14,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "长",
+  "pinyin": "cháng",
+  "meaning_it": null,
+  "meaning_en": "long; (of hair) long",
+  "example": {
+   "zh": "这条路很长。",
+   "pinyin": "Zhè tiáo lù hěn cháng.",
+   "en": "This road is very long."
+  }
+ },
+ {
+  "id": 315,
+  "order": 15,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "车站",
+  "pinyin": "chēzhàn",
+  "meaning_it": null,
+  "meaning_en": "(bus/train) station",
+  "example": {
+   "zh": "车站离这儿不远。",
+   "pinyin": "Chēzhàn lí zhèr bù yuǎn.",
+   "en": "The station isn't far from here."
+  }
+ },
+ {
+  "id": 316,
+  "order": 16,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "出",
+  "pinyin": "chū",
+  "meaning_it": null,
+  "meaning_en": "to go/come out; to produce; to issue",
+  "example": {
+   "zh": "这个题是老师出的。",
+   "pinyin": "Zhège tí shì lǎoshī chū de.",
+   "en": "This question was set by the teacher."
+  }
+ },
+ {
+  "id": 317,
+  "order": 17,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "出国",
+  "pinyin": "chūguó",
+  "meaning_it": null,
+  "meaning_en": "to go abroad",
+  "example": {
+   "zh": "我想出国学习。",
+   "pinyin": "Wǒ xiǎng chūguó xuéxí.",
+   "en": "I want to study abroad."
+  }
+ },
+ {
+  "id": 318,
+  "order": 18,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "出来",
+  "pinyin": "chūlái",
+  "meaning_it": null,
+  "meaning_en": "to come out",
+  "example": {
+   "zh": "老师从教室出来了。",
+   "pinyin": "Lǎoshī cóng jiàoshì chū lái le.",
+   "en": "The teacher came out of the classroom."
+  }
+ },
+ {
+  "id": 319,
+  "order": 19,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "出门",
+  "pinyin": "chūmén",
+  "meaning_it": null,
+  "meaning_en": "to leave home; to go out",
+  "example": {
+   "zh": "我每天八点出门。",
+   "pinyin": "Wǒ měi tiān bā diǎn chūmén.",
+   "en": "I leave home at 8 every day."
+  }
+ },
+ {
+  "id": 320,
+  "order": 20,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "出去",
+  "pinyin": "chūqù",
+  "meaning_it": null,
+  "meaning_en": "to go out",
+  "example": {
+   "zh": "他出去买东西了。",
+   "pinyin": "Tā chūqù mǎi dōngxi le.",
+   "en": "He went out to buy things."
+  }
+ },
+ {
+  "id": 321,
+  "order": 21,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "床",
+  "pinyin": "chuáng",
+  "meaning_it": null,
+  "meaning_en": "bed",
+  "example": {
+   "zh": "他还在床上睡觉。",
+   "pinyin": "Tā hái zài chuáng shàng shuìjiào.",
+   "en": "He's still sleeping in bed."
+  }
+ },
+ {
+  "id": 322,
+  "order": 22,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "词",
+  "pinyin": "cí",
+  "meaning_it": null,
+  "meaning_en": "word; vocabulary item",
+  "example": {
+   "zh": "我今天学了五个新词。",
+   "pinyin": "Wǒ jīntiān xué le wǔ ge xīn cí.",
+   "en": "I learned five new words today."
+  }
+ },
+ {
+  "id": 323,
+  "order": 23,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "次",
+  "pinyin": "cì",
+  "meaning_it": null,
+  "meaning_en": "(mw. for occurrences) time; occasion",
+  "example": {
+   "zh": "我每年去一次北京。",
+   "pinyin": "Wǒ měi nián qù yí cì Běijīng.",
+   "en": "I go to Beijing once a year."
+  }
+ },
+ {
+  "id": 324,
+  "order": 24,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "从",
+  "pinyin": "cóng",
+  "meaning_it": null,
+  "meaning_en": "from (starting point)",
+  "example": {
+   "zh": "我是从中国来的。",
+   "pinyin": "Wǒ shì cóng Zhōngguó lái de.",
+   "en": "I'm from China."
+  }
+ },
+ {
+  "id": 325,
+  "order": 25,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "从小",
+  "pinyin": "cóngxiǎo",
+  "meaning_it": null,
+  "meaning_en": "since childhood",
+  "example": {
+   "zh": "我从小就喜欢学中文。",
+   "pinyin": "Wǒ cóngxiǎo jiù xǐhuan xué Zhōngwén.",
+   "en": "I've loved learning Chinese since I was a kid."
+  }
+ },
+ {
+  "id": 326,
+  "order": 26,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera C",
+  "hanzi": "错",
+  "pinyin": "cuò",
+  "meaning_it": null,
+  "meaning_en": "wrong; mistaken",
+  "example": {
+   "zh": "对不起，我错了。",
+   "pinyin": "Duìbuqǐ, wǒ cuò le.",
+   "en": "Sorry, I was wrong."
+  }
+ },
+ {
+  "id": 327,
+  "order": 27,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "打",
+  "pinyin": "dǎ",
+  "meaning_it": null,
+  "meaning_en": "to hit; to play (a ball game)",
+  "example": {
+   "zh": "我们一起打篮球吧。",
+   "pinyin": "Wǒmen yìqǐ dǎ lánqiú ba.",
+   "en": "Let's play basketball together."
+  }
+ },
+ {
+  "id": 328,
+  "order": 28,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "打车",
+  "pinyin": "dǎchē",
+  "meaning_it": null,
+  "meaning_en": "to take a taxi",
+  "example": {
+   "zh": "我们打车去机场吧。",
+   "pinyin": "Wǒmen dǎchē qù jīchǎng ba.",
+   "en": "Let's take a taxi to the airport."
+  }
+ },
+ {
+  "id": 329,
+  "order": 29,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "打开",
+  "pinyin": "dǎkāi",
+  "meaning_it": null,
+  "meaning_en": "to open; to turn on",
+  "example": {
+   "zh": "请打开你的书。",
+   "pinyin": "Qǐng dǎkāi nǐ de shū.",
+   "en": "Please open your book."
+  }
+ },
+ {
+  "id": 330,
+  "order": 30,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "但",
+  "pinyin": "dàn",
+  "meaning_it": null,
+  "meaning_en": "but; however",
+  "example": {
+   "zh": "我喜欢喝茶，但他喜欢喝咖啡。",
+   "pinyin": "Wǒ xǐhuan hē chá, dàn tā xǐhuan hē kāfēi.",
+   "en": "I like tea, but he likes coffee."
+  }
+ },
+ {
+  "id": 331,
+  "order": 31,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "但是",
+  "pinyin": "dànshì",
+  "meaning_it": null,
+  "meaning_en": "but; however",
+  "example": {
+   "zh": "我想去，但是没有时间。",
+   "pinyin": "Wǒ xiǎng qù, dànshì méiyǒu shíjiān.",
+   "en": "I want to go, but I don't have time."
+  }
+ },
+ {
+  "id": 332,
+  "order": 32,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "得",
+  "pinyin": "de",
+  "meaning_it": null,
+  "meaning_en": "(particle: degree/capability)",
+  "example": {
+   "zh": "他说得很好。",
+   "pinyin": "Tā shuō de hěn hǎo.",
+   "en": "He speaks (it) very well."
+  }
+ },
+ {
+  "id": 333,
+  "order": 33,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "地",
+  "pinyin": "de",
+  "meaning_it": null,
+  "meaning_en": "(particle: adverbial marker)",
+  "example": {
+   "zh": "他高兴地笑了。",
+   "pinyin": "Tā gāoxìng de xiào le.",
+   "en": "He laughed happily."
+  }
+ },
+ {
+  "id": 334,
+  "order": 34,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "等",
+  "pinyin": "děng",
+  "meaning_it": null,
+  "meaning_en": "to wait; to wait for",
+  "example": {
+   "zh": "请等我一下。",
+   "pinyin": "Qǐng děng wǒ yíxià.",
+   "en": "Please wait for me a moment."
+  }
+ },
+ {
+  "id": 335,
+  "order": 35,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "地铁",
+  "pinyin": "dìtiě",
+  "meaning_it": null,
+  "meaning_en": "subway; metro",
+  "example": {
+   "zh": "我每天坐地铁上班。",
+   "pinyin": "Wǒ měi tiān zuò dìtiě shàng bān.",
+   "en": "I take the subway to work every day."
+  }
+ },
+ {
+  "id": 336,
+  "order": 36,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "点",
+  "pinyin": "diǎn",
+  "meaning_it": null,
+  "meaning_en": "to order (food); a little; spot",
+  "example": {
+   "zh": "我们点几个菜吧。",
+   "pinyin": "Wǒmen diǎn jǐ ge cài ba.",
+   "en": "Let's order a few dishes."
+  }
+ },
+ {
+  "id": 337,
+  "order": 37,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "懂",
+  "pinyin": "dǒng",
+  "meaning_it": null,
+  "meaning_en": "to understand",
+  "example": {
+   "zh": "我不懂你的意思。",
+   "pinyin": "Wǒ bù dǒng nǐ de yìsi.",
+   "en": "I don't understand what you mean."
+  }
+ },
+ {
+  "id": 338,
+  "order": 38,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera D",
+  "hanzi": "动",
+  "pinyin": "dòng",
+  "meaning_it": null,
+  "meaning_en": "to move",
+  "example": {
+   "zh": "你别动，我给你拿。",
+   "pinyin": "Nǐ bié dòng, wǒ gěi nǐ ná.",
+   "en": "Don't move, I'll get it for you."
+  }
+ },
+ {
+  "id": 339,
+  "order": 39,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera F",
+  "hanzi": "饭馆",
+  "pinyin": "fànguǎn",
+  "meaning_it": null,
+  "meaning_en": "restaurant",
+  "example": {
+   "zh": "这家饭馆的菜很好吃。",
+   "pinyin": "Zhè jiā fànguǎn de cài hěn hǎochī.",
+   "en": "The food at this restaurant is delicious."
+  }
+ },
+ {
+  "id": 340,
+  "order": 40,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera F",
+  "hanzi": "飞",
+  "pinyin": "fēi",
+  "meaning_it": null,
+  "meaning_en": "to fly",
+  "example": {
+   "zh": "鸟在天上飞。",
+   "pinyin": "Niǎo zài tiān shàng fēi.",
+   "en": "Birds are flying in the sky."
+  }
+ },
+ {
+  "id": 341,
+  "order": 41,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "高",
+  "pinyin": "gāo",
+  "meaning_it": null,
+  "meaning_en": "tall; high",
+  "example": {
+   "zh": "这家酒店很高。",
+   "pinyin": "Zhè jiā jiǔdiàn hěn gāo.",
+   "en": "This hotel is very tall."
+  }
+ },
+ {
+  "id": 342,
+  "order": 42,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "高中",
+  "pinyin": "gāozhōng",
+  "meaning_it": null,
+  "meaning_en": "senior high school",
+  "example": {
+   "zh": "我哥哥在上高中。",
+   "pinyin": "Wǒ gēge zài shàng gāozhōng.",
+   "en": "My older brother is in senior high."
+  }
+ },
+ {
+  "id": 343,
+  "order": 43,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "告诉",
+  "pinyin": "gàosu",
+  "meaning_it": null,
+  "meaning_en": "to tell; to inform",
+  "example": {
+   "zh": "请告诉我你的名字。",
+   "pinyin": "Qǐng gàosu wǒ nǐ de míngzi.",
+   "en": "Please tell me your name."
+  }
+ },
+ {
+  "id": 344,
+  "order": 44,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "个子",
+  "pinyin": "gèzi",
+  "meaning_it": null,
+  "meaning_en": "height; stature",
+  "example": {
+   "zh": "他的个子很高。",
+   "pinyin": "Tā de gèzi hěn gāo.",
+   "en": "He's quite tall."
+  }
+ },
+ {
+  "id": 345,
+  "order": 45,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "跟",
+  "pinyin": "gēn",
+  "meaning_it": null,
+  "meaning_en": "with; and; to follow",
+  "example": {
+   "zh": "我跟朋友一起去。",
+   "pinyin": "Wǒ gēn péngyou yìqǐ qù.",
+   "en": "I'm going with friends."
+  }
+ },
+ {
+  "id": 346,
+  "order": 46,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "公交车",
+  "pinyin": "gōngjiāochē",
+  "meaning_it": null,
+  "meaning_en": "(public) bus",
+  "example": {
+   "zh": "我每天坐公交车上学。",
+   "pinyin": "Wǒ měi tiān zuò gōngjiāochē shàng xué.",
+   "en": "I take the bus to school every day."
+  }
+ },
+ {
+  "id": 347,
+  "order": 47,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "过",
+  "pinyin": "guò",
+  "meaning_it": null,
+  "meaning_en": "to pass; to cross; to spend (time)",
+  "example": {
+   "zh": "时间过得真快。",
+   "pinyin": "Shíjiān guò de zhēn kuài.",
+   "en": "Time passes really fast."
+  }
+ },
+ {
+  "id": 348,
+  "order": 48,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "过来",
+  "pinyin": "guòlái",
+  "meaning_it": null,
+  "meaning_en": "to come over (here)",
+  "example": {
+   "zh": "请你过来一下。",
+   "pinyin": "Qǐng nǐ guòlái yíxià.",
+   "en": "Please come over for a moment."
+  }
+ },
+ {
+  "id": 349,
+  "order": 49,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "过年",
+  "pinyin": "guònián",
+  "meaning_it": null,
+  "meaning_en": "to celebrate the new year",
+  "example": {
+   "zh": "今年我回家过年。",
+   "pinyin": "Jīnnián wǒ huí jiā guònián.",
+   "en": "This year I'm going home for new year."
+  }
+ },
+ {
+  "id": 350,
+  "order": 50,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "过去",
+  "pinyin": "guòqù",
+  "meaning_it": null,
+  "meaning_en": "to go past; to go over",
+  "example": {
+   "zh": "我现在过去找你。",
+   "pinyin": "Wǒ xiànzài guòqù zhǎo nǐ.",
+   "en": "I'll come find you right now."
+  }
+ },
+ {
+  "id": 351,
+  "order": 51,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera G",
+  "hanzi": "过",
+  "pinyin": "guo",
+  "meaning_it": null,
+  "meaning_en": "(aspect particle: have done before)",
+  "example": {
+   "zh": "我去过北京两次。",
+   "pinyin": "Wǒ qù guo Běijīng liǎng cì.",
+   "en": "I've been to Beijing twice."
+  }
+ },
+ {
+  "id": 352,
+  "order": 52,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "还是",
+  "pinyin": "háishi",
+  "meaning_it": null,
+  "meaning_en": "or (in questions); still",
+  "example": {
+   "zh": "你想喝茶还是咖啡？",
+   "pinyin": "Nǐ xiǎng hē chá háishi kāfēi?",
+   "en": "Do you want tea or coffee?"
+  }
+ },
+ {
+  "id": 353,
+  "order": 53,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "黑色",
+  "pinyin": "hēisè",
+  "meaning_it": null,
+  "meaning_en": "black (color)",
+  "example": {
+   "zh": "我有一只黑色的狗。",
+   "pinyin": "Wǒ yǒu yì zhī hēisè de gǒu.",
+   "en": "I have a black dog."
+  }
+ },
+ {
+  "id": 354,
+  "order": 54,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "红茶",
+  "pinyin": "hóngchá",
+  "meaning_it": null,
+  "meaning_en": "black tea (lit. red tea)",
+  "example": {
+   "zh": "请给我一杯红茶。",
+   "pinyin": "Qǐng gěi wǒ yì bēi hóngchá.",
+   "en": "Please give me a cup of black tea."
+  }
+ },
+ {
+  "id": 355,
+  "order": 55,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "红色",
+  "pinyin": "hóngsè",
+  "meaning_it": null,
+  "meaning_en": "red (color)",
+  "example": {
+   "zh": "她最喜欢红色。",
+   "pinyin": "Tā zuì xǐhuan hóngsè.",
+   "en": "She likes red the most."
+  }
+ },
+ {
+  "id": 356,
+  "order": 56,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "后面",
+  "pinyin": "hòumiàn",
+  "meaning_it": null,
+  "meaning_en": "behind; at the back",
+  "example": {
+   "zh": "学校在医院后面。",
+   "pinyin": "Xuéxiào zài yīyuàn hòumiàn.",
+   "en": "The school is behind the hospital."
+  }
+ },
+ {
+  "id": 357,
+  "order": 57,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "花",
+  "pinyin": "huā",
+  "meaning_it": null,
+  "meaning_en": "to spend (money or time)",
+  "example": {
+   "zh": "我花了一百块钱。",
+   "pinyin": "Wǒ huā le yì bǎi kuài qián.",
+   "en": "I spent a hundred yuan."
+  }
+ },
+ {
+  "id": 358,
+  "order": 58,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "花",
+  "pinyin": "huā",
+  "meaning_it": null,
+  "meaning_en": "flower",
+  "example": {
+   "zh": "这些花真漂亮。",
+   "pinyin": "Zhèxiē huā zhēn piàoliang.",
+   "en": "These flowers are really beautiful."
+  }
+ },
+ {
+  "id": 359,
+  "order": 59,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "画",
+  "pinyin": "huà",
+  "meaning_it": null,
+  "meaning_en": "to draw, to paint; a painting",
+  "example": {
+   "zh": "她在画画儿。",
+   "pinyin": "Tā zài huà huàr.",
+   "en": "She's drawing/painting."
+  }
+ },
+ {
+  "id": 360,
+  "order": 60,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "坏",
+  "pinyin": "huài",
+  "meaning_it": null,
+  "meaning_en": "bad; broken",
+  "example": {
+   "zh": "我的手机坏了。",
+   "pinyin": "Wǒ de shǒujī huài le.",
+   "en": "My phone is broken."
+  }
+ },
+ {
+  "id": 361,
+  "order": 61,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "回来",
+  "pinyin": "huílái",
+  "meaning_it": null,
+  "meaning_en": "to come back; to return",
+  "example": {
+   "zh": "爸爸什么时候回来？",
+   "pinyin": "Bàba shénme shíhou huílái?",
+   "en": "When will Dad come back?"
+  }
+ },
+ {
+  "id": 362,
+  "order": 62,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera H",
+  "hanzi": "回去",
+  "pinyin": "huíqù",
+  "meaning_it": null,
+  "meaning_en": "to go back",
+  "example": {
+   "zh": "时间不早了，我要回去了。",
+   "pinyin": "Shíjiān bù zǎo le, wǒ yào huíqù le.",
+   "en": "It's getting late, I have to go back."
+  }
+ },
+ {
+  "id": 363,
+  "order": 63,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "机场",
+  "pinyin": "jīchǎng",
+  "meaning_it": null,
+  "meaning_en": "airport",
+  "example": {
+   "zh": "去机场要多长时间？",
+   "pinyin": "Qù jīchǎng yào duō cháng shíjiān?",
+   "en": "How long does it take to get to the airport?"
+  }
+ },
+ {
+  "id": 364,
+  "order": 64,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "机票",
+  "pinyin": "jīpiào",
+  "meaning_it": null,
+  "meaning_en": "plane ticket",
+  "example": {
+   "zh": "我已经买了机票。",
+   "pinyin": "Wǒ yǐjīng mǎi le jīpiào.",
+   "en": "I've already bought the plane ticket."
+  }
+ },
+ {
+  "id": 365,
+  "order": 65,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "记得",
+  "pinyin": "jìde",
+  "meaning_it": null,
+  "meaning_en": "to remember",
+  "example": {
+   "zh": "你还记得我吗？",
+   "pinyin": "Nǐ hái jìde wǒ ma?",
+   "en": "Do you still remember me?"
+  }
+ },
+ {
+  "id": 366,
+  "order": 66,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "间",
+  "pinyin": "jiān",
+  "meaning_it": null,
+  "meaning_en": "(mw. for rooms); between",
+  "example": {
+   "zh": "我家有三间房。",
+   "pinyin": "Wǒ jiā yǒu sān jiān fáng.",
+   "en": "My home has three rooms."
+  }
+ },
+ {
+  "id": 367,
+  "order": 67,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "教",
+  "pinyin": "jiāo",
+  "meaning_it": null,
+  "meaning_en": "to teach",
+  "example": {
+   "zh": "她教我们中文。",
+   "pinyin": "Tā jiāo wǒmen Zhōngwén.",
+   "en": "She teaches us Chinese."
+  }
+ },
+ {
+  "id": 368,
+  "order": 68,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "教室",
+  "pinyin": "jiàoshì",
+  "meaning_it": null,
+  "meaning_en": "classroom",
+  "example": {
+   "zh": "我们的教室很大。",
+   "pinyin": "Wǒmen de jiàoshì hěn dà.",
+   "en": "Our classroom is very big."
+  }
+ },
+ {
+  "id": 369,
+  "order": 69,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "介绍",
+  "pinyin": "jièshào",
+  "meaning_it": null,
+  "meaning_en": "to introduce",
+  "example": {
+   "zh": "我来介绍一下，这是我的朋友。",
+   "pinyin": "Wǒ lái jièshào yíxià, zhè shì wǒ de péngyou.",
+   "en": "Let me introduce — this is my friend."
+  }
+ },
+ {
+  "id": 370,
+  "order": 70,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "进",
+  "pinyin": "jìn",
+  "meaning_it": null,
+  "meaning_en": "to enter; to go in",
+  "example": {
+   "zh": "请进。",
+   "pinyin": "Qǐng jìn.",
+   "en": "Please come in."
+  }
+ },
+ {
+  "id": 371,
+  "order": 71,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "近",
+  "pinyin": "jìn",
+  "meaning_it": null,
+  "meaning_en": "near; close",
+  "example": {
+   "zh": "我家离学校很近。",
+   "pinyin": "Wǒ jiā lí xuéxiào hěn jìn.",
+   "en": "My home is very close to school."
+  }
+ },
+ {
+  "id": 372,
+  "order": 72,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "进来",
+  "pinyin": "jìnlái",
+  "meaning_it": null,
+  "meaning_en": "to come in",
+  "example": {
+   "zh": "外面冷，快进来。",
+   "pinyin": "Wàimiàn lěng, kuài jìnlái.",
+   "en": "It's cold outside, come in quickly."
+  }
+ },
+ {
+  "id": 373,
+  "order": 73,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "进去",
+  "pinyin": "jìnqù",
+  "meaning_it": null,
+  "meaning_en": "to go in",
+  "example": {
+   "zh": "门开着，你进去吧。",
+   "pinyin": "Mén kāi zhe, nǐ jìnqù ba.",
+   "en": "The door is open, you can go in."
+  }
+ },
+ {
+  "id": 374,
+  "order": 74,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "经常",
+  "pinyin": "jīngcháng",
+  "meaning_it": null,
+  "meaning_en": "often; frequently",
+  "example": {
+   "zh": "我经常去那家饭馆。",
+   "pinyin": "Wǒ jīngcháng qù nà jiā fànguǎn.",
+   "en": "I often go to that restaurant."
+  }
+ },
+ {
+  "id": 375,
+  "order": 75,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "酒店",
+  "pinyin": "jiǔdiàn",
+  "meaning_it": null,
+  "meaning_en": "hotel",
+  "example": {
+   "zh": "我们住在这家酒店。",
+   "pinyin": "Wǒmen zhù zài zhè jiā jiǔdiàn.",
+   "en": "We're staying at this hotel."
+  }
+ },
+ {
+  "id": 376,
+  "order": 76,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera J",
+  "hanzi": "就",
+  "pinyin": "jiù",
+  "meaning_it": null,
+  "meaning_en": "then; right away; just",
+  "example": {
+   "zh": "我吃完饭就走。",
+   "pinyin": "Wǒ chī wán fàn jiù zǒu.",
+   "en": "I'll leave right after I finish eating."
+  }
+ },
+ {
+  "id": 377,
+  "order": 77,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "咖啡",
+  "pinyin": "kāfēi",
+  "meaning_it": null,
+  "meaning_en": "coffee",
+  "example": {
+   "zh": "早上我喜欢喝咖啡。",
+   "pinyin": "Zǎoshang wǒ xǐhuan hē kāfēi.",
+   "en": "I like to drink coffee in the morning."
+  }
+ },
+ {
+  "id": 378,
+  "order": 78,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "开始",
+  "pinyin": "kāishǐ",
+  "meaning_it": null,
+  "meaning_en": "to start; to begin",
+  "example": {
+   "zh": "电影几点开始？",
+   "pinyin": "Diànyǐng jǐ diǎn kāishǐ?",
+   "en": "What time does the movie start?"
+  }
+ },
+ {
+  "id": 379,
+  "order": 79,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "开学",
+  "pinyin": "kāixué",
+  "meaning_it": null,
+  "meaning_en": "(school) to start a new term",
+  "example": {
+   "zh": "我们下个月开学。",
+   "pinyin": "Wǒmen xià ge yuè kāixué.",
+   "en": "Our new term starts next month."
+  }
+ },
+ {
+  "id": 380,
+  "order": 80,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "考",
+  "pinyin": "kǎo",
+  "meaning_it": null,
+  "meaning_en": "to take a test; to examine",
+  "example": {
+   "zh": "明天我们考中文。",
+   "pinyin": "Míngtiān wǒmen kǎo Zhōngwén.",
+   "en": "Tomorrow we have a Chinese test."
+  }
+ },
+ {
+  "id": 381,
+  "order": 81,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "考试",
+  "pinyin": "kǎoshì",
+  "meaning_it": null,
+  "meaning_en": "exam; test; to take a test",
+  "example": {
+   "zh": "我下周有一个考试。",
+   "pinyin": "Wǒ xià zhōu yǒu yí ge kǎoshì.",
+   "en": "I have a test next week."
+  }
+ },
+ {
+  "id": 382,
+  "order": 82,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "可能",
+  "pinyin": "kěnéng",
+  "meaning_it": null,
+  "meaning_en": "maybe; possibly; possible",
+  "example": {
+   "zh": "他可能不来了。",
+   "pinyin": "Tā kěnéng bù lái le.",
+   "en": "He might not come."
+  }
+ },
+ {
+  "id": 383,
+  "order": 83,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "裤子",
+  "pinyin": "kùzi",
+  "meaning_it": null,
+  "meaning_en": "trousers; pants",
+  "example": {
+   "zh": "这条裤子太长了。",
+   "pinyin": "Zhè tiáo kùzi tài cháng le.",
+   "en": "These pants are too long."
+  }
+ },
+ {
+  "id": 384,
+  "order": 84,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "快",
+  "pinyin": "kuài",
+  "meaning_it": null,
+  "meaning_en": "fast; quick; quickly",
+  "example": {
+   "zh": "他跑得很快。",
+   "pinyin": "Tā pǎo de hěn kuài.",
+   "en": "He runs very fast."
+  }
+ },
+ {
+  "id": 385,
+  "order": 85,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "快乐",
+  "pinyin": "kuàilè",
+  "meaning_it": null,
+  "meaning_en": "happy",
+  "example": {
+   "zh": "我今天很快乐。",
+   "pinyin": "Wǒ jīntiān hěn kuàilè.",
+   "en": "I'm very happy today."
+  }
+ },
+ {
+  "id": 386,
+  "order": 86,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera K",
+  "hanzi": "快要",
+  "pinyin": "kuàiyào",
+  "meaning_it": null,
+  "meaning_en": "about to; soon",
+  "example": {
+   "zh": "快要下雨了。",
+   "pinyin": "Kuàiyào xià yǔ le.",
+   "en": "It's about to rain."
+  }
+ },
+ {
+  "id": 387,
+  "order": 87,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "篮球",
+  "pinyin": "lánqiú",
+  "meaning_it": null,
+  "meaning_en": "basketball",
+  "example": {
+   "zh": "我喜欢看篮球。",
+   "pinyin": "Wǒ xǐhuan kàn lánqiú.",
+   "en": "I like watching basketball."
+  }
+ },
+ {
+  "id": 388,
+  "order": 88,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "累",
+  "pinyin": "lèi",
+  "meaning_it": null,
+  "meaning_en": "tired",
+  "example": {
+   "zh": "今天工作很累。",
+   "pinyin": "Jīntiān gōngzuò hěn lèi.",
+   "en": "Work was tiring today."
+  }
+ },
+ {
+  "id": 389,
+  "order": 89,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "离",
+  "pinyin": "lí",
+  "meaning_it": null,
+  "meaning_en": "(distance) from; to leave",
+  "example": {
+   "zh": "学校离我家不远。",
+   "pinyin": "Xuéxiào lí wǒ jiā bù yuǎn.",
+   "en": "The school isn't far from my home."
+  }
+ },
+ {
+  "id": 390,
+  "order": 90,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "里面",
+  "pinyin": "lǐmiàn",
+  "meaning_it": null,
+  "meaning_en": "inside",
+  "example": {
+   "zh": "包里面有什么？",
+   "pinyin": "Bāo lǐmiàn yǒu shénme?",
+   "en": "What's inside the bag?"
+  }
+ },
+ {
+  "id": 391,
+  "order": 91,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "楼",
+  "pinyin": "lóu",
+  "meaning_it": null,
+  "meaning_en": "building; floor",
+  "example": {
+   "zh": "我家在五楼。",
+   "pinyin": "Wǒ jiā zài wǔ lóu.",
+   "en": "My home is on the fifth floor."
+  }
+ },
+ {
+  "id": 392,
+  "order": 92,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "路",
+  "pinyin": "lù",
+  "meaning_it": null,
+  "meaning_en": "road; way",
+  "example": {
+   "zh": "你认识这条路吗？",
+   "pinyin": "Nǐ rènshi zhè tiáo lù ma?",
+   "en": "Do you know this road?"
+  }
+ },
+ {
+  "id": 393,
+  "order": 93,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "路上",
+  "pinyin": "lùshang",
+  "meaning_it": null,
+  "meaning_en": "on the way",
+  "example": {
+   "zh": "我在路上看到了他。",
+   "pinyin": "Wǒ zài lùshang kàn dào le tā.",
+   "en": "I saw him on the way."
+  }
+ },
+ {
+  "id": 394,
+  "order": 94,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "旅游",
+  "pinyin": "lǚyóu",
+  "meaning_it": null,
+  "meaning_en": "to travel; tourism",
+  "example": {
+   "zh": "我喜欢去中国旅游。",
+   "pinyin": "Wǒ xǐhuan qù Zhōngguó lǚyóu.",
+   "en": "I like to travel to China."
+  }
+ },
+ {
+  "id": 395,
+  "order": 95,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "绿茶",
+  "pinyin": "lǜchá",
+  "meaning_it": null,
+  "meaning_en": "green tea",
+  "example": {
+   "zh": "我每天喝一杯绿茶。",
+   "pinyin": "Wǒ měi tiān hē yì bēi lǜchá.",
+   "en": "I drink a cup of green tea every day."
+  }
+ },
+ {
+  "id": 396,
+  "order": 96,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera L",
+  "hanzi": "绿色",
+  "pinyin": "lǜsè",
+  "meaning_it": null,
+  "meaning_en": "green (color)",
+  "example": {
+   "zh": "这件衣服是绿色的。",
+   "pinyin": "Zhè jiàn yīfu shì lǜsè de.",
+   "en": "This piece of clothing is green."
+  }
+ },
+ {
+  "id": 397,
+  "order": 97,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera M",
+  "hanzi": "慢",
+  "pinyin": "màn",
+  "meaning_it": null,
+  "meaning_en": "slow; slowly",
+  "example": {
+   "zh": "请你说慢一点。",
+   "pinyin": "Qǐng nǐ shuō màn yìdiǎn.",
+   "en": "Please speak a little slower."
+  }
+ },
+ {
+  "id": 398,
+  "order": 98,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera M",
+  "hanzi": "没意思",
+  "pinyin": "méi yìsi",
+  "meaning_it": null,
+  "meaning_en": "boring; not interesting",
+  "example": {
+   "zh": "这本书很没意思。",
+   "pinyin": "Zhè běn shū hěn méi yìsi.",
+   "en": "This book is very boring."
+  }
+ },
+ {
+  "id": 399,
+  "order": 99,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera M",
+  "hanzi": "每",
+  "pinyin": "měi",
+  "meaning_it": null,
+  "meaning_en": "every; each",
+  "example": {
+   "zh": "我每天学中文。",
+   "pinyin": "Wǒ měi tiān xué Zhōngwén.",
+   "en": "I study Chinese every day."
+  }
+ },
+ {
+  "id": 400,
+  "order": 100,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera M",
+  "hanzi": "门",
+  "pinyin": "mén",
+  "meaning_it": null,
+  "meaning_en": "door; gate",
+  "example": {
+   "zh": "请关上门。",
+   "pinyin": "Qǐng guān shàng mén.",
+   "en": "Please close the door."
+  }
+ },
+ {
+  "id": 401,
+  "order": 101,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera M",
+  "hanzi": "门口",
+  "pinyin": "ménkǒu",
+  "meaning_it": null,
+  "meaning_en": "doorway; entrance",
+  "example": {
+   "zh": "我在学校门口等你。",
+   "pinyin": "Wǒ zài xuéxiào ménkǒu děng nǐ.",
+   "en": "I'll wait for you at the school entrance."
+  }
+ },
+ {
+  "id": 402,
+  "order": 102,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera M",
+  "hanzi": "门票",
+  "pinyin": "ménpiào",
+  "meaning_it": null,
+  "meaning_en": "entrance ticket; admission ticket",
+  "example": {
+   "zh": "门票多少钱？",
+   "pinyin": "Ménpiào duōshǎo qián?",
+   "en": "How much is the entrance ticket?"
+  }
+ },
+ {
+  "id": 403,
+  "order": 103,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera M",
+  "hanzi": "面",
+  "pinyin": "miàn",
+  "meaning_it": null,
+  "meaning_en": "-side; surface",
+  "example": {
+   "zh": "上面的字我看不懂。",
+   "pinyin": "Shàngmiàn de zì wǒ kàn bu dǒng.",
+   "en": "I can't read the characters above."
+  }
+ },
+ {
+  "id": 404,
+  "order": 104,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera M",
+  "hanzi": "名",
+  "pinyin": "míng",
+  "meaning_it": null,
+  "meaning_en": "(given) name; (mw. for people)",
+  "example": {
+   "zh": "我们班有二十名学生。",
+   "pinyin": "Wǒmen bān yǒu èrshí míng xuésheng.",
+   "en": "Our class has twenty students."
+  }
+ },
+ {
+  "id": 405,
+  "order": 105,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera N",
+  "hanzi": "拿",
+  "pinyin": "ná",
+  "meaning_it": null,
+  "meaning_en": "to take; to hold",
+  "example": {
+   "zh": "请帮我拿一下书。",
+   "pinyin": "Qǐng bāng wǒ ná yíxià shū.",
+   "en": "Please hold the book for me."
+  }
+ },
+ {
+  "id": 406,
+  "order": 106,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera N",
+  "hanzi": "那么",
+  "pinyin": "nàme",
+  "meaning_it": null,
+  "meaning_en": "so; like that; in that way",
+  "example": {
+   "zh": "他那么忙，没时间看电视。",
+   "pinyin": "Tā nàme máng, méi shíjiān kàn diànshì.",
+   "en": "He's so busy, he has no time to watch TV."
+  }
+ },
+ {
+  "id": 407,
+  "order": 107,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera N",
+  "hanzi": "那样",
+  "pinyin": "nàyàng",
+  "meaning_it": null,
+  "meaning_en": "like that; that way",
+  "example": {
+   "zh": "别那样说话。",
+   "pinyin": "Bié nàyàng shuōhuà.",
+   "en": "Don't talk like that."
+  }
+ },
+ {
+  "id": 408,
+  "order": 108,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera N",
+  "hanzi": "奶茶",
+  "pinyin": "nǎichá",
+  "meaning_it": null,
+  "meaning_en": "milk tea",
+  "example": {
+   "zh": "我想喝一杯奶茶。",
+   "pinyin": "Wǒ xiǎng hē yì bēi nǎichá.",
+   "en": "I want a cup of milk tea."
+  }
+ },
+ {
+  "id": 409,
+  "order": 109,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera N",
+  "hanzi": "奶奶",
+  "pinyin": "nǎinai",
+  "meaning_it": null,
+  "meaning_en": "grandma (paternal)",
+  "example": {
+   "zh": "奶奶今年八十岁了。",
+   "pinyin": "Nǎinai jīnnián bāshí suì le.",
+   "en": "Grandma is eighty this year."
+  }
+ },
+ {
+  "id": 410,
+  "order": 110,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera N",
+  "hanzi": "男孩儿",
+  "pinyin": "nánháir",
+  "meaning_it": null,
+  "meaning_en": "boy",
+  "example": {
+   "zh": "那个男孩儿是我弟弟。",
+   "pinyin": "Nàge nánháir shì wǒ dìdi.",
+   "en": "That boy is my younger brother."
+  }
+ },
+ {
+  "id": 411,
+  "order": 111,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera N",
+  "hanzi": "鸟",
+  "pinyin": "niǎo",
+  "meaning_it": null,
+  "meaning_en": "bird",
+  "example": {
+   "zh": "天上有很多鸟。",
+   "pinyin": "Tiān shàng yǒu hěn duō niǎo.",
+   "en": "There are many birds in the sky."
+  }
+ },
+ {
+  "id": 412,
+  "order": 112,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera N",
+  "hanzi": "女孩儿",
+  "pinyin": "nǚháir",
+  "meaning_it": null,
+  "meaning_en": "girl",
+  "example": {
+   "zh": "那个女孩儿是谁？",
+   "pinyin": "Nàge nǚháir shì shéi?",
+   "en": "Who is that girl?"
+  }
+ },
+ {
+  "id": 413,
+  "order": 113,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera P",
+  "hanzi": "旁边",
+  "pinyin": "pángbiān",
+  "meaning_it": null,
+  "meaning_en": "next to; beside",
+  "example": {
+   "zh": "他坐在我旁边。",
+   "pinyin": "Tā zuò zài wǒ pángbiān.",
+   "en": "He sits next to me."
+  }
+ },
+ {
+  "id": 414,
+  "order": 114,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera P",
+  "hanzi": "跑",
+  "pinyin": "pǎo",
+  "meaning_it": null,
+  "meaning_en": "to run",
+  "example": {
+   "zh": "我跑得比他快。",
+   "pinyin": "Wǒ pǎo de bǐ tā kuài.",
+   "en": "I run faster than him."
+  }
+ },
+ {
+  "id": 415,
+  "order": 115,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera P",
+  "hanzi": "跑步",
+  "pinyin": "pǎobù",
+  "meaning_it": null,
+  "meaning_en": "to run; jogging",
+  "example": {
+   "zh": "跑步对身体好。",
+   "pinyin": "Pǎobù duì shēntǐ hǎo.",
+   "en": "Running is good for your health."
+  }
+ },
+ {
+  "id": 416,
+  "order": 116,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera P",
+  "hanzi": "票",
+  "pinyin": "piào",
+  "meaning_it": null,
+  "meaning_en": "ticket",
+  "example": {
+   "zh": "电影票多少钱？",
+   "pinyin": "Diànyǐng piào duōshǎo qián?",
+   "en": "How much is a movie ticket?"
+  }
+ },
+ {
+  "id": 417,
+  "order": 117,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Q",
+  "hanzi": "妻子",
+  "pinyin": "qīzi",
+  "meaning_it": null,
+  "meaning_en": "wife",
+  "example": {
+   "zh": "他的妻子是医生。",
+   "pinyin": "Tā de qīzi shì yīshēng.",
+   "en": "His wife is a doctor."
+  }
+ },
+ {
+  "id": 418,
+  "order": 118,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Q",
+  "hanzi": "起来",
+  "pinyin": "qǐlái",
+  "meaning_it": null,
+  "meaning_en": "to get up; to stand up",
+  "example": {
+   "zh": "我每天七点起来。",
+   "pinyin": "Wǒ měi tiān qī diǎn qǐlái.",
+   "en": "I get up at 7 every day."
+  }
+ },
+ {
+  "id": 419,
+  "order": 119,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Q",
+  "hanzi": "前面",
+  "pinyin": "qiánmiàn",
+  "meaning_it": null,
+  "meaning_en": "in front; ahead",
+  "example": {
+   "zh": "前面有一家饭馆。",
+   "pinyin": "Qiánmiàn yǒu yì jiā fànguǎn.",
+   "en": "There's a restaurant up ahead."
+  }
+ },
+ {
+  "id": 420,
+  "order": 120,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Q",
+  "hanzi": "晴",
+  "pinyin": "qíng",
+  "meaning_it": null,
+  "meaning_en": "(weather) sunny; clear",
+  "example": {
+   "zh": "明天是晴天。",
+   "pinyin": "Míngtiān shì qíngtiān.",
+   "en": "Tomorrow will be sunny."
+  }
+ },
+ {
+  "id": 421,
+  "order": 121,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Q",
+  "hanzi": "球",
+  "pinyin": "qiú",
+  "meaning_it": null,
+  "meaning_en": "ball",
+  "example": {
+   "zh": "孩子们在玩球。",
+   "pinyin": "Háizimen zài wán qiú.",
+   "en": "The kids are playing with a ball."
+  }
+ },
+ {
+  "id": 422,
+  "order": 122,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera R",
+  "hanzi": "让",
+  "pinyin": "ràng",
+  "meaning_it": null,
+  "meaning_en": "to let; to make (someone do)",
+  "example": {
+   "zh": "妈妈让我去买菜。",
+   "pinyin": "Māma ràng wǒ qù mǎi cài.",
+   "en": "Mom asked me to go buy groceries."
+  }
+ },
+ {
+  "id": 423,
+  "order": 123,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera R",
+  "hanzi": "肉",
+  "pinyin": "ròu",
+  "meaning_it": null,
+  "meaning_en": "meat",
+  "example": {
+   "zh": "我不爱吃肉。",
+   "pinyin": "Wǒ bú ài chī ròu.",
+   "en": "I don't like to eat meat."
+  }
+ },
+ {
+  "id": 424,
+  "order": 124,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "商场",
+  "pinyin": "shāngchǎng",
+  "meaning_it": null,
+  "meaning_en": "shopping mall",
+  "example": {
+   "zh": "我们去商场买东西吧。",
+   "pinyin": "Wǒmen qù shāngchǎng mǎi dōngxi ba.",
+   "en": "Let's go to the mall to shop."
+  }
+ },
+ {
+  "id": 425,
+  "order": 125,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "上来",
+  "pinyin": "shànglái",
+  "meaning_it": null,
+  "meaning_en": "to come up",
+  "example": {
+   "zh": "请你上来看一下。",
+   "pinyin": "Qǐng nǐ shànglái kàn yíxià.",
+   "en": "Please come up and take a look."
+  }
+ },
+ {
+  "id": 426,
+  "order": 126,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "上面",
+  "pinyin": "shàngmiàn",
+  "meaning_it": null,
+  "meaning_en": "above; on top",
+  "example": {
+   "zh": "书在桌子上面。",
+   "pinyin": "Shū zài zhuōzi shàngmiàn.",
+   "en": "The book is on top of the table."
+  }
+ },
+ {
+  "id": 427,
+  "order": 127,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "上去",
+  "pinyin": "shàngqù",
+  "meaning_it": null,
+  "meaning_en": "to go up",
+  "example": {
+   "zh": "楼上有人，我们上去看看。",
+   "pinyin": "Lóu shàng yǒu rén, wǒmen shàngqù kànkan.",
+   "en": "There's someone upstairs, let's go up and look."
+  }
+ },
+ {
+  "id": 428,
+  "order": 128,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "上网",
+  "pinyin": "shàngwǎng",
+  "meaning_it": null,
+  "meaning_en": "to go online",
+  "example": {
+   "zh": "他每天都上网。",
+   "pinyin": "Tā měi tiān dōu shàngwǎng.",
+   "en": "He goes online every day."
+  }
+ },
+ {
+  "id": 429,
+  "order": 129,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "身体",
+  "pinyin": "shēntǐ",
+  "meaning_it": null,
+  "meaning_en": "body; health",
+  "example": {
+   "zh": "你的身体好吗？",
+   "pinyin": "Nǐ de shēntǐ hǎo ma?",
+   "en": "Are you in good health?"
+  }
+ },
+ {
+  "id": 430,
+  "order": 130,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "生日",
+  "pinyin": "shēngrì",
+  "meaning_it": null,
+  "meaning_en": "birthday",
+  "example": {
+   "zh": "今天是我妈妈的生日。",
+   "pinyin": "Jīntiān shì wǒ māma de shēngrì.",
+   "en": "Today is my mom's birthday."
+  }
+ },
+ {
+  "id": 431,
+  "order": 131,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "时",
+  "pinyin": "shí",
+  "meaning_it": null,
+  "meaning_en": "(o'clock) hour; time",
+  "example": {
+   "zh": "我学了三个小时。",
+   "pinyin": "Wǒ xué le sān ge xiǎoshí.",
+   "en": "I studied for three hours."
+  }
+ },
+ {
+  "id": 432,
+  "order": 132,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "事情",
+  "pinyin": "shìqing",
+  "meaning_it": null,
+  "meaning_en": "matter; affair; thing",
+  "example": {
+   "zh": "我今天有很多事情。",
+   "pinyin": "Wǒ jīntiān yǒu hěn duō shìqing.",
+   "en": "I have a lot of things to do today."
+  }
+ },
+ {
+  "id": 433,
+  "order": 133,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "手",
+  "pinyin": "shǒu",
+  "meaning_it": null,
+  "meaning_en": "hand",
+  "example": {
+   "zh": "我的手很冷。",
+   "pinyin": "Wǒ de shǒu hěn lěng.",
+   "en": "My hands are cold."
+  }
+ },
+ {
+  "id": 434,
+  "order": 134,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "手表",
+  "pinyin": "shǒubiǎo",
+  "meaning_it": null,
+  "meaning_en": "(wrist) watch",
+  "example": {
+   "zh": "我买了一块新手表。",
+   "pinyin": "Wǒ mǎi le yí kuài xīn shǒubiǎo.",
+   "en": "I bought a new watch."
+  }
+ },
+ {
+  "id": 435,
+  "order": 135,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "书包",
+  "pinyin": "shūbāo",
+  "meaning_it": null,
+  "meaning_en": "schoolbag; backpack",
+  "example": {
+   "zh": "我的书包是新的。",
+   "pinyin": "Wǒ de shūbāo shì xīn de.",
+   "en": "My schoolbag is new."
+  }
+ },
+ {
+  "id": 436,
+  "order": 136,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "舒服",
+  "pinyin": "shūfu",
+  "meaning_it": null,
+  "meaning_en": "comfortable; (feel) well",
+  "example": {
+   "zh": "今天我不太舒服。",
+   "pinyin": "Jīntiān wǒ bú tài shūfu.",
+   "en": "I don't feel very well today."
+  }
+ },
+ {
+  "id": 437,
+  "order": 137,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "送",
+  "pinyin": "sòng",
+  "meaning_it": null,
+  "meaning_en": "to give (as gift); to send; to see off",
+  "example": {
+   "zh": "他送了我一本书。",
+   "pinyin": "Tā sòng le wǒ yì běn shū.",
+   "en": "He gave me a book as a gift."
+  }
+ },
+ {
+  "id": 438,
+  "order": 138,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "虽然",
+  "pinyin": "suīrán",
+  "meaning_it": null,
+  "meaning_en": "although; even though",
+  "example": {
+   "zh": "虽然下雨，但是我还是去了。",
+   "pinyin": "Suīrán xià yǔ, dànshì wǒ háishi qù le.",
+   "en": "Although it was raining, I still went."
+  }
+ },
+ {
+  "id": 439,
+  "order": 139,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera S",
+  "hanzi": "所以",
+  "pinyin": "suǒyǐ",
+  "meaning_it": null,
+  "meaning_en": "so; therefore",
+  "example": {
+   "zh": "今天没考试，所以我很高兴。",
+   "pinyin": "Jīntiān méi kǎoshì, suǒyǐ wǒ hěn gāoxìng.",
+   "en": "There's no test today, so I'm happy."
+  }
+ },
+ {
+  "id": 440,
+  "order": 140,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera T",
+  "hanzi": "疼",
+  "pinyin": "téng",
+  "meaning_it": null,
+  "meaning_en": "to hurt; sore; painful",
+  "example": {
+   "zh": "我的头很疼。",
+   "pinyin": "Wǒ de tóu hěn téng.",
+   "en": "My head really hurts."
+  }
+ },
+ {
+  "id": 441,
+  "order": 141,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera T",
+  "hanzi": "踢",
+  "pinyin": "tī",
+  "meaning_it": null,
+  "meaning_en": "to kick",
+  "example": {
+   "zh": "我喜欢踢足球。",
+   "pinyin": "Wǒ xǐhuan tī zúqiú.",
+   "en": "I like to play soccer."
+  }
+ },
+ {
+  "id": 442,
+  "order": 142,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera T",
+  "hanzi": "题",
+  "pinyin": "tí",
+  "meaning_it": null,
+  "meaning_en": "question; problem (in a test)",
+  "example": {
+   "zh": "这个题我不懂。",
+   "pinyin": "Zhège tí wǒ bù dǒng.",
+   "en": "I don't understand this question."
+  }
+ },
+ {
+  "id": 443,
+  "order": 143,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera T",
+  "hanzi": "条",
+  "pinyin": "tiáo",
+  "meaning_it": null,
+  "meaning_en": "(measure word for long thin things)",
+  "example": {
+   "zh": "这条鱼很大。",
+   "pinyin": "Zhè tiáo yú hěn dà.",
+   "en": "This fish is very big."
+  }
+ },
+ {
+  "id": 444,
+  "order": 144,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera T",
+  "hanzi": "跳舞",
+  "pinyin": "tiàowǔ",
+  "meaning_it": null,
+  "meaning_en": "to dance",
+  "example": {
+   "zh": "她跳舞跳得很好。",
+   "pinyin": "Tā tiàowǔ tiào de hěn hǎo.",
+   "en": "She dances very well."
+  }
+ },
+ {
+  "id": 445,
+  "order": 145,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera T",
+  "hanzi": "头",
+  "pinyin": "tóu",
+  "meaning_it": null,
+  "meaning_en": "head",
+  "example": {
+   "zh": "他点了点头。",
+   "pinyin": "Tā diǎn le diǎn tóu.",
+   "en": "He nodded his head."
+  }
+ },
+ {
+  "id": 446,
+  "order": 146,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "外国",
+  "pinyin": "wàiguó",
+  "meaning_it": null,
+  "meaning_en": "foreign country",
+  "example": {
+   "zh": "他喜欢看外国电影。",
+   "pinyin": "Tā xǐhuan kàn wàiguó diànyǐng.",
+   "en": "He likes watching foreign movies."
+  }
+ },
+ {
+  "id": 447,
+  "order": 147,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "外面",
+  "pinyin": "wàimiàn",
+  "meaning_it": null,
+  "meaning_en": "outside",
+  "example": {
+   "zh": "外面很冷，多穿点。",
+   "pinyin": "Wàimiàn hěn lěng, duō chuān diǎn.",
+   "en": "It's cold outside, dress warmly."
+  }
+ },
+ {
+  "id": 448,
+  "order": 148,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "完",
+  "pinyin": "wán",
+  "meaning_it": null,
+  "meaning_en": "to finish; to complete",
+  "example": {
+   "zh": "我已经吃完了。",
+   "pinyin": "Wǒ yǐjīng chī wán le.",
+   "en": "I've already finished eating."
+  }
+ },
+ {
+  "id": 449,
+  "order": 149,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "万",
+  "pinyin": "wàn",
+  "meaning_it": null,
+  "meaning_en": "ten thousand",
+  "example": {
+   "zh": "这个手机要一万块。",
+   "pinyin": "Zhège shǒujī yào yí wàn kuài.",
+   "en": "This phone costs 10,000 yuan."
+  }
+ },
+ {
+  "id": 450,
+  "order": 150,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "往",
+  "pinyin": "wǎng",
+  "meaning_it": null,
+  "meaning_en": "toward; to (direction)",
+  "example": {
+   "zh": "请往前走。",
+   "pinyin": "Qǐng wǎng qián zǒu.",
+   "en": "Please walk forward."
+  }
+ },
+ {
+  "id": 451,
+  "order": 151,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "网上",
+  "pinyin": "wǎngshang",
+  "meaning_it": null,
+  "meaning_en": "online; on the internet",
+  "example": {
+   "zh": "我在网上买了一本书。",
+   "pinyin": "Wǒ zài wǎngshang mǎi le yì běn shū.",
+   "en": "I bought a book online."
+  }
+ },
+ {
+  "id": 452,
+  "order": 152,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "忘",
+  "pinyin": "wàng",
+  "meaning_it": null,
+  "meaning_en": "to forget",
+  "example": {
+   "zh": "我忘了他的名字。",
+   "pinyin": "Wǒ wàng le tā de míngzi.",
+   "en": "I forgot his name."
+  }
+ },
+ {
+  "id": 453,
+  "order": 153,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "位",
+  "pinyin": "wèi",
+  "meaning_it": null,
+  "meaning_en": "(polite mw. for people)",
+  "example": {
+   "zh": "这位老师很有名。",
+   "pinyin": "Zhè wèi lǎoshī hěn yǒumíng.",
+   "en": "This teacher is very famous."
+  }
+ },
+ {
+  "id": 454,
+  "order": 154,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera W",
+  "hanzi": "为什么",
+  "pinyin": "wèi shénme",
+  "meaning_it": null,
+  "meaning_en": "why",
+  "example": {
+   "zh": "你为什么不来？",
+   "pinyin": "Nǐ wèi shénme bù lái?",
+   "en": "Why aren't you coming?"
+  }
+ },
+ {
+  "id": 455,
+  "order": 155,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "希望",
+  "pinyin": "xīwàng",
+  "meaning_it": null,
+  "meaning_en": "to hope; hope",
+  "example": {
+   "zh": "我希望你能来。",
+   "pinyin": "Wǒ xīwàng nǐ néng lái.",
+   "en": "I hope you can come."
+  }
+ },
+ {
+  "id": 456,
+  "order": 156,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "洗",
+  "pinyin": "xǐ",
+  "meaning_it": null,
+  "meaning_en": "to wash",
+  "example": {
+   "zh": "饭前要洗手。",
+   "pinyin": "Fàn qián yào xǐ shǒu.",
+   "en": "Wash your hands before meals."
+  }
+ },
+ {
+  "id": 457,
+  "order": 157,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "洗手间",
+  "pinyin": "xǐshǒujiān",
+  "meaning_it": null,
+  "meaning_en": "bathroom; restroom",
+  "example": {
+   "zh": "请问，洗手间在哪儿？",
+   "pinyin": "Qǐng wèn, xǐshǒujiān zài nǎr?",
+   "en": "Excuse me, where's the restroom?"
+  }
+ },
+ {
+  "id": 458,
+  "order": 158,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "下来",
+  "pinyin": "xiàlái",
+  "meaning_it": null,
+  "meaning_en": "to come down",
+  "example": {
+   "zh": "妈妈，快下来吃饭！",
+   "pinyin": "Māma, kuài xiàlái chī fàn!",
+   "en": "Mom, come down quickly to eat!"
+  }
+ },
+ {
+  "id": 459,
+  "order": 159,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "下面",
+  "pinyin": "xiàmiàn",
+  "meaning_it": null,
+  "meaning_en": "below; underneath",
+  "example": {
+   "zh": "猫在桌子下面。",
+   "pinyin": "Māo zài zhuōzi xiàmiàn.",
+   "en": "The cat is under the table."
+  }
+ },
+ {
+  "id": 460,
+  "order": 160,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "下去",
+  "pinyin": "xiàqù",
+  "meaning_it": null,
+  "meaning_en": "to go down",
+  "example": {
+   "zh": "你先下去，我等一会儿来。",
+   "pinyin": "Nǐ xiān xiàqù, wǒ děng yíhuìr lái.",
+   "en": "You go down first, I'll come in a moment."
+  }
+ },
+ {
+  "id": 461,
+  "order": 161,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "小孩儿",
+  "pinyin": "xiǎoháir",
+  "meaning_it": null,
+  "meaning_en": "child; kid",
+  "example": {
+   "zh": "这个小孩儿真可爱。",
+   "pinyin": "Zhège xiǎoháir zhēn kě'ài.",
+   "en": "This child is really cute."
+  }
+ },
+ {
+  "id": 462,
+  "order": 162,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "小时候",
+  "pinyin": "xiǎoshíhou",
+  "meaning_it": null,
+  "meaning_en": "(when) young; childhood",
+  "example": {
+   "zh": "我小时候很喜欢看书。",
+   "pinyin": "Wǒ xiǎoshíhou hěn xǐhuan kàn shū.",
+   "en": "When I was little, I loved reading."
+  }
+ },
+ {
+  "id": 463,
+  "order": 163,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "笑",
+  "pinyin": "xiào",
+  "meaning_it": null,
+  "meaning_en": "to laugh; to smile",
+  "example": {
+   "zh": "她笑得很高兴。",
+   "pinyin": "Tā xiào de hěn gāoxìng.",
+   "en": "She laughed happily."
+  }
+ },
+ {
+  "id": 464,
+  "order": 164,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "姓",
+  "pinyin": "xìng",
+  "meaning_it": null,
+  "meaning_en": "surname; to be surnamed",
+  "example": {
+   "zh": "我姓王。",
+   "pinyin": "Wǒ xìng Wáng.",
+   "en": "My surname is Wang."
+  }
+ },
+ {
+  "id": 465,
+  "order": 165,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera X",
+  "hanzi": "姓名",
+  "pinyin": "xìngmíng",
+  "meaning_it": null,
+  "meaning_en": "full name",
+  "example": {
+   "zh": "请写下你的姓名。",
+   "pinyin": "Qǐng xiě xià nǐ de xìngmíng.",
+   "en": "Please write down your full name."
+  }
+ },
+ {
+  "id": 466,
+  "order": 166,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "颜色",
+  "pinyin": "yánsè",
+  "meaning_it": null,
+  "meaning_en": "color",
+  "example": {
+   "zh": "你喜欢什么颜色？",
+   "pinyin": "Nǐ xǐhuan shénme yánsè?",
+   "en": "What color do you like?"
+  }
+ },
+ {
+  "id": 467,
+  "order": 167,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "眼睛",
+  "pinyin": "yǎnjing",
+  "meaning_it": null,
+  "meaning_en": "eye",
+  "example": {
+   "zh": "她的眼睛很大。",
+   "pinyin": "Tā de yǎnjing hěn dà.",
+   "en": "She has big eyes."
+  }
+ },
+ {
+  "id": 468,
+  "order": 168,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "药",
+  "pinyin": "yào",
+  "meaning_it": null,
+  "meaning_en": "medicine",
+  "example": {
+   "zh": "记得吃药。",
+   "pinyin": "Jìde chī yào.",
+   "en": "Remember to take your medicine."
+  }
+ },
+ {
+  "id": 469,
+  "order": 169,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "药店",
+  "pinyin": "yàodiàn",
+  "meaning_it": null,
+  "meaning_en": "pharmacy; drugstore",
+  "example": {
+   "zh": "药店就在前面。",
+   "pinyin": "Yàodiàn jiù zài qiánmiàn.",
+   "en": "The pharmacy is just ahead."
+  }
+ },
+ {
+  "id": 470,
+  "order": 170,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "爷爷",
+  "pinyin": "yéye",
+  "meaning_it": null,
+  "meaning_en": "grandpa (paternal)",
+  "example": {
+   "zh": "我爷爷八十多岁了。",
+   "pinyin": "Wǒ yéye bāshí duō suì le.",
+   "en": "My grandpa is over eighty."
+  }
+ },
+ {
+  "id": 471,
+  "order": 171,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "一会儿",
+  "pinyin": "yíhuìr",
+  "meaning_it": null,
+  "meaning_en": "a moment; a little while",
+  "example": {
+   "zh": "请等一会儿。",
+   "pinyin": "Qǐng děng yíhuìr.",
+   "en": "Please wait a moment."
+  }
+ },
+ {
+  "id": 472,
+  "order": 172,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "已经",
+  "pinyin": "yǐjīng",
+  "meaning_it": null,
+  "meaning_en": "already",
+  "example": {
+   "zh": "他已经回家了。",
+   "pinyin": "Tā yǐjīng huí jiā le.",
+   "en": "He has already gone home."
+  }
+ },
+ {
+  "id": 473,
+  "order": 173,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "一起",
+  "pinyin": "yìqǐ",
+  "meaning_it": null,
+  "meaning_en": "together",
+  "example": {
+   "zh": "我们一起吃饭吧。",
+   "pinyin": "Wǒmen yìqǐ chī fàn ba.",
+   "en": "Let's eat together."
+  }
+ },
+ {
+  "id": 474,
+  "order": 174,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "意思",
+  "pinyin": "yìsi",
+  "meaning_it": null,
+  "meaning_en": "meaning",
+  "example": {
+   "zh": "这个词是什么意思？",
+   "pinyin": "Zhège cí shì shénme yìsi?",
+   "en": "What does this word mean?"
+  }
+ },
+ {
+  "id": 475,
+  "order": 175,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "阴",
+  "pinyin": "yīn",
+  "meaning_it": null,
+  "meaning_en": "(weather) overcast; cloudy",
+  "example": {
+   "zh": "今天天气很阴。",
+   "pinyin": "Jīntiān tiānqì hěn yīn.",
+   "en": "The weather is overcast today."
+  }
+ },
+ {
+  "id": 476,
+  "order": 176,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "因为",
+  "pinyin": "yīnwèi",
+  "meaning_it": null,
+  "meaning_en": "because",
+  "example": {
+   "zh": "因为下雨，所以我没去。",
+   "pinyin": "Yīnwèi xià yǔ, suǒyǐ wǒ méi qù.",
+   "en": "Because it was raining, I didn't go."
+  }
+ },
+ {
+  "id": 477,
+  "order": 177,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "游",
+  "pinyin": "yóu",
+  "meaning_it": null,
+  "meaning_en": "to swim",
+  "example": {
+   "zh": "他每天去游泳。",
+   "pinyin": "Tā měi tiān qù yóuyǒng.",
+   "en": "He goes swimming every day."
+  }
+ },
+ {
+  "id": 478,
+  "order": 178,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "游泳",
+  "pinyin": "yóuyǒng",
+  "meaning_it": null,
+  "meaning_en": "to swim; swimming",
+  "example": {
+   "zh": "我不会游泳。",
+   "pinyin": "Wǒ bú huì yóuyǒng.",
+   "en": "I can't swim."
+  }
+ },
+ {
+  "id": 479,
+  "order": 179,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "有意思",
+  "pinyin": "yǒu yìsi",
+  "meaning_it": null,
+  "meaning_en": "interesting",
+  "example": {
+   "zh": "这本书真有意思。",
+   "pinyin": "Zhè běn shū zhēn yǒu yìsi.",
+   "en": "This book is really interesting."
+  }
+ },
+ {
+  "id": 480,
+  "order": 180,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "有时",
+  "pinyin": "yǒushí",
+  "meaning_it": null,
+  "meaning_en": "sometimes",
+  "example": {
+   "zh": "他有时来，有时不来。",
+   "pinyin": "Tā yǒushí lái, yǒushí bù lái.",
+   "en": "Sometimes he comes, sometimes he doesn't."
+  }
+ },
+ {
+  "id": 481,
+  "order": 181,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "右",
+  "pinyin": "yòu",
+  "meaning_it": null,
+  "meaning_en": "right (direction)",
+  "example": {
+   "zh": "请往右走。",
+   "pinyin": "Qǐng wǎng yòu zǒu.",
+   "en": "Please walk to the right."
+  }
+ },
+ {
+  "id": 482,
+  "order": 182,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "右边",
+  "pinyin": "yòubian",
+  "meaning_it": null,
+  "meaning_en": "the right side",
+  "example": {
+   "zh": "学校在医院的右边。",
+   "pinyin": "Xuéxiào zài yīyuàn de yòubian.",
+   "en": "The school is to the right of the hospital."
+  }
+ },
+ {
+  "id": 483,
+  "order": 183,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "鱼",
+  "pinyin": "yú",
+  "meaning_it": null,
+  "meaning_en": "fish",
+  "example": {
+   "zh": "我喜欢吃鱼。",
+   "pinyin": "Wǒ xǐhuan chī yú.",
+   "en": "I like to eat fish."
+  }
+ },
+ {
+  "id": 484,
+  "order": 184,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "远",
+  "pinyin": "yuǎn",
+  "meaning_it": null,
+  "meaning_en": "far",
+  "example": {
+   "zh": "我家离这儿很远。",
+   "pinyin": "Wǒ jiā lí zhèr hěn yuǎn.",
+   "en": "My home is far from here."
+  }
+ },
+ {
+  "id": 485,
+  "order": 185,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Y",
+  "hanzi": "运动",
+  "pinyin": "yùndòng",
+  "meaning_it": null,
+  "meaning_en": "sport; to exercise",
+  "example": {
+   "zh": "运动对身体好。",
+   "pinyin": "Yùndòng duì shēntǐ hǎo.",
+   "en": "Exercise is good for your health."
+  }
+ },
+ {
+  "id": 486,
+  "order": 186,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "站",
+  "pinyin": "zhàn",
+  "meaning_it": null,
+  "meaning_en": "(transport) station; stop",
+  "example": {
+   "zh": "下一站是北京。",
+   "pinyin": "Xià yí zhàn shì Běijīng.",
+   "en": "The next stop is Beijing."
+  }
+ },
+ {
+  "id": 487,
+  "order": 187,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "丈夫",
+  "pinyin": "zhàngfu",
+  "meaning_it": null,
+  "meaning_en": "husband",
+  "example": {
+   "zh": "她的丈夫是中国人。",
+   "pinyin": "Tā de zhàngfu shì Zhōngguórén.",
+   "en": "Her husband is Chinese."
+  }
+ },
+ {
+  "id": 488,
+  "order": 188,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "这么",
+  "pinyin": "zhème",
+  "meaning_it": null,
+  "meaning_en": "so; like this; in this way",
+  "example": {
+   "zh": "你怎么这么累？",
+   "pinyin": "Nǐ zěnme zhème lèi?",
+   "en": "Why are you so tired?"
+  }
+ },
+ {
+  "id": 489,
+  "order": 189,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "这样",
+  "pinyin": "zhèyàng",
+  "meaning_it": null,
+  "meaning_en": "like this; this way",
+  "example": {
+   "zh": "你可以这样做。",
+   "pinyin": "Nǐ kěyǐ zhèyàng zuò.",
+   "en": "You can do it this way."
+  }
+ },
+ {
+  "id": 490,
+  "order": 190,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "着",
+  "pinyin": "zhe",
+  "meaning_it": null,
+  "meaning_en": "(aspect particle: ongoing state)",
+  "example": {
+   "zh": "门开着呢。",
+   "pinyin": "Mén kāi zhe ne.",
+   "en": "The door is open (right now)."
+  }
+ },
+ {
+  "id": 491,
+  "order": 191,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "正",
+  "pinyin": "zhèng",
+  "meaning_it": null,
+  "meaning_en": "right now; just; in the middle of",
+  "example": {
+   "zh": "我正在吃饭。",
+   "pinyin": "Wǒ zhèng zài chī fàn.",
+   "en": "I'm eating right now."
+  }
+ },
+ {
+  "id": 492,
+  "order": 192,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "周",
+  "pinyin": "zhōu",
+  "meaning_it": null,
+  "meaning_en": "week",
+  "example": {
+   "zh": "下周我去北京。",
+   "pinyin": "Xià zhōu wǒ qù Běijīng.",
+   "en": "Next week I'm going to Beijing."
+  }
+ },
+ {
+  "id": 493,
+  "order": 193,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "准备",
+  "pinyin": "zhǔnbèi",
+  "meaning_it": null,
+  "meaning_en": "to prepare; to plan",
+  "example": {
+   "zh": "我准备明天去机场。",
+   "pinyin": "Wǒ zhǔnbèi míngtiān qù jīchǎng.",
+   "en": "I plan to go to the airport tomorrow."
+  }
+ },
+ {
+  "id": 494,
+  "order": 194,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "自己",
+  "pinyin": "zìjǐ",
+  "meaning_it": null,
+  "meaning_en": "self; oneself",
+  "example": {
+   "zh": "我自己做饭。",
+   "pinyin": "Wǒ zìjǐ zuò fàn.",
+   "en": "I cook for myself."
+  }
+ },
+ {
+  "id": 495,
+  "order": 195,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "走",
+  "pinyin": "zǒu",
+  "meaning_it": null,
+  "meaning_en": "to walk; to leave",
+  "example": {
+   "zh": "时间不早了，我们走吧。",
+   "pinyin": "Shíjiān bù zǎo le, wǒmen zǒu ba.",
+   "en": "It's getting late, let's go."
+  }
+ },
+ {
+  "id": 496,
+  "order": 196,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "走路",
+  "pinyin": "zǒulù",
+  "meaning_it": null,
+  "meaning_en": "to walk (as transport)",
+  "example": {
+   "zh": "我每天走路上班。",
+   "pinyin": "Wǒ měi tiān zǒulù shàng bān.",
+   "en": "I walk to work every day."
+  }
+ },
+ {
+  "id": 497,
+  "order": 197,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "足球",
+  "pinyin": "zúqiú",
+  "meaning_it": null,
+  "meaning_en": "soccer; football",
+  "example": {
+   "zh": "我哥哥喜欢看足球。",
+   "pinyin": "Wǒ gēge xǐhuan kàn zúqiú.",
+   "en": "My older brother likes watching soccer."
+  }
+ },
+ {
+  "id": 498,
+  "order": 198,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "最",
+  "pinyin": "zuì",
+  "meaning_it": null,
+  "meaning_en": "most; -est",
+  "example": {
+   "zh": "我最喜欢吃面条。",
+   "pinyin": "Wǒ zuì xǐhuan chī miàntiáo.",
+   "en": "I like noodles the most."
+  }
+ },
+ {
+  "id": 499,
+  "order": 199,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "左",
+  "pinyin": "zuǒ",
+  "meaning_it": null,
+  "meaning_en": "left (direction)",
+  "example": {
+   "zh": "请往左走。",
+   "pinyin": "Qǐng wǎng zuǒ zǒu.",
+   "en": "Please walk to the left."
+  }
+ },
+ {
+  "id": 500,
+  "order": 200,
+  "phase": "Ordine del sillabo",
+  "unit": "Lettera Z",
+  "hanzi": "左边",
+  "pinyin": "zuǒbian",
+  "meaning_it": null,
+  "meaning_en": "the left side",
+  "example": {
+   "zh": "我家在学校的左边。",
+   "pinyin": "Wǒ jiā zài xuéxiào de zuǒbian.",
+   "en": "My home is on the left side of the school."
+  }
+ }
+]
